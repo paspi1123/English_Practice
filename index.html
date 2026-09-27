@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TOEFL iBT® Complete the Words - Practice & Scoring</title>
+  <meta name="description"
+    content="Plataforma de práctica interactiva para el ejercicio 'Complete the Words' del examen TOEFL iBT con puntuación oficial basada en bandas CEFR (1.0 a 6.0).">
+
+  <!-- Modern Google Font: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css?v=4.0">
+</head>
+
+<body>
+
+  <!-- Top App Navigation -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="logo-area">
+        <span class="ets-badge">TOEFL iBT®</span>
+        <div>
+          <h1 class="app-title">Complete the Words</h1>
+          <p class="app-subtitle">Práctica Oficial • Escala de Calificación 1.0 – 6.0 Band</p>
+        </div>
+      </div>
+
+      <!-- Center Section Switcher Tabs -->
+      <nav class="section-nav" role="tablist">
+        <button class="section-tab-btn active" id="btnNavReading" role="tab" aria-selected="true" data-section="reading">
+          <span>📖 Reading: Complete the Words</span>
+        </button>
+        <button class="section-tab-btn" id="btnNavWriting" role="tab" aria-selected="false" data-section="writing">
+          <span>✍️ Writing: Make a Sentence</span>
+        </button>
+      </nav>
+
+      <div class="header-actions">
+        <button id="btnHeaderAiPractice" class="btn btn-ai-sparkle" title="Generar un nuevo ejercicio con Gemini IA">
+          <span class="ai-sparkle-icon">✨</span>
+          <span>Práctica con IA</span>
+        </button>
+
+        <button id="btnOpenGeminiSettings" class="btn btn-secondary btn-sm btn-gemini-config" title="Configurar Gemini AI">
+          <span class="gemini-status-dot" id="geminiStatusDot"></span>
+          <span>⚙️ Gemini</span>
+        </button>
+
+        <button id="btnManageExercises" class="btn btn-secondary btn-sm" title="Agregar o gestionar ejercicios">
+          <svg width="15" height="15" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
+          </svg>
+          <span>Agregar / Biblioteca</span>
+        </button>
+
+        <button id="btnToggleAudio" class="btn-icon" title="Sonido On/Off" aria-label="Toggle Sound">
+          <span id="audioIcon">🔊</span>
+        </button>
+
+        <button id="btnToggleTheme" class="btn-icon" title="Modo Oscuro/Claro" aria-label="Toggle Theme">
+          <span id="themeIcon">🌙</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Wrapper -->
+  <main class="main-wrapper">
+
+    <!-- =====================================================================
+         Reading Section (Complete the Words)
+         ===================================================================== -->
+    <div id="readingSection" class="section-view">
+
+    <!-- Test Toolbar -->
+    <div class="test-toolbar">
+      <div class="toolbar-left">
+        <div class="select-wrapper">
+          <label for="exerciseSelect">Lectura:</label>
+          <select id="exerciseSelect" class="exercise-select" aria-label="Seleccionar ejercicio"></select>
+        </div>
+
+        <div class="filter-wrapper">
+          <label for="filterSelect">Ver:</label>
+          <select id="filterSelect" class="exercise-select filter-select" aria-label="Filtrar ejercicios">
+            <option value="all">Todos los ejercicios</option>
+            <option value="unchecked">⏳ Pendientes (Unchecked)</option>
+            <option value="checked">✓ Completados (Checked)</option>
+          </select>
+        </div>
+
+        <button id="btnToggleCompleted" class="btn-check-toggle" type="button" title="Marcar este ejercicio como completado o pendiente">
+          <span class="check-icon" id="checkToggleIcon">○</span>
+          <span class="check-text" id="checkToggleText">Marcar Hecho</span>
+        </button>
+
+        <div class="ai-button-group">
+          <button id="btnReadingAiGenerate" class="btn btn-ai-sparkle btn-sm" type="button" title="Generar ejercicios de lectura inéditos con Gemini IA">
+            <span class="ai-sparkle-icon">✨</span>
+            <span>Práctica con IA</span>
+          </button>
+          <select id="selectReadingAiCount" class="ai-count-select" title="Cantidad de ejercicios a generar">
+            <option value="1">×1</option>
+            <option value="3" selected>×3</option>
+            <option value="5">×5</option>
+          </select>
+        </div>
+
+        <span id="exerciseCategoryBadge" class="badge-tag">Academic</span>
+      </div>
+
+      <div class="toolbar-right">
+        <div class="progress-pill" title="Total de ejercicios completados">
+          Hechos: <span id="completedCounterText">0 / 14</span>
+        </div>
+
+        <div class="progress-pill">
+          Palabras: <span id="progressText">0 / 10</span>
+        </div>
+
+        <div class="timer-box" id="timerDisplay" title="Tiempo transcurrido">
+          <span class="timer-icon">⏱️</span>
+          <span id="timerText">00:00</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Instructions Title (Matches screenshot: "Fill in the missing letters in the paragraph.") -->
+    <h2 class="instruction-title" id="pageInstruction">Fill in the missing letters in the paragraph.</h2>
+
+    <!-- Interactive Passage Card -->
+    <div class="passage-card" id="passageCard">
+      <p class="passage-text" id="passageContainer">
+        <!-- Rendered tokens & interactive letter blanks appear here -->
+      </p>
+    </div>
+
+    <!-- Actions Bar -->
+    <div class="actions-bar">
+      <div class="actions-left">
+        <button id="btnReset" class="btn btn-secondary" title="Borrar todas las respuestas">
+          <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15">
+            </path>
+          </svg>
+          <span>Reiniciar</span>
+        </button>
+
+        <button id="btnHint" class="btn btn-secondary" title="Revelar siguiente letra">
+          <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z">
+            </path>
+          </svg>
+          <span>Pista (-0.5 pts)</span>
+        </button>
+      </div>
+
+      <div class="actions-right">
+        <button id="btnSubmit" class="btn btn-primary" title="Verificar respuestas y calificar">
+          <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+          </svg>
+          <span>Calificar TOEFL</span>
+        </button>
+
+        <button id="btnNext" class="btn btn-secondary" title="Siguiente ejercicio">
+          <span>Siguiente</span>
+          <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Keyboard Hints -->
+    <div class="keyboard-hints">
+      <span>Navegación: <kbd>Tab</kbd> / <kbd>Espacio</kbd> siguiente palabra</span>
+      <span>•</span>
+      <span><kbd>Backspace</kbd> borrar o volver</span>
+      <span>•</span>
+      <span><kbd>←</kbd> <kbd>→</kbd> mover entre letras</span>
+      <span>•</span>
+      </div>
+    </div>
+
+    <!-- =====================================================================
+         Writing Section (Make an Appropriate Sentence / Build a Sentence)
+         ===================================================================== -->
+    <div id="writingSection" class="section-view" style="display: none;">
+      <!-- Writing Toolbar -->
+      <div class="test-toolbar">
+        <div class="toolbar-left">
+          <div class="select-wrapper">
+            <label for="writingExerciseSelect">Ejercicio:</label>
+            <select id="writingExerciseSelect" class="exercise-select" aria-label="Seleccionar ejercicio de writing"></select>
+          </div>
+
+          <div class="filter-wrapper">
+            <label for="writingFilterSelect">Ver:</label>
+            <select id="writingFilterSelect" class="exercise-select filter-select" aria-label="Filtrar ejercicios de writing">
+              <option value="all">Todos los ejercicios</option>
+              <option value="unchecked">⏳ Pendientes (Unchecked)</option>
+              <option value="checked">✓ Completados (Checked)</option>
+            </select>
+          </div>
+
+          <button id="writingBtnToggleCompleted" class="btn-check-toggle" type="button" title="Marcar como completado o pendiente">
+            <span class="check-icon" id="writingCheckToggleIcon">○</span>
+            <span class="check-text" id="writingCheckToggleText">Marcar Hecho</span>
+          </button>
+
+          <div class="ai-button-group">
+            <button id="writingBtnAiGenerate" class="btn btn-ai-sparkle btn-sm" type="button" title="Generar oraciones de writing inéditas con Gemini IA">
+              <span class="ai-sparkle-icon">✨</span>
+              <span>Práctica con IA</span>
+            </button>
+            <select id="selectWritingAiCount" class="ai-count-select" title="Cantidad de ejercicios a generar">
+              <option value="1">×1</option>
+              <option value="3" selected>×3</option>
+              <option value="5">×5</option>
+            </select>
+          </div>
+
+          <span id="writingCategoryBadge" class="badge-tag">Writing</span>
+        </div>
+
+        <div class="toolbar-right">
+          <div class="progress-pill" title="Total de ejercicios de writing completados">
+            Hechos: <span id="writingCompletedCounter">0 / 6</span>
+          </div>
+
+          <div class="timer-box" title="Tiempo de writing">
+            <span class="timer-icon">⏱️</span>
+            <span id="writingTimerText">06:28</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Instructions Title (Matches screenshot: "Make an appropriate sentence.") -->
+      <h2 class="instruction-title">Make an appropriate sentence.</h2>
+
+      <!-- Main Writing Card (Dialogue & Sentence Builder) -->
+      <div class="writing-card" id="writingCard">
+        <div class="dialogue-box">
+          <!-- Speaker 1 (Prompt Question) -->
+          <div class="dialogue-item">
+            <span class="dialogue-speaker-badge">Speaker 1</span>
+            <div class="dialogue-prompt-text" id="writingPromptText">
+              Where did you get this recipe?
+            </div>
+          </div>
+
+          <!-- Speaker 2 (Response Sentence with Blanks) -->
+          <div class="dialogue-item">
+            <span class="dialogue-speaker-badge" style="background: rgba(79, 70, 229, 0.1); color: var(--accent);">Speaker 2</span>
+            <div class="sentence-builder-line">
+              <span id="writingSentencePrefix" class="sentence-static-word">I</span>
+              <div id="writingSlotsContainer" style="display:inline-flex; align-items:center; flex-wrap:wrap; gap:0.65rem;">
+                <!-- Target slots appear here -->
+              </div>
+              <span id="writingSentenceSuffix" class="sentence-static-word">.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Word Bank / Pool of Tokens (Separated by slashes as in screenshot) -->
+        <div class="writing-tokens-pool" id="writingTokensPool">
+          <!-- Populated dynamically with tokens and / separators -->
+        </div>
+
+        <!-- Writing Feedback & Explanation Banner -->
+        <div class="writing-explanation-banner" id="writingFeedbackBanner"></div>
+      </div>
+
+      <!-- Writing Actions Bar -->
+      <div class="actions-bar">
+        <div class="actions-left">
+          <button id="writingBtnReset" class="btn btn-secondary" title="Reiniciar oración">
+            <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+            </svg>
+            <span>Reiniciar</span>
+          </button>
+
+          <button id="writingBtnHint" class="btn btn-secondary" title="Colocar siguiente palabra correcta">
+            <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+            </svg>
+            <span>Pista</span>
+          </button>
+        </div>
+
+        <div class="actions-right">
+          <button id="writingBtnSubmit" class="btn btn-primary" title="Verificar orden de la oración">
+            <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+            <span>Calificar TOEFL</span>
+          </button>
+
+          <button id="writingBtnNext" class="btn btn-secondary" title="Siguiente ejercicio">
+            <span>Siguiente</span>
+            <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Keyboard / Drag & Drop Hints -->
+      <div class="keyboard-hints">
+        <span>Haz clic en las palabras de abajo para agregarlas al espacio</span>
+        <span>•</span>
+        <span>Haz clic en una palabra colocada para quitarla</span>
+        <span>•</span>
+        <span>También puedes arrastrar y soltar palabras libremente</span>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- =====================================================================
+       Score Report Modal (TOEFL Official Concordance)
+       ===================================================================== -->
+  <div class="modal-overlay" id="scoreModal" role="dialog" aria-modal="true" aria-labelledby="scoreModalTitle">
+    <div class="score-card-modal">
+      <div class="modal-header">
+        <h3 id="scoreModalTitle">Informe de Calificación TOEFL iBT®</h3>
+        <button class="btn-icon" id="btnCloseScoreModal" aria-label="Cerrar modal">✕</button>
+      </div>
+
+      <div class="modal-body">
+
+        <!-- Score Hero -->
+        <div class="score-hero">
+          <div class="score-circle" id="modalScoreCircle">
+            <span class="band-number" id="modalBandScore">6.0</span>
+            <span class="band-label">Band Score</span>
+          </div>
+
+          <div class="score-hero-details">
+            <h4>
+              <span id="modalLevelName">Mastery</span>
+              <span class="cefr-badge" id="modalCefrBadge">C2</span>
+            </h4>
+            <p class="score-description" id="modalDescription">
+              Dominio excepcional. Procesa con fluidez y precisión absoluta textos académicos complejos.
+            </p>
+          </div>
+        </div>
+
+        <!-- Concordance Metrics Grid (From PDF Tables 1, 2, 3) -->
+        <div class="concordance-grid">
+          <div class="metric-card">
+            <div class="metric-label">Escala Reading</div>
+            <div class="metric-val" id="modalReadingScaled">29-30 <span
+                style="font-size: 0.75rem; font-weight: 600; color: var(--text-muted);">/ 30</span></div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-label">TOEFL Total Est.</div>
+            <div class="metric-val" id="modalOverallScaled">114-120 <span
+                style="font-size: 0.75rem; font-weight: 600; color: var(--text-muted);">/ 120</span></div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-label">Palabras Correctas</div>
+            <div class="metric-val" id="modalRawScore">10 / 10</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-label">Tiempo</div>
+            <div class="metric-val" id="modalTimeSpent">01:15</div>
+          </div>
+        </div>
+
+        <!-- Breakdown by Word -->
+        <h4 class="word-breakdown-title">Desglose de Palabras</h4>
+        <div class="word-review-list" id="modalWordReviewList">
+          <!-- Populated dynamically -->
+        </div>
+
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary" id="btnModalReviewText">Ver en el Texto</button>
+        <button class="btn btn-ai-sparkle" id="btnModalAiNext" title="Generar nuevo ejercicio inédito con Gemini IA">
+          <span class="ai-sparkle-icon">✨</span>
+          <span>Siguiente con IA</span>
+        </button>
+        <button class="btn btn-primary" id="btnModalNext">Siguiente Lectura</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       Add / Manage Exercise Drawer Modal (Plain Text & AI Friendly)
+       ===================================================================== -->
+  <div class="modal-overlay" id="manageModal" role="dialog" aria-modal="true" aria-labelledby="manageModalTitle">
+    <div class="score-card-modal manage-modal">
+      <div class="modal-header">
+        <h3 id="manageModalTitle">Agregar Ejercicios / Formato para IA</h3>
+        <button class="btn-icon" id="btnCloseManageModal" aria-label="Cerrar modal">✕</button>
+      </div>
+
+      <div class="modal-body">
+
+        <div class="tabs-nav">
+          <button class="tab-btn active" id="tabBtnBrackets" data-tab="brackets">Formato Corchetes</button>
+          <button class="tab-btn" id="tabBtnPlain" data-tab="plain">Generador Texto Plano</button>
+          <button class="tab-btn" id="tabBtnAi" data-tab="ai">✨ Generador Gemini IA</button>
+          <button class="tab-btn" id="tabBtnManage" data-tab="manage">Mis Ejercicios</button>
+        </div>
+
+        <!-- Tab 1: Bracket Format (Direct, Clean for AI) -->
+        <div class="tab-content" id="tabContentBrackets">
+          <div class="guide-box">
+            <strong>¿Cómo agregar un ejercicio con IA?</strong><br>
+            Pídele a cualquier IA (o escribe tú) un párrafo académico de 70-100 palabras. Para indicar las letras que
+            faltan, escribe la palabra con corchetes en las letras que el estudiante debe rellenar:<br>
+            Ejemplo: <code>Mill[ions] mas[sive] thou[sands] colo[rful] she[lter] coun[tless]</code>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="inputTitle">Título del Ejercicio:</label>
+            <input type="text" id="inputTitle" class="form-input"
+              placeholder="Ej: Photosynthesis in High-Altitude Plants">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="inputCategory">Área o Categoría:</label>
+            <input type="text" id="inputCategory" class="form-input" placeholder="Ej: Plant Biology / Ecology"
+              value="Academic Passage">
+          </div>
+
+          <div class="form-group">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem;">
+              <label class="form-label" for="inputTextBrackets" style="margin-bottom:0;">Texto con Corchetes
+                <code>prefijo[faltante]</code>:</label>
+              <button class="btn btn-secondary btn-sm" id="btnLoadSampleBracket" type="button">Pegar Ejemplo</button>
+            </div>
+            <textarea id="inputTextBrackets" class="form-textarea"
+              placeholder="Pega aquí el texto con corchetes..."></textarea>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Vista Previa en Tiempo Real:</label>
+            <div class="preview-box" id="bracketPreview">Escribe o pega texto arriba para ver la vista previa...</div>
+          </div>
+        </div>
+
+        <!-- Tab 2: Plain Text Auto-Generator -->
+        <div class="tab-content" id="tabContentPlain" style="display: none;">
+          <div class="guide-box">
+            <strong>Generador Automático TOEFL C-Test:</strong><br>
+            Pega cualquier párrafo normal en inglés. El sistema mantendrá la <strong>primera oración intacta</strong> y
+            automáticamente convertirá una de cada dos palabras en un espacio para rellenar (según la regla oficial del
+            examen TOEFL iBT).
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="inputPlainTitle">Título del Ejercicio:</label>
+            <input type="text" id="inputPlainTitle" class="form-input" placeholder="Ej: The Origins of Astronomy">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="inputTextPlain">Párrafo Normal en Inglés:</label>
+            <textarea id="inputTextPlain" class="form-textarea"
+              placeholder="Pega un párrafo normal de 70 a 100 palabras aquí..."></textarea>
+          </div>
+
+          <button class="btn btn-secondary btn-sm" id="btnConvertPlain" type="button" style="margin-bottom: 1rem;">
+            ⚡ Convertir a Formato TOEFL
+          </button>
+        </div>
+
+        <!-- Tab 3: Interactive Gemini AI Generator -->
+        <div class="tab-content" id="tabContentAi" style="display: none;">
+          <div class="guide-box">
+            <strong>✨ Generador Automático con Gemini IA:</strong><br>
+            Genera al instante ejercicios inéditos para cualquier sección. La IA asegura que el formato sea 100% oficial TOEFL iBT y que el tema no se repita con ningún ejercicio anterior.
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="selectAiSection">Sección TOEFL:</label>
+            <select id="selectAiSection" class="form-input">
+              <option value="reading">📖 Reading: Complete the Words (C-Test 10 palabras)</option>
+              <option value="writing">✍️ Writing: Make a Sentence (Diálogo y orden sintáctico)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="inputAiTopic">Tema o Área de Enfoque (Opcional):</label>
+            <input type="text" id="inputAiTopic" class="form-input" placeholder="Ej: Astrobiología, Nanotecnología, Cambio Climático (vacío para tema aleatorio)">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="selectAiCount">Cantidad de ejercicios a generar:</label>
+            <select id="selectAiCount" class="form-input">
+              <option value="1">1 ejercicio</option>
+              <option value="3" selected>3 ejercicios (Lote recomendado)</option>
+              <option value="5">5 ejercicios</option>
+              <option value="10">10 ejercicios</option>
+            </select>
+          </div>
+
+          <div style="display:flex; gap:0.75rem; margin-bottom:1rem;">
+            <button class="btn btn-ai-sparkle" id="btnModalGenerateAi" type="button">
+              <span class="ai-sparkle-icon">✨</span>
+              <span>Generar con Gemini Ahora</span>
+            </button>
+          </div>
+
+          <div class="form-group" id="aiGeneratedPreviewGroup" style="display:none;">
+            <label class="form-label">Resultado Generado:</label>
+            <div class="preview-box" id="aiGeneratedPreview"></div>
+          </div>
+        </div>
+
+        <!-- Tab 4: Exercise Library & Export -->
+        <div class="tab-content" id="tabContentManage" style="display: none;">
+          <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1rem;">
+            Ejercicios personalizados guardados en tu navegador:
+          </p>
+          <div id="customExercisesList"
+            style="max-height: 250px; overflow-y: auto; display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 1rem;">
+            <!-- Rendered list of custom exercises -->
+          </div>
+          <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+            <button class="btn btn-secondary btn-sm" id="btnExportJSON">Descargar exercises.json (Reading)</button>
+            <button class="btn btn-secondary btn-sm" id="btnExportWritingJSON">Descargar writing_exercises.json</button>
+            <button class="btn btn-secondary btn-sm" id="btnCopyPromptHelper">Copiar Prompt para IA</button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary" id="btnCancelManage">Cancelar</button>
+        <button class="btn btn-primary" id="btnSaveCustomExercise">Guardar y Practicar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       Gemini AI Configuration Modal
+       ===================================================================== -->
+  <div class="modal-overlay" id="geminiSettingsModal" role="dialog" aria-modal="true" aria-labelledby="geminiSettingsTitle">
+    <div class="score-card-modal manage-modal gemini-settings-card">
+      <div class="modal-header">
+        <div style="display: flex; align-items: center; gap: 0.5rem;">
+          <span style="font-size: 1.5rem;">✨</span>
+          <div>
+            <h3 id="geminiSettingsTitle" style="margin: 0;">Configuración de Gemini AI</h3>
+            <p style="font-size: 0.8rem; color: var(--text-muted); margin: 0;">Práctica infinita con ejercicios inéditos generados por IA</p>
+          </div>
+        </div>
+        <button class="btn-icon" id="btnCloseGeminiSettings" aria-label="Cerrar modal">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <!-- Status Banner -->
+        <div class="gemini-status-card" id="geminiStatusCard">
+          <div class="status-indicator-dot" id="geminiCardDot"></div>
+          <div class="status-details">
+            <strong id="geminiStatusTitle">Verificando conexión...</strong>
+            <span id="geminiStatusDesc" style="font-size: 0.85rem; color: var(--text-muted); display: block;">Detectando entorno...</span>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="selectAiEngineMode">Modo de Conexión:</label>
+          <select id="selectAiEngineMode" class="form-input">
+            <option value="auto">⚡ Automático (Usa CLI local en Linux si existe, o API directa en otros dispositivos)</option>
+            <option value="direct">🌐 Gemini API Directa (Recomendado para otros dispositivos o hosting estático)</option>
+            <option value="local">💻 CLI Local (agy / gemini CLI en Linux)</option>
+          </select>
+          <p style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.35rem;">
+            En tu Linux con servidor local se aprovecha automáticamente tu gemini CLI. En otros dispositivos o móviles, puedes ingresar tu API Key gratuita.
+          </p>
+        </div>
+
+        <div class="form-group" id="groupGeminiApiKey">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem;">
+            <label class="form-label" for="inputGeminiApiKey" style="margin-bottom:0;">Google Gemini API Key:</label>
+            <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener noreferrer" style="font-size: 0.78rem; color: var(--primary); text-decoration: underline; font-weight: 500;">
+              Obtener gratis en Google AI Studio ↗
+            </a>
+          </div>
+          <div style="position: relative;">
+            <input type="password" id="inputGeminiApiKey" class="form-input" placeholder="AIzaSy..." style="padding-right: 2.5rem;">
+            <button type="button" id="btnToggleApiKeyVisibility" class="btn-icon" style="position: absolute; right: 0.5rem; top: 50%; transform: translateY(-50%); width: 28px; height: 28px; font-size: 0.9rem;" title="Mostrar / Ocultar">👁️</button>
+          </div>
+          <p style="font-size: 0.75rem; color: var(--text-muted); margin-top: 0.35rem;">
+            🔒 Tu API Key se almacena exclusivamente en el almacenamiento local (localStorage) de este dispositivo. Nunca se envía a servidores externos ajenos a Google.
+          </p>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="selectGeminiModel">Modelo Gemini:</label>
+          <select id="selectGeminiModel" class="form-input">
+            <option value="gemini-3.8-flash-high" selected>Gemini 3.8 Flash (Recomendado: ultra rápido y máxima precisión)</option>
+            <option value="gemini-3.8-flash-medium">Gemini 3.8 Flash (Medium)</option>
+            <option value="gemini-3.8-flash-low">Gemini 3.8 Flash (Low)</option>
+            <option value="gemini-3.7-flash-high">Gemini 3.7 Flash</option>
+            <option value="gemini-3.1-pro-high">Gemini 3.1 Pro (Alta capacidad)</option>
+            <option value="gemini-2.5-flash">Gemini 2.5 Flash</option>
+          </select>
+        </div>
+
+        <div id="geminiTestFeedback" style="display: none; padding: 0.65rem 0.85rem; border-radius: 8px; font-size: 0.85rem; margin-top: 0.75rem;"></div>
+      </div>
+
+      <div class="modal-footer" style="display: flex; justify-content: space-between;">
+        <button class="btn btn-secondary" id="btnTestGeminiConnection" type="button">Probar Conexión</button>
+        <div style="display: flex; gap: 0.5rem;">
+          <button class="btn btn-secondary" id="btnCancelGeminiSettings">Cancelar</button>
+          <button class="btn btn-primary" id="btnSaveGeminiSettings">Guardar Configuración</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       AI Generation Loading Overlay Modal
+       ===================================================================== -->
+  <div class="modal-overlay ai-loading-overlay" id="aiLoadingOverlay" role="dialog" aria-modal="true">
+    <div class="ai-loading-card">
+      <div class="cosmic-spinner">
+        <div class="cosmic-ring ring-1"></div>
+        <div class="cosmic-ring ring-2"></div>
+        <div class="cosmic-sparkle">✨</div>
+      </div>
+      <h3 class="ai-loading-title">Gemini está creando tu ejercicio...</h3>
+      <p class="ai-loading-subtitle" id="aiLoadingStatusText">Garantizando formato oficial TOEFL y asegurando que sea un tema 100% inédito.</p>
+      
+      <div class="ai-steps-tracker">
+        <div class="ai-step active" id="aiStep1"><span>1</span> Conectando con Gemini</div>
+        <div class="ai-step" id="aiStep2"><span>2</span> Redactando ejercicio académico</div>
+        <div class="ai-step" id="aiStep3"><span>3</span> Verificando reglas oficiales</div>
+      </div>
+
+      <button class="btn btn-secondary btn-sm" id="btnCancelAiGeneration" style="margin-top: 1.25rem;">Cancelar</button>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toastMessage"></div>
+
+  <!-- Main Application Logic as ES Module -->
+  <script type="module" src="js/app.js?v=4.0"></script>
+</body>
+
+</html>

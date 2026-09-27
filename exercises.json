@@ -1,0 +1,100 @@
+[
+  {
+    "id": "coral-reefs",
+    "title": "Coral Reefs Ecosystem",
+    "category": "Marine Biology",
+    "level": "Academic (TOEFL iBT)",
+    "rawText": "Coral reefs are among the most diverse ecosystems on Earth. Mill[ions] of tiny organisms called polyps build mas[sive] structures over thou[sands] of years. These colo[rful] formations provide she[lter] and food for coun[tless] marine species. Ris[ing] ocean temperatures and poll[ution] threaten their surv[ival] , causing widespread blea[ching] events that leave the reefs pale and lifeless."
+  },
+  {
+    "id": "cave-dances",
+    "title": "Prehistoric Cave Dances",
+    "category": "Anthropology & Art",
+    "level": "Academic (TOEFL iBT Official)",
+    "rawText": "We know from drawings that have been preserved in caves for over 10,000 years that early humans performed dances as a group activity. We mi[ght] think th[at] prehistoric peo[ple] concentrated on[ly] on ba[sic] survival. How[ever], it i[s] clear fr[om] the rec[ord] that dan[cing] was important to them. They recorded more drawings of dances than any other group activity. Dances served various purposes, including ritualistic communication with the divine, storytelling, and social cohesion."
+  },
+  {
+    "id": "mirror-test",
+    "title": "The Mirror Test and Animal Consciousness",
+    "category": "Cognitive Science",
+    "level": "Academic (TOEFL iBT Official)",
+    "rawText": "Very young children cannot recognize themselves in a mirror, usually achieving this milestone around 18 months of age. Scien[tists] have lon[g] wondered whe[ther] animals pos[sess] a simi[lar] capacity fo[r] self-awareness. In exp[eriments], researchers pla[ced] a col[ored] mark on an ape's fac[e] to see if it would touch the spot upon looking at its reflection."
+  },
+  {
+    "id": "roman-concrete",
+    "title": "The Longevity of Roman Concrete",
+    "category": "Archaeology & Materials Science",
+    "level": "Academic (TOEFL iBT)",
+    "rawText": "Roman concrete structures like the Pantheon have endured for more than two millennia despite harsh environmental exposure. Engin[eers] have disc[overed] that anc[ient] builders us[ed] a uni[que] blend of vol[canic] ash and qui[cklime]. When cra[cks] formed, seep[ing] water rea[cted] with the lime, triggering a spontaneous self-healing process."
+  },
+  {
+    "id": "bioluminescence",
+    "title": "Deep-Sea Bioluminescence",
+    "category": "Oceanography",
+    "level": "Academic (TOEFL iBT)",
+    "rawText": "In the abyssal zones of the oceans, sunlight is entirely absent and darkness prevails continuously. Crea[tures] inhabiting the[se] extreme dep[ths] produce the[ir] own lig[ht] through chem[ical] reactions. This biol[uminescence] aids in attr[acting] prey, det[erring] aggressive pre[dators], and communicating across vast aquatic expanses."
+  },
+  {
+    "id": "urban-greenspaces",
+    "title": "Urban Green Spaces and Well-being",
+    "category": "Environmental Psychology",
+    "level": "Academic (TOEFL iBT)",
+    "rawText": "Urban planners increasingly incorporate parks and botanical corridors into metropolitan design. Rese[arch] shows th[at] regular expo[sure] to nat[ural] surroundings signi[ficantly] lowers cor[tisol] levels am[ong] city dwel[lers]. More[over], trees abso[rb] pollutants, dampening harmful street noise and improving air quality."
+  },
+  {
+    "id": "mycorrhizal-networks",
+    "title": "The Subterranean Forest Network",
+    "category": "Plant Biology & Ecology",
+    "level": "Academic (TOEFL iBT)",
+    "rawText": "Beneath the soil of temperate forests lies an intricate web of fungal filaments connecting individual trees. Scien[tists] oft[en] desc[ribe] th[is] symb[iosis] a[s] an underground communication network. Thr[ough] the[se] pathways, mat[ure] trees tr[ansfer] carbon and vital nutrients to struggling seedlings. When pest infestations occur, infected trees can also transmit biochemical warnings to neighboring foliage."
+  },
+  {
+    "id": "rosetta-stone",
+    "title": "Deciphering the Rosetta Stone",
+    "category": "Linguistics & Archaeology",
+    "level": "Academic (TOEFL iBT Official)",
+    "rawText": "Discovered in 1799 by French soldiers in Egypt, the Rosetta Stone unlocked centuries of forgotten history. The gran[ite] slab feat[ured] an offi[cial] decree wri[tten] i[n] thr[ee] distinct scr[ipts]. Scho[lars] us[ed] the kno[wn] Greek inscription to decipher the previously unreadable Egyptian hieroglyphs. This linguistic breakthrough allowed historians to reconstruct the political and religious life of ancient dynasties."
+  },
+  {
+    "id": "corvid-intelligence",
+    "title": "Tool Use and Cognition in Corvids",
+    "category": "Cognitive Ethology",
+    "level": "Academic (TOEFL iBT)",
+    "rawText": "Crows and ravens exhibit cognitive abilities that rival those of nonhuman primates. Labo[ratory] stud[ies] rev[eal] th[at] th[ese] birds ca[n] manu[facture] nov[el] to[ols] fr[om] pliable wire to retrieve food. They also demonstrate episodic-like memory, anticipating future needs and concealing their caches when rivals are watching."
+  },
+  {
+    "id": "hydrothermal-vents",
+    "title": "Ecosystems of Hydrothermal Vents",
+    "category": "Marine Geochemistry",
+    "level": "Academic (TOEFL iBT)",
+    "rawText": "Deep along the ocean floor, tectonic spreading centers discharge mineral-rich fluids at temperatures exceeding 400°C. Desp[ite] su[ch] hos[tile] conditions, thri[ving] biol[ogical] comm[unities] clus[ter] aro[und] the[se] thermal chim[neys]. Instead of relying on solar energy, these ecosystems are sustained by chemosynthetic bacteria that convert toxic hydrogen sulfide into organic matter."
+  },
+  {
+    "id": "memory-consolidation",
+    "title": "Sleep Spindles and Memory Consolidation",
+    "category": "Cognitive Neuroscience",
+    "level": "Academic (TOEFL iBT)",
+    "rawText": "Sleep plays an indispensable role in transforming fleeting daily experiences into stable long-term memories. Dur[ing] cert[ain] stages of de[ep] sleep, the hippo[campus] repl[ays] new[ly] acqu[ired] neural patt[erns] t[o] the cerebral cor[tex]. This dialogue between brain structures gradually stabilizes fragile traces, shielding them from retroactive interference."
+  },
+  {
+    "id": "exoplanet-atmospheres",
+    "title": "Analyzing Exoplanet Atmospheres",
+    "category": "Astrophysics & Astronomy",
+    "level": "Academic (TOEFL iBT)",
+    "rawText": "Identifying chemical signatures in the atmospheres of distant alien worlds represents one of modern astronomy's greatest challenges. As a pla[net] pas[ses] in fro[nt] of i[ts] host st[ar], starl[ight] filt[ers] thr[ough] the surro[unding] gaseous enve[lope]. By analyzing the missing wavelengths of light, spectroscopists can infer the presence of vaporized water, methane, and carbon dioxide."
+  },
+  {
+    "id": "cetacean-evolution",
+    "title": "The Terrestrial Ancestry of Whales",
+    "category": "Paleontology & Evolutionary Biology",
+    "level": "Academic (TOEFL iBT Official)",
+    "rawText": "Modern whales and dolphins are fully aquatic mammals, yet their ancestors originally walked on four legs on solid land. Fos[sil] evid[ence] sho[ws] th[at] ear[ly] cetac[eans] transi[tioned] fr[om] fresh[water] marshes t[o] the open seas. Over millions of years, their hind limbs gradually atrophied, forelimbs flattened into steering flippers, and nostrils migrated to the summit of the skull."
+  },
+  {
+    "id": "el-nino-teleconnections",
+    "title": "El Niño and Global Weather Patterns",
+    "category": "Atmospheric Science & Climatology",
+    "level": "Academic (TOEFL iBT)",
+    "rawText": "The El Niño phenomenon originates as an anomalous warming of surface waters across the tropical Pacific Ocean. Th[is] shi[ft] disr[upts] norm[al] circu[lation] patt[erns], weak[ening] the prev[ailing] tra[de] win[ds] glob[ally]. As a consequence, regions thousands of kilometers away experience severe droughts, while typically arid coastal deserts suffer torrential downpours."
+  }
+]
