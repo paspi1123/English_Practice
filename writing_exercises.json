@@ -1,19 +1,7 @@
 [
   {
-    "id": "recipe-cooking-show",
-    "title": "Where did you get this recipe?",
-    "category": "Conversational / Daily Life",
-    "promptQuestion": "Where did you get this recipe?",
-    "sentencePrefix": "I",
-    "sentenceSuffix": ".",
-    "tokens": ["I watched", "got", "cooked", "it", "cooking show", "from a", "that"],
-    "solution": ["got", "it", "from a", "cooking show", "that", "I watched"],
-    "distractors": ["cooked"],
-    "explanation": "Oración correcta: 'I got it from a cooking show that I watched.' La cláusula relativa 'that I watched' describe 'cooking show'. 'cooked' es la palabra distractora que sobra."
-  },
-  {
     "id": "tour-guides-trip",
-    "title": "Highlight of the Trip (TOEFL Official)",
+    "title": "Highlight of the Trip (ETS Official Lesson 1)",
     "category": "Academic & Campus Exchange",
     "promptQuestion": "What was the highlight of your trip?",
     "sentencePrefix": "The",
@@ -24,16 +12,124 @@
     "explanation": "Oración correcta: 'The tour guides who showed us around the old city were fantastic.' El sujeto es 'tour guides' (plural), por lo que concuerda con 'were'. 'was' es el distractor sobrante."
   },
   {
-    "id": "library-reserve-book",
-    "title": "Reserve Reading for History Class",
-    "category": "Campus Life",
-    "promptQuestion": "Have you seen the reserve reading for history class?",
+    "id": "lab-report-submission",
+    "title": "Lab Report Submission (TOEFL Resources Item 1)",
+    "category": "Campus Academic Life",
+    "promptQuestion": "Did Maria submit the lab report?",
+    "sentencePrefix": "No,",
+    "sentenceSuffix": ".",
+    "tokens": ["it", "not", "she", "finished", "has", "writing", "written"],
+    "solution": ["she", "has", "not", "finished", "writing", "it"],
+    "distractors": ["written"],
+    "explanation": "Oración correcta: 'No, she has not finished writing it.' La estructura de present perfect 'has not finished' requiere gerundio 'writing it' tras el verbo finish. 'written' es el distractor sobrante."
+  },
+  {
+    "id": "service-hours-noon",
+    "title": "Service Hours (TOEFL Resources Item 2)",
+    "category": "Campus Facilities",
+    "promptQuestion": "Can we go to the advising center right now?",
+    "sentencePrefix": "It",
+    "sentenceSuffix": ".",
+    "tokens": ["noon", "open", "does", "until", "not", "opens"],
+    "solution": ["does", "not", "open", "until", "noon"],
+    "distractors": ["opens"],
+    "explanation": "Oración correcta: 'It does not open until noon.' Tras el auxiliar 'does not' debe usarse el verbo base 'open', no la forma conjugada 'opens'."
+  },
+  {
+    "id": "chemistry-study-library",
+    "title": "Chemistry Study in Library (TOEFL Resources Item 3)",
+    "category": "Study Groups",
+    "promptQuestion": "We'll get together in the library to study for the chemistry exam.",
+    "sentencePrefix": "Should",
+    "sentenceSuffix": "?",
+    "tokens": ["there", "textbooks", "we", "our", "bring", "bringing"],
+    "solution": ["we", "bring", "our", "textbooks", "there"],
+    "distractors": ["bringing"],
+    "explanation": "Oración correcta: 'Should we bring our textbooks there?' Pregunta interrogativa con modal: 'Should' + sujeto 'we' + infinitivo base 'bring'."
+  },
+  {
+    "id": "quiz-postponed-jenkins",
+    "title": "Postponed Quiz (TOEFL Resources Item 4)",
+    "category": "Course Announcements",
+    "promptQuestion": "Professor Jenkins said the quiz is postponed.",
+    "sentencePrefix": "Will",
+    "sentenceSuffix": "?",
+    "tokens": ["date", "new", "she", "announce", "the", "soon", "announces"],
+    "solution": ["she", "announce", "the", "new", "date", "soon"],
+    "distractors": ["announces"],
+    "explanation": "Oración correcta: 'Will she announce the new date soon?' Pregunta futura con auxiliar 'Will' + sujeto 'she' + infinitivo base 'announce'."
+  },
+  {
+    "id": "chemistry-building-location",
+    "title": "Chemistry Building Location (TOEFL Resources Item 5)",
+    "category": "Campus Navigation",
+    "promptQuestion": "It looks like you need help getting somewhere.",
+    "sentencePrefix": "Where",
+    "sentenceSuffix": "?",
+    "tokens": ["building", "I", "can", "the", "find", "chemistry", "found"],
+    "solution": ["can", "I", "find", "the", "chemistry", "building"],
+    "distractors": ["found"],
+    "explanation": "Oración correcta: 'Where can I find the chemistry building?' Pregunta interrogativa con 'Where can I' seguida del infinitivo 'find'."
+  },
+  {
+    "id": "tutoring-center-appointment",
+    "title": "Tutoring Center Schedule (TOEFL Resources Item 6)",
+    "category": "Academic Support",
+    "promptQuestion": "If you need extra help, the tutoring center has a few openings this week.",
+    "sentencePrefix": "When",
+    "sentenceSuffix": "?",
+    "tokens": ["appointment", "should", "schedule", "I", "an", "scheduling"],
+    "solution": ["should", "I", "schedule", "an", "appointment"],
+    "distractors": ["scheduling"],
+    "explanation": "Oración correcta: 'When should I schedule an appointment?' Orden interrogativo modal: 'When should I' + verbo base 'schedule'."
+  },
+  {
+    "id": "project-deadline-notice",
+    "title": "Project Deadline Notice (TOEFL Resources Item 7)",
+    "category": "Course Assignments",
+    "promptQuestion": "I missed the announcement about the final project's new deadline.",
+    "sentencePrefix": "Don't worry, I",
+    "sentenceSuffix": ".",
+    "tokens": ["due", "when", "is", "it", "know", "was"],
+    "solution": ["know", "when", "it", "is", "due"],
+    "distractors": ["was"],
+    "explanation": "Oración correcta: 'Don't worry, I know when it is due.' Cláusula interrogativa indirecta con orden sujeto-verbo 'when it is due'."
+  },
+  {
+    "id": "library-databases-inquiry",
+    "title": "Library Databases (TOEFL Resources Item 8)",
+    "category": "Library Research",
+    "promptQuestion": "I need to find peer-reviewed journals for our research project.",
+    "sentencePrefix": "Do",
+    "sentenceSuffix": "?",
+    "tokens": ["where", "databases", "the", "are", "you", "know", "is"],
+    "solution": ["you", "know", "where", "the", "databases", "are"],
+    "distractors": ["is"],
+    "explanation": "Oración correcta: 'Do you know where the databases are?' El sustantivo plural 'databases' concuerda con 'are'. 'is' es el distractor de número."
+  },
+  {
+    "id": "missing-class-notebook",
+    "title": "Missing Class Notebook (TOEFL Resources Item 9)",
+    "category": "Study Notes",
+    "promptQuestion": "Why didn't you review your notes before taking the test?",
     "sentencePrefix": "The",
-    "sentenceSuffix": "desk.",
-    "tokens": ["professor", "said he", "left", "it", "leaving", "on", "the front"],
-    "solution": ["professor", "said he", "left", "it", "on", "the front"],
-    "distractors": ["leaving"],
-    "explanation": "Oración correcta: 'The professor said he left it on the front desk.' 'leaving' es la forma en participio distractora no conjugada."
+    "sentenceSuffix": ".",
+    "tokens": ["went missing", "notebook", "I", "that", "yesterday", "used in class", "goes"],
+    "solution": ["notebook", "that", "I", "used in class", "went missing", "yesterday"],
+    "distractors": ["goes"],
+    "explanation": "Oración correcta: 'The notebook that I used in class went missing yesterday.' Oración compleja con cláusula relativa 'that I used in class' y verbo principal en pasado 'went missing'."
+  },
+  {
+    "id": "research-award-student",
+    "title": "Research Award Winner (TOEFL Resources Item 10)",
+    "category": "Academic Awards",
+    "promptQuestion": "Which student ended up winning the research award?",
+    "sentencePrefix": "The",
+    "sentenceSuffix": ".",
+    "tokens": ["it", "presented", "who", "student", "won", "first", "wins"],
+    "solution": ["student", "who", "presented", "first", "won", "it"],
+    "distractors": ["wins"],
+    "explanation": "Oración correcta: 'The student who presented first won it.' Cláusula de relativo que define al sujeto: 'The student who presented first won it'."
   },
   {
     "id": "biology-lab-samples",
@@ -46,29 +142,5 @@
     "solution": ["samples", "which", "were", "stored", "improperly", "spoiled"],
     "distractors": ["was"],
     "explanation": "Oración correcta: 'The samples which were stored improperly spoiled overnight.' El sujeto plural 'samples' rige 'were stored'. 'was' es el distractor."
-  },
-  {
-    "id": "internship-proposal",
-    "title": "Securing the Summer Internship",
-    "category": "Campus / Professional",
-    "promptQuestion": "How did Maria secure that prestigious summer internship?",
-    "sentencePrefix": "She",
-    "sentenceSuffix": "committee.",
-    "tokens": ["submitted", "a proposal", "submitting", "that", "impressed", "the review"],
-    "solution": ["submitted", "a proposal", "that", "impressed", "the review"],
-    "distractors": ["submitting"],
-    "explanation": "Oración correcta: 'She submitted a proposal that impressed the review committee.' 'submitting' es el distractor gramatical."
-  },
-  {
-    "id": "computer-backup-cloud",
-    "title": "Term Paper Recovery",
-    "category": "Academic Life",
-    "promptQuestion": "Were you able to recover your term paper after the crash?",
-    "sentencePrefix": "Fortunately, the",
-    "sentenceSuffix": "cloud.",
-    "tokens": ["version", "I had", "saved", "saving", "automatically", "backed up to the"],
-    "solution": ["version", "I had", "saved", "automatically", "backed up to the"],
-    "distractors": ["saving"],
-    "explanation": "Oración correcta: 'Fortunately, the version I had saved automatically backed up to the cloud.' 'saving' sobra."
   }
 ]

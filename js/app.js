@@ -16,9 +16,15 @@ import {
   deleteCustomWritingExercise
 } from './writing_exercises.js?v=4.0';
 
+import {
+  saveCustomEmailExercise,
+  deleteCustomEmailExercise
+} from './email_exercises.js?v=4.0';
+
 import { calculateToeflScore } from './scoring.js?v=3.0';
 import { sound } from './audio.js?v=3.0';
 import { WritingController } from './writing_controller.js?v=4.0';
+import { EmailController } from './email_controller.js?v=4.0';
 import { geminiAI, SECTION_CONFIGS } from './ai_generator.js?v=4.0';
 
 class ToeflApp {
@@ -37,6 +43,7 @@ class ToeflApp {
 
     this.cacheDom();
     this.writingController = new WritingController(this);
+    this.emailController = new EmailController(this);
     this.init();
   }
 
@@ -44,8 +51,10 @@ class ToeflApp {
     // Section Switcher
     this.btnNavReading = document.getElementById('btnNavReading');
     this.btnNavWriting = document.getElementById('btnNavWriting');
+    this.btnNavEmail = document.getElementById('btnNavEmail');
     this.readingSection = document.getElementById('readingSection');
     this.writingSection = document.getElementById('writingSection');
+    this.emailSection = document.getElementById('emailSection');
 
     // Header & Toolbar
     this.exerciseSelect = document.getElementById('exerciseSelect');
@@ -127,6 +136,7 @@ class ToeflApp {
     this.customExercisesList = document.getElementById('customExercisesList');
     this.btnExportJSON = document.getElementById('btnExportJSON');
     this.btnExportWritingJSON = document.getElementById('btnExportWritingJSON');
+    this.btnExportEmailJSON = document.getElementById('btnExportEmailJSON');
     this.btnCopyPromptHelper = document.getElementById('btnCopyPromptHelper');
 
     // Gemini Settings Modal
@@ -262,6 +272,11 @@ class ToeflApp {
     // Initialize Writing section
     if (this.writingController) {
       await this.writingController.init();
+    }
+
+    // Initialize Email section
+    if (this.emailController) {
+      await this.emailController.init();
     }
 
     // Check Gemini AI connection status
@@ -479,6 +494,9 @@ class ToeflApp {
     if (this.btnNavWriting) {
       this.btnNavWriting.addEventListener('click', () => this.switchSection('writing'));
     }
+    if (this.btnNavEmail) {
+      this.btnNavEmail.addEventListener('click', () => this.switchSection('email'));
+    }
 
     // AI Practice and Gemini buttons
     if (this.btnHeaderAiPractice) {
@@ -506,6 +524,9 @@ class ToeflApp {
     }
     if (this.btnExportWritingJSON) {
       this.btnExportWritingJSON.addEventListener('click', () => this.exportWritingExercisesJSON());
+    }
+    if (this.btnExportEmailJSON) {
+      this.btnExportEmailJSON.addEventListener('click', () => this.exportEmailExercisesJSON());
     }
 
     // Gemini Settings Modal
@@ -541,20 +562,30 @@ class ToeflApp {
   switchSection(section) {
     this.activeSection = section;
     const isReading = section === 'reading';
+    const isWriting = section === 'writing';
+    const isEmail = section === 'email';
 
     if (this.btnNavReading) {
       this.btnNavReading.classList.toggle('active', isReading);
       this.btnNavReading.setAttribute('aria-selected', isReading);
     }
     if (this.btnNavWriting) {
-      this.btnNavWriting.classList.toggle('active', !isReading);
-      this.btnNavWriting.setAttribute('aria-selected', !isReading);
+      this.btnNavWriting.classList.toggle('active', isWriting);
+      this.btnNavWriting.setAttribute('aria-selected', isWriting);
+    }
+    if (this.btnNavEmail) {
+      this.btnNavEmail.classList.toggle('active', isEmail);
+      this.btnNavEmail.setAttribute('aria-selected', isEmail);
     }
 
     if (this.readingSection) this.readingSection.style.display = isReading ? 'block' : 'none';
-    if (this.writingSection) this.writingSection.style.display = isReading ? 'none' : 'block';
+    if (this.writingSection) this.writingSection.style.display = isWriting ? 'block' : 'none';
+    if (this.emailSection) this.emailSection.style.display = isEmail ? 'block' : 'none';
 
-    this.showToast(isReading ? 'Sección: Reading (Complete the Words)' : 'Sección: Writing (Make a Sentence)');
+    let label = 'Reading (Complete the Words)';
+    if (isWriting) label = 'Writing (Make a Sentence)';
+    if (isEmail) label = 'Writing (Write an Email)';
+    this.showToast(`Sección activa: ${label}`);
   }
 
   handleSlotInput(e) {
@@ -1076,6 +1107,18 @@ class ToeflApp {
     this.showToast("writing_exercises.json descargado");
   }
 
+  exportEmailExercisesJSON() {
+    const list = this.emailController ? this.emailController.exercises : [];
+    const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(list, null, 2));
+    const downloadAnchor = document.createElement('a');
+    downloadAnchor.setAttribute("href", dataStr);
+    downloadAnchor.setAttribute("download", "email_exercises.json");
+    document.body.appendChild(downloadAnchor);
+    downloadAnchor.click();
+    downloadAnchor.remove();
+    this.showToast("email_exercises.json descargado");
+  }
+
   // =========================================================================
   // Gemini AI Practice & Generation Methods
   // =========================================================================
@@ -1285,15 +1328,20 @@ class ToeflApp {
     } else if (targetSection === 'writing' && this.writingController) {
       avoidTitles = this.writingController.exercises.map(e => e.title || e.promptQuestion).filter(Boolean);
       avoidIds = this.writingController.exercises.map(e => e.id).filter(Boolean);
+    } else if (targetSection === 'email' && this.emailController) {
+      avoidTitles = this.emailController.exercises.map(e => e.title).filter(Boolean);
+      avoidIds = this.emailController.exercises.map(e => e.id).filter(Boolean);
     }
 
-    const sectionLabel = targetSection === 'reading' ? 'Reading' : 'Writing';
-    this.showAiLoading(1, count > 1 ? `Conectando con Gemini 3.8 Flash para generar ${count} ejercicios (${sectionLabel})...` : `Conectando con Gemini 3.8 Flash (${sectionLabel})...`);
+    let sectionLabel = 'Reading';
+    if (targetSection === 'writing') sectionLabel = 'Sentence';
+    if (targetSection === 'email') sectionLabel = 'Email';
+    this.showAiLoading(1, count > 1 ? `Conectando con Gemini para generar ${count} ejercicios (${sectionLabel})...` : `Conectando con Gemini (${sectionLabel})...`);
 
     try {
       const stepTimer = setTimeout(() => {
         if (!this.aiCancelRequested) {
-          this.showAiLoading(2, count > 1 ? `Redactando lote de ${count} ejercicios académicos inéditos...` : "Redactando ejercicio académico inédito...");
+          this.showAiLoading(2, count > 1 ? `Redactando lote de ${count} ejercicios inéditos...` : "Redactando ejercicio inédito...");
         }
       }, 800);
 
@@ -1333,7 +1381,7 @@ class ToeflApp {
         this.loadExercise(newIdx >= 0 ? newIdx : this.exercises.length - 1);
         sound.playSuccess();
         if (exercises.length > 1) {
-          this.showToast(`✨ ¡${exercises.length} nuevos ejercicios de lectura generados con Gemini 3.8 Flash!`);
+          this.showToast(`✨ ¡${exercises.length} nuevos ejercicios de lectura generados con Gemini!`);
         } else {
           this.showToast(`✨ ¡Nuevo ejercicio de lectura generado! "${firstNew.title}"`);
         }
@@ -1343,6 +1391,13 @@ class ToeflApp {
         }
         if (this.writingController) {
           this.writingController.addCustomExerciseAndSelect(exercises);
+        }
+      } else if (targetSection === 'email') {
+        if (this.activeSection !== 'email') {
+          this.switchSection('email');
+        }
+        if (this.emailController) {
+          this.emailController.addCustomExerciseAndSelect(exercises);
         }
       }
 

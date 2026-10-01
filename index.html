@@ -13,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="css/style.css?v=4.0">
+  <link rel="stylesheet" href="css/style.css?v=4.1">
 </head>
 
 <body>
@@ -32,10 +32,13 @@
       <!-- Center Section Switcher Tabs -->
       <nav class="section-nav" role="tablist">
         <button class="section-tab-btn active" id="btnNavReading" role="tab" aria-selected="true" data-section="reading">
-          <span>📖 Reading: Complete the Words</span>
+          <span>📖 Reading: Words</span>
         </button>
         <button class="section-tab-btn" id="btnNavWriting" role="tab" aria-selected="false" data-section="writing">
-          <span>✍️ Writing: Make a Sentence</span>
+          <span>🧩 Writing: Sentence</span>
+        </button>
+        <button class="section-tab-btn" id="btnNavEmail" role="tab" aria-selected="false" data-section="email">
+          <span>✉️ Writing: Email</span>
         </button>
       </nav>
 
@@ -324,6 +327,159 @@
       </div>
     </div>
 
+    <!-- =====================================================================
+         Write an Email Section (TOEFL 2026 Official Redesign Task)
+         ===================================================================== -->
+    <div id="emailSection" class="section-view" style="display: none;">
+      <!-- Email Toolbar -->
+      <div class="test-toolbar">
+        <div class="toolbar-left">
+          <div class="select-wrapper">
+            <label for="emailExerciseSelect">Escenario:</label>
+            <select id="emailExerciseSelect" class="exercise-select" aria-label="Seleccionar escenario de email"></select>
+          </div>
+
+          <div class="filter-wrapper">
+            <label for="emailFilterSelect">Ver:</label>
+            <select id="emailFilterSelect" class="exercise-select filter-select" aria-label="Filtrar ejercicios de email">
+              <option value="all">Todos los escenarios (16)</option>
+              <option value="unchecked">⏳ Pendientes (Unchecked)</option>
+              <option value="checked">✓ Completados (Checked)</option>
+            </select>
+          </div>
+
+          <button id="emailBtnToggleCompleted" class="btn-check-toggle" type="button" title="Marcar como completado o pendiente">
+            <span class="check-icon" id="emailCheckToggleIcon">○</span>
+            <span class="check-text" id="emailCheckToggleText">Marcar Hecho</span>
+          </button>
+
+          <div class="ai-button-group">
+            <button id="emailBtnAiGenerate" class="btn btn-ai-sparkle btn-sm" type="button" title="Generar escenarios de Write an Email con Gemini IA">
+              <span class="ai-sparkle-icon">✨</span>
+              <span>Crear con IA</span>
+            </button>
+            <select id="selectEmailAiCount" class="ai-count-select" title="Cantidad de escenarios a generar">
+              <option value="1">×1</option>
+              <option value="3" selected>×3</option>
+              <option value="5">×5</option>
+            </select>
+          </div>
+
+          <span id="emailCategoryBadge" class="badge-tag">Write an Email</span>
+        </div>
+
+        <div class="toolbar-right">
+          <div class="progress-pill" title="Total de correos completados">
+            Hechos: <span id="emailCompletedCounter">0 / 16</span>
+          </div>
+
+          <div class="email-timer-wrapper" id="emailTimerBox" title="Tiempo oficial TOEFL: 7 minutos">
+            <span class="timer-icon">⏱️</span>
+            <span id="emailTimerText" class="email-timer-digits">07:00</span>
+            <button id="emailBtnToggleTimer" class="btn-timer-ctrl" type="button">▶️ Iniciar 7:00</button>
+            <button id="emailBtnResetTimer" class="btn-timer-reset" type="button" title="Reiniciar reloj">🔄</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Instructions Title -->
+      <div class="email-instruction-header">
+        <h2 class="instruction-title" style="margin-bottom:0.25rem;">Write an email about the scenario below.</h2>
+        <p class="instruction-subtitle">Tiempo oficial ETS: 7 minutos • Objetivo: 100 a 140 palabras • Cubre obligatoriamente las 3 viñetas</p>
+      </div>
+
+      <!-- Main Two-Column Layout for Email Practice -->
+      <div class="email-practice-grid">
+        <!-- Left Column: Scenario & Requirements -->
+        <div class="email-scenario-card">
+          <div class="email-meta-envelope">
+            <div class="email-meta-row">
+              <span class="email-meta-label">To:</span>
+              <div class="email-meta-value">
+                <strong id="emailRecipient">Ms. Severin, Library Manager</strong>
+                <span id="emailRecipientAddress" class="email-meta-address">&lt;severin@campuslibrary.edu&gt;</span>
+              </div>
+            </div>
+            <div class="email-meta-row">
+              <span class="email-meta-label">Subject:</span>
+              <div class="email-meta-value">
+                <span id="emailSubject" class="email-subject-text">Inquiry regarding changed library operating hours</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="email-scenario-content">
+            <h4 class="scenario-section-heading">Situation Scenario</h4>
+            <p id="emailScenarioText" class="scenario-body-text">
+              You are a university student and usually work on assignments in the campus library in the evenings. The library is a useful place to study because it is quiet, and contains useful books and journals. Recently, the library has been closing earlier than usual, which has made it difficult for you to complete your assignments.
+            </p>
+          </div>
+
+          <div class="email-requirements-box">
+            <h4 class="scenario-section-heading">In your email, do the following:</h4>
+            <ul class="email-bullets-list" id="emailBulletsContainer">
+              <!-- Dynamically populated with 3 mandatory bullet points -->
+            </ul>
+          </div>
+
+          <!-- Official Model Accordion -->
+          <div class="email-model-toggle-area">
+            <button id="btnEmailToggleSample" type="button" class="btn-toggle-sample">
+              <span>📖</span>
+              <span>Ver Modelo 5.0 (ETS)</span>
+            </button>
+            <div id="emailSampleContainer" class="email-sample-collapse" style="display:none;">
+              <div class="sample-author-tag" id="emailSampleAuthor">ETS Official Model Response</div>
+              <div class="sample-email-body" id="emailSampleText"></div>
+              <div class="sample-rationale-note" id="emailSampleRationale"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Interactive Email Composer -->
+        <div class="email-composer-card">
+          <!-- Quick Insertion Chips -->
+          <div class="email-quick-chips">
+            <span class="chips-label">Atajos útiles:</span>
+            <button type="button" id="btnEmailInsertSalutation" class="quick-chip-btn">+ Saludo Formal</button>
+            <button type="button" id="btnEmailInsertHedging" class="quick-chip-btn">+ Cortesía / Hedging</button>
+            <button type="button" id="btnEmailInsertSignoff" class="quick-chip-btn">+ Despedida Formal</button>
+          </div>
+
+          <!-- Email Composition Box -->
+          <div class="email-textarea-wrapper">
+            <textarea id="emailComposerTextarea" class="email-textarea" spellcheck="false"
+              placeholder="Dear Ms. Severin,&#10;&#10;I am writing to...&#10;&#10;Sincerely,&#10;[Your Name]"></textarea>
+          </div>
+
+          <!-- Composer Footer: Word Count, Sentence Count, Actions -->
+          <div class="email-composer-footer">
+            <div class="email-live-stats">
+              <span id="emailWordCountBadge" class="email-stat-badge">0 palabras</span>
+              <span id="emailSentenceCountBadge" class="email-stat-badge">0 oraciones</span>
+              <span class="email-stat-hint">Ideal: 100 – 140 palabras</span>
+            </div>
+
+            <div class="email-composer-actions">
+              <button id="emailBtnClearDraft" class="btn btn-secondary btn-sm" type="button" title="Borrar borrador">
+                <span>Borrar</span>
+              </button>
+              <button id="emailBtnSubmitAiGrade" class="btn btn-ai-sparkle" type="button" title="Calificar según rúbrica oficial ETS">
+                <span class="ai-sparkle-icon">✨</span>
+                <span>Calificar con IA (ETS)</span>
+              </button>
+              <button id="emailBtnNext" class="btn btn-secondary btn-sm" type="button" title="Siguiente ejercicio">
+                <span>Siguiente</span>
+                <svg width="14" height="14" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </main>
 
   <!-- =====================================================================
@@ -490,6 +646,7 @@
             <select id="selectAiSection" class="form-input">
               <option value="reading">📖 Reading: Complete the Words (C-Test 10 palabras)</option>
               <option value="writing">✍️ Writing: Make a Sentence (Diálogo y orden sintáctico)</option>
+              <option value="email">✉️ Writing: Write an Email (Escenario y 3 viñetas)</option>
             </select>
           </div>
 
@@ -533,6 +690,7 @@
           <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
             <button class="btn btn-secondary btn-sm" id="btnExportJSON">Descargar exercises.json (Reading)</button>
             <button class="btn btn-secondary btn-sm" id="btnExportWritingJSON">Descargar writing_exercises.json</button>
+            <button class="btn btn-secondary btn-sm" id="btnExportEmailJSON">Descargar email_exercises.json</button>
             <button class="btn btn-secondary btn-sm" id="btnCopyPromptHelper">Copiar Prompt para IA</button>
           </div>
         </div>
@@ -648,11 +806,131 @@
     </div>
   </div>
 
+  <!-- =====================================================================
+       Write an Email AI Score Report Modal (ETS Official Rubric)
+       ===================================================================== -->
+  <div class="modal-overlay" id="emailScoreModal" role="dialog" aria-modal="true" aria-labelledby="emailScoreModalTitle">
+    <div class="score-card-modal email-score-modal-card">
+      <div class="modal-header">
+        <div>
+          <h3 id="emailScoreModalTitle" style="margin: 0;">Evaluación Oficial TOEFL iBT®: Write an Email</h3>
+          <p style="font-size: 0.8rem; color: var(--text-muted); margin: 0;">Calificado según la Rúbrica Oficial de ETS y Estándares TOEFL 2026</p>
+        </div>
+        <button class="btn-icon" id="btnCloseEmailScoreModal" aria-label="Cerrar modal">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <!-- Top Score Summary Banner -->
+        <div class="email-score-summary-banner">
+          <div class="score-circle-wrapper">
+            <div class="score-circle-outer">
+              <span class="score-circle-number" id="emailModalOverallScore">4.5</span>
+              <span class="score-circle-scale">/ 5.0</span>
+            </div>
+            <div class="score-circle-labels">
+              <span class="cefr-badge" id="emailModalCefrBadge">C1 (Advanced)</span>
+              <span class="word-count-badge" id="emailModalWordCountStat">128 palabras (óptimo)</span>
+            </div>
+          </div>
+          <div class="score-summary-descriptors">
+            <h4 style="margin-top:0; margin-bottom:0.4rem; color:var(--text-main);">Desempeño Global en la Tarea</h4>
+            <p style="font-size:0.88rem; color:var(--text-muted); line-height:1.5; margin:0;">
+              Tu correo ha sido analizado meticulosamente considerando las 4 áreas oficiales de la rúbrica ETS: comunicación con propósito (cobertura de las 3 viñetas), convenciones sociales y tono, precisión y variedad sintáctica, y mecánica textual.
+            </p>
+          </div>
+        </div>
+
+        <!-- 4 Dimension Rubric Breakdown -->
+        <div class="rubric-grid-breakdown">
+          <div class="rubric-dimension-card">
+            <div class="dimension-header">
+              <span class="dimension-title">1. Purposeful Communication</span>
+              <span class="dimension-score" id="emailScorePurposeful">4.5 / 5.0</span>
+            </div>
+            <p class="dimension-feedback" id="emailFeedbackPurposeful">Cumplimiento cabal de las 3 viñetas requeridas y elaboración de detalles verosímiles.</p>
+          </div>
+
+          <div class="rubric-dimension-card">
+            <div class="dimension-header">
+              <span class="dimension-title">2. Social Conventions & Tone</span>
+              <span class="dimension-score" id="emailScoreTone">5.0 / 5.0</span>
+            </div>
+            <p class="dimension-feedback" id="emailFeedbackTone">Registro de cortesía impecable, fórmulas de atenuación (hedging) y cierre formal.</p>
+          </div>
+
+          <div class="rubric-dimension-card">
+            <div class="dimension-header">
+              <span class="dimension-title">3. Language Accuracy & Variety</span>
+              <span class="dimension-score" id="emailScoreAccuracy">4.0 / 5.0</span>
+            </div>
+            <p class="dimension-feedback" id="emailFeedbackAccuracy">Variedad en estructuras oracionales (compuestas y complejas) y precisión léxica.</p>
+          </div>
+
+          <div class="rubric-dimension-card">
+            <div class="dimension-header">
+              <span class="dimension-title">4. Mechanics & Organization</span>
+              <span class="dimension-score" id="emailScoreMechanics">4.5 / 5.0</span>
+            </div>
+            <p class="dimension-feedback" id="emailFeedbackMechanics">Extensión adecuada (100-140 palabras), párrafos organizados, ortografía y puntuación.</p>
+          </div>
+        </div>
+
+        <!-- 3 Mandatory Bullets Checklist -->
+        <div class="eval-section-card">
+          <h4 class="eval-card-heading">Verificación de las 3 Viñetas Requeridas</h4>
+          <ul class="bullet-eval-list" id="emailModalBulletsList">
+            <!-- Dynamically populated -->
+          </ul>
+        </div>
+
+        <!-- Strengths & Opportunities -->
+        <div class="eval-two-columns">
+          <div class="eval-feedback-column column-strengths">
+            <h5 class="column-heading">✨ Fortalezas Notables</h5>
+            <ul id="emailModalStrengthsList" class="feedback-bullet-points"></ul>
+          </div>
+          <div class="eval-feedback-column column-improvements">
+            <h5 class="column-heading">🎯 Áreas de Mejora</h5>
+            <ul id="emailModalImprovementsList" class="feedback-bullet-points"></ul>
+          </div>
+        </div>
+
+        <!-- Grammar & Style Notes -->
+        <div class="eval-section-card" style="margin-top: 1rem;">
+          <h4 class="eval-card-heading">Notas Gramaticales y de Estilo</h4>
+          <ul id="emailModalNotesList" class="grammar-notes-list"></ul>
+        </div>
+
+        <!-- Model Rewrite Demonstration -->
+        <div class="eval-section-card model-rewrite-card" style="margin-top: 1rem;">
+          <div class="model-rewrite-header">
+            <div>
+              <h4 class="eval-card-heading" style="margin-bottom:0.15rem;">Versión Pulida Modelo 5.0 (Reescritura de la IA)</h4>
+              <p style="font-size:0.8rem; color:var(--text-muted); margin:0;">
+                Muestra cómo elevar tu correo a la máxima puntuación de ETS conservando tus ideas originales pero enriqueciendo vocabulario y nexos.
+              </p>
+            </div>
+            <button id="btnEmailModalCopyRewrite" type="button" class="btn btn-secondary btn-sm" title="Copiar al portapapeles">
+              📋 Copiar Modelo
+            </button>
+          </div>
+          <div class="model-rewrite-box" id="emailModalModelRewrite"></div>
+        </div>
+
+      </div>
+
+      <div class="modal-footer" style="display: flex; justify-content: space-between;">
+        <button class="btn btn-secondary" id="btnEmailModalCloseBottom" type="button">Cerrar</button>
+        <button class="btn btn-primary" id="btnEmailModalNextExercise" type="button">Practicar Siguiente Escenario</button>
+      </div>
+    </div>
+  </div>
+
   <!-- Toast Notification -->
   <div class="toast" id="toastMessage"></div>
 
   <!-- Main Application Logic as ES Module -->
-  <script type="module" src="js/app.js?v=4.0"></script>
+  <script type="module" src="js/app.js?v=4.1"></script>
 </body>
 
 </html>

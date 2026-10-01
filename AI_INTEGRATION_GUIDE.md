@@ -41,15 +41,30 @@ Para usar la aplicación en tu teléfono móvil, tablet, otra computadora o desp
   - Temas nuevos (astrobiología, arqueometría, neurociencia, ecología de aguas profundas, etc.) que **nunca se repiten** con tus ejercicios previos.
 - El ejercicio se cargará inmediatamente en pantalla para que comiences a resolverlo.
 
-### Sección 2: Writing (Make an Appropriate Sentence)
-- Cambia a la pestaña **"✍️ Writing: Make a Sentence"**.
-- Haz clic en **"✨ Práctica con IA"**.
-- Gemini generará una conversación académica entre Speaker 1 y Speaker 2:
-  - Una pregunta contextual de Speaker 1.
-  - La respuesta incompleta con prefijo y sufijo.
-  - El banco de palabras desordenadas con la solución más **1 distractor gramatical plausible**.
-  - Una explicación pedagógica en español de las reglas sintácticas.
-- El ejercicio se añade a tu lista y puedes arrastrar o hacer clic en las palabras para practicar al instante.
+### Sección 2: Writing (Make an Appropriate Sentence / Build a Sentence)
+- Cambia a la pestaña **"🧩 Writing: Sentence"**.
+- Diseñado según los estándares oficiales de **ETS** y **TOEFL Resources**:
+  - Cada casilla/token es de **1 sola palabra** (o a lo sumo 2 palabras en sustantivos compuestos muy cortos como `old city`, `tour guides` o `chemistry building`), sin cláusulas largas.
+  - Se desordenan entre 5 y 7 palabras más **1 distractor gramatical plausible de 1 palabra**.
+- Haz clic en **"✨ Práctica con IA"** para generar nuevos diálogos y oraciones contextuales universitarias.
+
+### Sección 3: Writing (Write an Email - Nuevo Formato Oficial TOEFL 2026)
+- Cambia a la pestaña **"✉️ Writing: Email"**.
+- Diseñado rigurosamente bajo las especificaciones de **ETS**, **Magoosh** y **TOEFL Resources**:
+  - Escenario realista de ámbito académico, campus o comunitario (~80-100 palabras).
+  - Destinatario formal/semiformal y asunto.
+  - **Exactamente 3 viñetas obligatorias** que debes abordar en tu respuesta.
+  - Cronómetro oficial de **7 minutos** en cuenta regresiva.
+  - Contador de palabras en tiempo real con indicador óptimo (**100 a 140 palabras**).
+  - **Calificación con IA (Rúbricas Oficiales ETS)**:
+    - Escala de 0.0 a 5.0 (C1, B2, B1, etc.).
+    - Evaluación desglosada en las 4 áreas ETS:
+      1. *Purposeful Communication* (cumplimiento de las 3 viñetas y detalles verosímiles).
+      2. *Social Conventions & Tone* (saludo, fórmulas de cortesía/hedging y despedida).
+      3. *Language Accuracy & Variety* (variedad de oraciones y riqueza léxica).
+      4. *Mechanics & Organization* (extensión, párrafos y puntuación).
+    - Verificación individual de cada una de las 3 viñetas (✓ Addressed / ⚠️ Partial / ✕ Missing).
+    - Fortalezas, áreas de mejora, notas de estilo y **reescritura modelo pulida (Model Rewrite)** para alcanzar un 5.0.
 
 ### Continuar practicando tras terminar un ejercicio:
 - Al completar cualquier ejercicio y abrir el informe de calificación, verás el botón **"✨ Siguiente con IA"** para pasar directamente a un nuevo ejercicio generado al vuelo.
@@ -58,40 +73,20 @@ Para usar la aplicación en tu teléfono móvil, tablet, otra computadora o desp
 
 ## 💻 4. Generación por Lote desde la Terminal (CLI Script)
 
-Si prefieres generar varios ejercicios desde la terminal de Linux y agregarlos directamente a los archivos `exercises.json` o `writing_exercises.json`:
+Si prefieres generar varios ejercicios desde la terminal de Linux y agregarlos directamente a los archivos `exercises.json`, `writing_exercises.json` o `email_exercises.json`:
 
 ```bash
 # Generar 3 ejercicios de lectura (Reading)
 python3 generate_exercises.py --section reading --count 3
 
-# Generar 2 ejercicios de escritura (Writing)
+# Generar 2 ejercicios de construcción de oraciones (Writing Sentence)
 python3 generate_exercises.py --section writing --count 2
 
+# Generar 2 nuevos escenarios de Write an Email (Writing Email)
+python3 generate_exercises.py --section email --count 2
+
 # Generar un ejercicio sobre un tema específico
-python3 generate_exercises.py --section reading --topic "Biomimicry in Architecture"
+python3 generate_exercises.py --section email --topic "Late laboratory report submission"
 ```
 
 Los ejercicios generados se guardan de forma permanente en los archivos JSON del repositorio.
-
----
-
-## 🚀 5. ¿Cómo agregar más secciones en el futuro?
-
-El sistema está diseñado de forma modular en [js/ai_generator.js](file:///home/paspi/Escritorio/TOEFL/toefl-app/js/ai_generator.js):
-
-Para agregar una nueva sección (por ejemplo, `listening` o `speaking`):
-1. Abre `js/ai_generator.js`.
-2. Añade la configuración de la nueva sección al objeto `SECTION_CONFIGS`:
-   ```javascript
-   export const SECTION_CONFIGS = {
-     reading: { ... },
-     writing: { ... },
-     nuevaSeccion: {
-       name: "Nombre de la Sección",
-       badge: "🎧 Listening",
-       buildPrompt: (avoidTitles, avoidIds, customTopic) => `Prompt con tus reglas...`,
-       validate: (data) => { /* Reglas de validación */ return true; }
-     }
-   };
-   ```
-3. El generador se adaptará automáticamente a la nueva sección.

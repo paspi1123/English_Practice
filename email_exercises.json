@@ -1,0 +1,306 @@
+[
+  {
+    "id": "library-operating-hours",
+    "title": "Library Operating Hours (TOEFL Official Sample)",
+    "category": "Campus Facilities & Resources",
+    "recipient": "Ms. Severin, Library Manager",
+    "recipientEmail": "severin@campuslibrary.edu",
+    "subject": "Inquiry regarding changed library operating hours",
+    "scenario": "You are a university student and usually work on assignments in the campus library in the evenings. The library is a useful place to study because it is quiet, and contains useful books and journals. Recently, the library has been closing earlier than usual, which has made it difficult for you to complete your assignments.",
+    "bulletPoints": [
+      "Explain why the library is important for your studies",
+      "Ask why the opening hours have changed",
+      "Request information about whether the library will stay open later again"
+    ],
+    "targetWordCount": "100 - 140 words",
+    "timeLimit": 420,
+    "sampleHighScoringResponse": "Dear Ms. Severin,\n\nI am writing to inquire about the library's new operating hours. I am currently a third-year student at the university, and I frequently study in the main library during the evenings because it offers an exceptionally quiet environment with immediate access to specialized research journals and reference books. Unfortunately, since the building has started closing at 8:00 PM, I have had to work in my dormitory, which is often very noisy.\n\nCould you possibly explain why the opening hours were recently reduced? In addition, would it be possible to let me know if this schedule adjustment is temporary, and whether the library might resume staying open late again in the near future?\n\nThank you very much for your time and assistance.\n\nBest regards,\nClark Kesselring",
+    "sampleAuthor": "Clark Kesselring (134 words • ETS Score 5.0)",
+    "scoringRationale": "Cumple rigurosamente las 3 viñetas, añade detalles verosímiles ('third-year student', 'closing at 8:00 PM', 'research journals'), mantiene un tono sumamente cortés con hedging ('Could you possibly', 'would it be possible to') y excelente variedad sintáctica."
+  },
+  {
+    "id": "poetry-magazine-submission",
+    "title": "Poetry Magazine Submission Glitch (ETS Official Lesson 3)",
+    "category": "Academic Publishing & Media",
+    "recipient": "Editor, Sunshine Poetry Magazine",
+    "recipientEmail": "editor@sunshinepoetrymagazine.com",
+    "subject": "Inquiry regarding online submission status for poetry entries",
+    "scenario": "A new poetry magazine has asked its readers for submissions, and you decided to submit two of your poems. However, you had a problem using the online submission form, and you are not certain that your submissions were received.",
+    "bulletPoints": [
+      "Tell the editor what you like about the new magazine",
+      "Describe the problem you experienced",
+      "Ask about the status of your submissions"
+    ],
+    "targetWordCount": "100 - 140 words",
+    "timeLimit": 420,
+    "sampleHighScoringResponse": "Dear Editor,\n\nI hope this email finds you well. I wanted to reach out because I really admire the first issue of Sunshine Poetry Magazine. It is truly refreshing to see such a vibrant diversity of voices represented, and the visual layout is captivating.\n\nHowever, I ran into a technical issue yesterday evening while attempting to submit two of my recent lyrical poems. After I uploaded the PDF files and clicked the submit button, the screen froze on an infinite loading loop, and no confirmation page appeared.\n\nCould you please verify whether my submissions reached your editorial inbox? I have attached the manuscript files to this message just in case.\n\nThank you for your consideration and assistance.\n\nBest regards,\nAlex Morgan",
+    "sampleAuthor": "ETS High-Level Model Response (128 words • ETS Score 5.0)",
+    "scoringRationale": "Cubre con fluidez los 3 puntos: elogio sincero al formato de la revista, descripción vívida del fallo técnico (bucle de carga infinito, archivos PDF adjuntos) y petición de confirmación con registro impecable."
+  },
+  {
+    "id": "stress-management-workshop",
+    "title": "Presentation Workshop Feedback (Magoosh Guide Sample)",
+    "category": "Campus Workshops & Development",
+    "recipient": "Ms. Nakamura, Workshop Coordinator",
+    "recipientEmail": "nakamura@studentservices.edu",
+    "subject": "Feedback on Thursday's Presentation Anxiety Workshop",
+    "scenario": "You recently attended a student workshop organized by Ms. Nakamura focused on overcoming speech anxiety and presentation skills. The coordinator requested feedback on the session and ideas for future offerings.",
+    "bulletPoints": [
+      "Explain what you found most helpful about the workshop",
+      "Describe an area where you feel additional practice or information was needed",
+      "Propose a topic or schedule for a future session"
+    ],
+    "targetWordCount": "100 - 140 words",
+    "timeLimit": 420,
+    "sampleHighScoringResponse": "Dear Ms. Nakamura,\n\nThank you for organizing Thursday's workshop on presentation anxiety. I found the guided breathing techniques and visualization exercises particularly beneficial, as they helped calm my nerves before mock presentations.\n\nHowever, I felt that we could have spent more time discussing how to respond smoothly to unexpected questions from professors during academic defenses, as this remains a major source of apprehension for many students.\n\nWould it be possible to organize a follow-up interactive session in mid-April focused specifically on handling live Q&A sessions? Scheduling it on a Friday afternoon would allow more undergraduates to attend without class conflicts.\n\nThank you again for providing such supportive campus resources.\n\nSincerely,\nDaniel Torres",
+    "sampleAuthor": "Magoosh Guide Model (121 words • ETS Score 5.0)",
+    "scoringRationale": "Desarrolla las 3 viñetas con gran precisión temática (ejercicios de respiración, preguntas inesperadas de profesores, sesión en abril), respetando el registro cortés y constructivo hacia una coordinadora."
+  },
+  {
+    "id": "missed-chemistry-quiz",
+    "title": "Missed Quiz Due to Illness (TOEFL Resources)",
+    "category": "Academic Coursework",
+    "recipient": "Professor Harrison",
+    "recipientEmail": "harrison@chemistry.univ.edu",
+    "subject": "Absence explanation and inquiry regarding Chem 101 quiz",
+    "scenario": "You are enrolled in an introductory chemistry course and missed an unannounced quiz yesterday morning because you fell ill with a severe migraine and had to visit the campus health clinic.",
+    "bulletPoints": [
+      "Explain why you missed the quiz and describe your situation",
+      "Provide confirmation or details regarding your clinic visit",
+      "Inquire politely if there is an opportunity to take a make-up quiz"
+    ],
+    "targetWordCount": "100 - 140 words",
+    "timeLimit": 420,
+    "sampleHighScoringResponse": "Dear Professor Harrison,\n\nI am writing to apologize for missing yesterday's Chemistry 101 lecture and the unannounced quiz. Early yesterday morning, I developed a sudden and severe migraine accompanied by fever, which made it impossible for me to attend class.\n\nI visited the University Student Health Center around 9:30 AM, where Dr. Reynolds examined me and advised me to rest for the day. I have obtained an official medical excuse note from the clinic, which I have scanned and attached to this email.\n\nCould you please let me know if it might be possible to take a make-up quiz during your office hours this week, or complete an alternative assignment to compensate for the lost points?\n\nThank you for your understanding.\n\nSincerely,\nJessica Vance",
+    "sampleAuthor": "TOEFL Resources Sample (132 words • ETS Score 5.0)",
+    "scoringRationale": "Explica la causa médica con detalles creíbles (migraña, 9:30 AM, Dr. Reynolds, justificante adjunto) y formula una petición sumamente respetuosa para recuperar la evaluación sin exigir."
+  },
+  {
+    "id": "noisy-dorm-neighbors",
+    "title": "Noisy Neighbors in Residence Hall (TOEFL Resources)",
+    "category": "Housing & Residential Life",
+    "recipient": "Mr. Henderson, Residence Hall Director",
+    "recipientEmail": "henderson@housing.univ.edu",
+    "subject": "Noise concern regarding 3rd floor west wing - Birch Hall",
+    "scenario": "Over the past two weeks, students living in the room directly across from yours in Birch Hall have been hosting loud gatherings and playing bass-heavy music past midnight on weekday evenings, severely disturbing your sleep and study routine.",
+    "bulletPoints": [
+      "Describe the specific noise disturbance and when it occurs",
+      "Explain how the situation is affecting your academic performance and well-being",
+      "Politely request assistance or advice on how to address the problem"
+    ],
+    "targetWordCount": "100 - 140 words",
+    "timeLimit": 420,
+    "sampleHighScoringResponse": "Dear Mr. Henderson,\n\nI am writing to bring an ongoing noise issue in Birch Hall to your attention. Over the past two weeks, the residents in Room 308 have been regularly playing loud music and hosting large social gatherings well past midnight on Tuesday and Thursday nights.\n\nBecause my room is located directly across the hall, the excessive volume has made it very difficult for me to sleep or concentrate on my upcoming midterm examinations in microeconomics. Consequently, I have felt exhausted during morning lectures.\n\nWould it be possible for your staff to remind the floor residents about designated quiet hours, or speak directly with the occupants of Room 308? Any guidance on resolving this situation amicably would be greatly appreciated.\n\nThank you for your help.\n\nBest regards,\nMarcus Reed",
+    "sampleAuthor": "TOEFL Resources Model (136 words • ETS Score 5.0)",
+    "scoringRationale": "Plantea una preocupación residencial con equilibrio perfecto: firme pero educado, sin acusaciones agresivas, señalando el impacto concreto (exámenes de microeconomía, falta de sueño) y solicitando intervención institucional."
+  },
+  {
+    "id": "wrong-package-mailroom",
+    "title": "Wrong Package Delivered (TOEFL Resources)",
+    "category": "Campus Mail & Logistics",
+    "recipient": "Campus Mail & Parcel Services",
+    "recipientEmail": "parcels@campusdelivery.edu",
+    "subject": "Incorrect parcel received - Tracking #8841-B",
+    "scenario": "You picked up a package from the campus parcel center yesterday afternoon. When you opened it in your dorm room, you realized it contained laboratory equipment for another student rather than the architecture reference textbooks you had ordered.",
+    "bulletPoints": [
+      "Explain that you received an incorrect parcel and describe what was inside",
+      "Specify what items you were actually expecting to receive",
+      "Ask how to exchange the package and receive your correct shipment"
+    ],
+    "targetWordCount": "100 - 140 words",
+    "timeLimit": 420,
+    "sampleHighScoringResponse": "Dear Parcel Services Team,\n\nI am writing to report a mix-up regarding a delivery I picked up from the student union service counter yesterday afternoon under tracking number 8841-B. Upon opening the box in my dorm, I discovered it contained two pairs of chemistry goggles and a laboratory manual addressed to a student named Sarah Lin.\n\nHowever, my actual order consists of two hardcover textbooks titled 'Modern Architectural Systems' that I urgently need for my studio seminar next Monday.\n\nCould you please advise me on how I can return this incorrect package to the front desk? Furthermore, could you check whether my books are still in the facility so I can collect them promptly?\n\nThank you for your assistance with this matter.\n\nSincerely,\nJulian Morales",
+    "sampleAuthor": "TOEFL Resources Model (133 words • ETS Score 5.0)",
+    "scoringRationale": "Estructura impecable en tres párrafos: el error detallado (gafas de química para Sarah Lin), el pedido esperado con urgencia (libros de arquitectura para el lunes) y los pasos concretos de resolución."
+  },
+  {
+    "id": "apartment-heating-maintenance",
+    "title": "Apartment Heating Issue (TOEFL Resources)",
+    "category": "Property & Facilities Maintenance",
+    "recipient": "Mr. Ramirez, Property Manager",
+    "recipientEmail": "ramirez@oakviewapartments.com",
+    "subject": "Urgent maintenance request: Heating unit failure in Unit 4B",
+    "scenario": "You rent a student apartment near campus. Over the last two days, ambient outdoor temperatures have dropped freezing, and the radiator unit in your apartment has completely stopped working, making your living room and bedroom uninhabitably cold.",
+    "bulletPoints": [
+      "Detail the heating malfunction and when it began",
+      "Explain the severity of the cold and how it impacts your daily routine",
+      "Request an estimated timeline for an HVAC technician to inspect the heater"
+    ],
+    "targetWordCount": "100 - 140 words",
+    "timeLimit": 420,
+    "sampleHighScoringResponse": "Dear Mr. Ramirez,\n\nI am writing to submit an urgent maintenance request regarding the heating system in Unit 4B. Early Tuesday morning, the radiator began making clicking noises before shutting off completely, and it has not generated any heat since.\n\nWith overnight outdoor temperatures dropping below freezing, the indoor temperature has fallen to 50 degrees Fahrenheit. This has made it almost impossible to sleep comfortably or study for my classes without wearing heavy winter coats indoors.\n\nWould it be possible to dispatch a heating technician to inspect the radiator today? Please let me know when someone might arrive so I can make sure I am home to grant access to the utility closet.\n\nThank you for your prompt attention to this matter.\n\nSincerely,\nChloe Bennett",
+    "sampleAuthor": "TOEFL Resources Model (130 words • ETS Score 5.0)",
+    "scoringRationale": "Aporta datos realistas (50 grados Fahrenheit, ruidos de clic, martes por la mañana), destaca la urgencia sin perder la cortesía formal y coordina el acceso al departamento."
+  },
+  {
+    "id": "essay-submission-portal-error",
+    "title": "Essay Submission Technical Glitch (TOEFL Resources)",
+    "category": "Academic Coursework",
+    "recipient": "Dr. Gallagher, History Department",
+    "recipientEmail": "gallagher@history.univ.edu",
+    "subject": "Hist 302: Submission confirmation for European History essay",
+    "scenario": "You attempted to submit your final 10-page research essay to the online university course portal last night before the 11:59 PM deadline. However, the system experienced a database timeout error, and you want to ensure your paper is recorded on time.",
+    "bulletPoints": [
+      "Explain the technical difficulty you experienced with the portal",
+      "Confirm that your essay was completed prior to the deadline and attach it",
+      "Request confirmation that your assignment will be graded without a late penalty"
+    ],
+    "targetWordCount": "100 - 140 words",
+    "timeLimit": 420,
+    "sampleHighScoringResponse": "Dear Dr. Gallagher,\n\nI hope you are having a pleasant week. I am writing to inform you of a technical glitch I encountered while trying to upload my final research paper on the Industrial Revolution to Canvas last night.\n\nAround 11:45 PM, I attempted to submit the file, but the webpage repeatedly showed a 504 gateway timeout error. Because the deadline was midnight, I took a screenshot of the error message to confirm that my document was completed well before the cut-off time, and I have attached both the screenshot and the PDF essay here.\n\nCould you please confirm receipt of my paper and let me know if it will be accepted without a late penalty?\n\nThank you for your understanding.\n\nBest regards,\nKevin Zhao",
+    "sampleAuthor": "TOEFL Resources Model (135 words • ETS Score 5.0)",
+    "scoringRationale": "Detalles convincentes (error 504 a las 11:45 PM, captura de pantalla adjunta, tema de la Revolución Industrial) y petición razonable y profesional dirigida a un docente."
+  },
+  {
+    "id": "missing-group-meeting",
+    "title": "Missing a Group Project Meeting (TOEFL Resources)",
+    "category": "Student Collaboration",
+    "recipient": "Samantha, Marketing Group Leader",
+    "recipientEmail": "samantha.cole@univ.edu",
+    "subject": "Absence from today's presentation rehearsal & project update",
+    "scenario": "You are working on a collaborative marketing case study presentation with three classmates. You unexpectedly have to miss today's scheduled 3:00 PM rehearsal because you must take your younger sibling to an urgent dental appointment.",
+    "bulletPoints": [
+      "Apologize for missing the rehearsal and explain your personal circumstance",
+      "Summarize the slide deck sections you have already prepared",
+      "Suggest a time when you can rehearse your speaking part with the team"
+    ],
+    "targetWordCount": "100 - 140 words",
+    "timeLimit": 420,
+    "sampleHighScoringResponse": "Hi Samantha,\n\nI am really sorry, but I won't be able to attend our group presentation rehearsal at 3:00 PM today. A sudden family situation arose, and I need to drive my younger brother to an emergency dental clinic across town.\n\nTo make sure our progress stays on track, I have already completed slides 8 through 12, which cover our target audience demographics and digital advertising budget. I uploaded the final graphics to our shared Google Drive folder this morning.\n\nWould everyone be available for a quick 20-minute Zoom call tomorrow morning around 10:00 AM? That way, I can run through my speaking notes and get your feedback before Friday's in-class presentation.\n\nThanks for understanding, and good luck with today's practice!\n\nBest,\nLiam Campbell",
+    "sampleAuthor": "TOEFL Resources Model (133 words • ETS Score 5.0)",
+    "scoringRationale": "Registro informal-educado entre compañeros de clase ('Hi Samantha', 'Best, Liam'), demuestra responsabilidad compartiendo avances en Google Drive y proponiendo una alternativa clara por Zoom."
+  },
+  {
+    "id": "the-wrong-jacket",
+    "title": "The Wrong Jacket at Conference (TOEFL Resources)",
+    "category": "Campus Events & Networking",
+    "recipient": "Annual Economics Symposium Committee",
+    "recipientEmail": "symposium@econconference.org",
+    "subject": "Coat mix-up at Wednesday luncheon - Navy blazer",
+    "scenario": "While attending an academic economics symposium luncheon yesterday, you grabbed a navy wool blazer from the coat rack that looks identical to yours. You only realized the mix-up upon getting home and discovering unfamiliar notes in the breast pocket.",
+    "bulletPoints": [
+      "Explain the mix-up and describe the jacket you accidentally took",
+      "Provide identifying features of your own missing jacket",
+      "Propose an arrangement to exchange the garments safely"
+    ],
+    "targetWordCount": "100 - 140 words",
+    "timeLimit": 420,
+    "sampleHighScoringResponse": "Dear Symposium Organizers,\n\nI am writing to report an inadvertent coat mix-up following yesterday's faculty luncheon at the student center. When leaving the hall, I picked up a dark navy wool blazer from the coat rack that looked identical to mine.\n\nUpon returning home, however, I noticed the label inside reads 'Brooks Brothers' with a pen in the breast pocket, whereas my own missing jacket is a tailored navy blazer from J.Crew with silver buttons and a silver USB flash drive in the left pocket.\n\nCould you please let me know if anyone has reported finding my jacket? I would be glad to bring the misplaced blazer back to the symposium registration desk anytime tomorrow afternoon to swap them.\n\nThank you for your assistance.\n\nSincerely,\nArthur Pendelton",
+    "sampleAuthor": "TOEFL Resources Model (137 words • ETS Score 5.0)",
+    "scoringRationale": "Contraste nítido de detalles inventados ('Brooks Brothers' vs 'J.Crew', botones plateados, memoria USB), cortesía formal hacia los organizadores y propuesta práctica para subsanar el malentendido."
+  },
+  {
+    "id": "hotel-facilities-conference",
+    "title": "Hotel Facilities Issue During Conference (TOEFL Resources)",
+    "category": "Travel & Hospitality",
+    "recipient": "Front Desk Manager, Grand Plaza Hotel",
+    "recipientEmail": "manager@grandplazahotel.com",
+    "subject": "Wi-Fi and workspace malfunction - Room 614",
+    "scenario": "You are staying at a conference hotel to present your undergraduate research. However, the in-room Wi-Fi connection has been non-functional all evening, and the business center computer lab is locked, hindering your preparation.",
+    "bulletPoints": [
+      "Describe the connectivity problems you are facing in Room 614",
+      "Explain how this disruption impacts your upcoming academic presentation",
+      "Request either prompt technical repair or an alternative quiet workspace"
+    ],
+    "targetWordCount": "100 - 140 words",
+    "timeLimit": 420,
+    "sampleHighScoringResponse": "Dear Hotel Manager,\n\nI am currently a guest in Room 614 attending the International Linguistics Conference. I am writing to express my concern regarding the internet service, as the premium Wi-Fi network in my room has repeatedly disconnected throughout the entire evening.\n\nI am scheduled to deliver a keynote paper tomorrow morning at 9:00 AM, and the lack of reliable connectivity has prevented me from downloading my lecture slides and accessing digital references. Furthermore, when I went downstairs to use the business center, the door was locked.\n\nCould you please send an IT technician to inspect my room connection, or provide access to a quiet conference room with ethernet connection tonight? I would appreciate your swift assistance.\n\nSincerely,\nSofia Ramirez",
+    "sampleAuthor": "TOEFL Resources Model (134 words • ETS Score 5.0)",
+    "scoringRationale": "Tono profesional y asertivo: explica el problema de conectividad, destaca la consecuencia inmediata (conferencia a las 9 AM) y solicita dos alternativas prácticas de solución."
+  },
+  {
+    "id": "joining-environmental-club",
+    "title": "Joining a Campus Student Club (TOEFL Resources)",
+    "category": "Student Activities & Clubs",
+    "recipient": "Elena Gomez, President of Environmental Action Club",
+    "recipientEmail": "elena.gomez@enviroclub.univ.edu",
+    "subject": "Inquiry regarding membership and upcoming club projects",
+    "scenario": "You recently attended the campus student organization fair and were inspired by the Environmental Action Club's booth. You want to officially join the club this semester and get involved in sustainability projects.",
+    "bulletPoints": [
+      "Express your enthusiasm for joining the club and state your motivation",
+      "Describe your previous volunteer background or relevant interests",
+      "Inquire about meeting schedules and onboarding steps for new members"
+    ],
+    "targetWordCount": "100 - 140 words",
+    "timeLimit": 420,
+    "sampleHighScoringResponse": "Dear Elena,\n\nI hope you are having a wonderful week. I visited your booth at the student activities fair on Wednesday, and I was genuinely inspired by the Environmental Action Club's campus recycling campaign. As an environmental science major, I am eager to contribute to your initiatives this semester.\n\nBack in high school, I co-founded our community composting project and spent two summers volunteering with local river cleanup teams, so I have hands-on experience organizing ecological events.\n\nCould you please let me know when your general meetings take place? Also, would you mind sharing what steps I need to take to register as an active member? I look forward to getting involved in your tree-planting drives.\n\nBest regards,\nNathaniel Cross",
+    "sampleAuthor": "TOEFL Resources Model (129 words • ETS Score 5.0)",
+    "scoringRationale": "Muestra entusiasmo natural con detalles personales ('environmental science major', 'composting project', 'river cleanup'), cubre las tres viñetas con soltura y cortesía hacia la líder estudiantil."
+  },
+  {
+    "id": "damaged-bookstore-textbook",
+    "title": "Damaged Textbook Delivery (TOEFL Resources)",
+    "category": "Consumer & Bookstore Services",
+    "recipient": "University Bookstore Customer Service",
+    "recipientEmail": "support@campusbookstore.edu",
+    "subject": "Damaged item received - Order #BK-90214",
+    "scenario": "You ordered a brand new copy of an organic chemistry textbook from the official campus bookstore. When the parcel arrived, the spine was cracked in half and multiple pages were torn and missing.",
+    "bulletPoints": [
+      "State your order information and explain the damage to the book",
+      "Explain why you urgently need an intact copy for your classes",
+      "Inquire about how to exchange the damaged copy for an immediate replacement"
+    ],
+    "targetWordCount": "100 - 140 words",
+    "timeLimit": 420,
+    "sampleHighScoringResponse": "Dear Bookstore Support,\n\nI am writing to report a damaged item in my recent online order #BK-90214, which arrived at my campus mailbox yesterday. I ordered a brand new copy of 'Organic Chemistry: Principles and Mechanisms', but upon opening the carton, I discovered the binding was completely broken and chapters three and four were torn.\n\nOur professor has assigned mandatory problem sets from those very chapters due this coming Friday, so having an intact book is crucial for my coursework.\n\nCould you please tell me how I can return this damaged copy? Additionally, would it be possible to arrange an in-person exchange at the campus store today so I do not fall behind on my homework?\n\nThank you for your help.\n\nSincerely,\nRachel Miller",
+    "sampleAuthor": "TOEFL Resources Model (133 words • ETS Score 5.0)",
+    "scoringRationale": "Precisión en número de orden (#BK-90214), descripción exacta del daño (capítulos 3 y 4 rotos, lomo roto), urgencia justificada (tarea para el viernes) y propuesta de cambio presencial expedito."
+  },
+  {
+    "id": "campus-gym-membership",
+    "title": "New Campus Gym Inquiries (TOEFL Resources)",
+    "category": "Athletics & Recreation",
+    "recipient": "Director of Campus Recreation",
+    "recipientEmail": "recreation@campusathletics.edu",
+    "subject": "Inquiry regarding student access to the new Fitness Complex",
+    "scenario": "The university recently inaugurated a newly renovated campus fitness and aquatic center. You would like to start working out regularly and want to clarify membership policies, peak hours, and beginner orientations.",
+    "bulletPoints": [
+      "Express interest in using the newly opened recreation center",
+      "Ask about operating hours, peak times, and student membership fees",
+      "Inquire whether guided orientation tours or personal training sessions are offered"
+    ],
+    "targetWordCount": "100 - 140 words",
+    "timeLimit": 420,
+    "sampleHighScoringResponse": "Dear Director of Recreation,\n\nI am writing to express my enthusiasm regarding the newly opened campus fitness complex. As a graduate student looking to maintain a healthier routine this semester, I am very eager to take advantage of the facility's weight room and swimming pool.\n\nCould you please let me know the standard weekday opening hours, as well as the times when the gym is typically most crowded? Furthermore, are all facilities included in student tuition, or is there an additional locker fee?\n\nLastly, does the center offer orientation sessions or fitness assessments for students who are new to strength training equipment? I would love to learn more before my first visit.\n\nThank you for your guidance.\n\nBest regards,\nJonathan Silva",
+    "sampleAuthor": "TOEFL Resources Model (131 words • ETS Score 5.0)",
+    "scoringRationale": "Formula preguntas inteligentes y completas sobre horarios pico, costo de casilleros y sesiones de orientación para novatos, con impecable uso de subordinación y conectores."
+  },
+  {
+    "id": "worried-friend-study-partner",
+    "title": "Checking in on a Study Partner (TOEFL Resources)",
+    "category": "Peer Communication & Wellness",
+    "recipient": "Julian (Classmate & Study Partner)",
+    "recipientEmail": "julian.martinez@univ.edu",
+    "subject": "Checking in! / Notes for Advanced Statistics",
+    "scenario": "Your classmate and study partner Julian has missed three consecutive lectures in Advanced Statistics, which is completely uncharacteristic of him. With an important midterm coming up next week, you want to reach out warmly.",
+    "bulletPoints": [
+      "Express concern about his recent absences and ask how he is doing",
+      "Offer to share your detailed lecture notes and homework solutions",
+      "Suggest meeting up or having a phone call to review material together"
+    ],
+    "targetWordCount": "100 - 140 words",
+    "timeLimit": 420,
+    "sampleHighScoringResponse": "Hi Julian,\n\nI hope you are doing well. I noticed you were not in our Advanced Statistics lectures on Monday and Wednesday, and since you rarely miss class, I wanted to reach out and check in on you. I hope everything is alright.\n\nProfessor Lin covered regression analysis and hypothesis testing this week, which will be heavily tested on next Tuesday's midterm. I took detailed color-coded notes and solved all the practice problems, and I would be more than happy to send you photos or share the Google doc with you.\n\nWould you like to meet at the campus cafe this weekend or hop on a quick phone call to review the concepts together? Let me know how I can help.\n\nTake care,\nEmily",
+    "sampleAuthor": "TOEFL Resources Model (134 words • ETS Score 5.0)",
+    "scoringRationale": "Tono empático, solidario y fraternal ('Hi Julian', 'Take care, Emily'), cubre a la perfección el interés genuino, el ofrecimiento de apuntes de regresión y la propuesta de reunión."
+  },
+  {
+    "id": "reference-letter-grad-school",
+    "title": "Reference Letter Request (TOEFL Resources)",
+    "category": "Academic Advising & Career",
+    "recipient": "Professor Albright, Department of Sociology",
+    "recipientEmail": "albright@sociology.univ.edu",
+    "subject": "Letter of recommendation request - Public Policy MA (Evan Wright)",
+    "scenario": "You took two upper-level sociology seminars with Professor Albright last year, earned an A in both, and wrote a paper on urban housing policy that she praised. You are now applying to Master's programs in Public Policy.",
+    "bulletPoints": [
+      "Remind the professor of the courses you completed under her mentorship",
+      "Explain the graduate program you are applying for and the submission deadline",
+      "Politely request a supportive letter of recommendation on your behalf"
+    ],
+    "targetWordCount": "100 - 140 words",
+    "timeLimit": 420,
+    "sampleHighScoringResponse": "Dear Professor Albright,\n\nI hope your semester is going well. I am writing to ask if you would consider writing a letter of recommendation for my graduate school applications. I thoroughly enjoyed taking your Urban Sociology and Social Policy seminars last year, where you provided invaluable guidance on my term paper regarding affordable housing initiatives.\n\nI am currently applying for a Master's degree in Public Policy at Georgetown University, with an application deadline of December 15th. Given my focus on municipal housing policy, your academic perspective would add tremendous weight to my candidacy.\n\nWould you be willing to support my application with a recommendation? I would be delighted to provide my personal statement, resume, and transcript at your convenience.\n\nThank you very much for considering my request.\n\nSincerely,\nEvan Wright",
+    "sampleAuthor": "TOEFL Resources Model (138 words • ETS Score 5.0)",
+    "scoringRationale": "Modelo ejemplar de registro formal académico: recuerda con exactitud las asignaturas cursadas, indica universidad y fecha límite (15 de diciembre), y ofrece enviar CV y declaración personal facilitando la labor a la profesora."
+  }
+]

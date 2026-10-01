@@ -16,6 +16,7 @@ from server import check_gemini_cli, build_prompt_for_section, call_gemini_cli
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 READING_FILE = os.path.join(BASE_DIR, "exercises.json")
 WRITING_FILE = os.path.join(BASE_DIR, "writing_exercises.json")
+EMAIL_FILE = os.path.join(BASE_DIR, "email_exercises.json")
 
 def load_json(filepath):
     if os.path.exists(filepath):
@@ -30,7 +31,7 @@ def save_json(filepath, data):
 
 def main():
     parser = argparse.ArgumentParser(description="Generar ejercicios TOEFL con Gemini CLI")
-    parser.add_argument("--section", choices=["reading", "writing"], default="reading", help="Sección a generar (reading o writing)")
+    parser.add_argument("--section", choices=["reading", "writing", "email"], default="reading", help="Sección a generar (reading, writing o email)")
     parser.add_argument("--count", type=int, default=1, help="Número de ejercicios a generar")
     parser.add_argument("--topic", type=str, default=None, help="Tema opcional específico para el ejercicio")
     parser.add_argument("--model", type=str, default="gemini-3.8-flash-high", help="Modelo de Gemini a usar (default: gemini-3.8-flash-high)")
@@ -44,7 +45,12 @@ def main():
     print(f"✨ Conectado a Gemini CLI: {cli} (Modelo: {args.model})")
     print(f"📚 Generando {args.count} ejercicio(s) para la sección [{args.section.upper()}]...")
 
-    target_file = READING_FILE if args.section == "reading" else WRITING_FILE
+    if args.section == "reading":
+        target_file = READING_FILE
+    elif args.section == "writing":
+        target_file = WRITING_FILE
+    else:
+        target_file = EMAIL_FILE
     existing_data = load_json(target_file)
     existing_ids = set(e.get("id") for e in existing_data)
     existing_titles = [e.get("title", "") for e in existing_data if "title" in e]
