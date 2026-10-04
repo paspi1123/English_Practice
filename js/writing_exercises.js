@@ -146,6 +146,126 @@ export const DEFAULT_WRITING_EXERCISES = [
     "solution": ["samples", "which", "were", "stored", "improperly", "spoiled"],
     "distractors": ["was"],
     "explanation": "Oración correcta: 'The samples which were stored improperly spoiled overnight.' El sujeto plural 'samples' rige 'were stored'. 'was' es el distractor."
+  },
+  {
+    "id": "dining-hall-vegetarian-meals",
+    "title": "Dining Hall Menu Changes",
+    "category": "Campus Dining",
+    "promptQuestion": "Did the dining hall managers add more vegetarian meals?",
+    "sentencePrefix": "No,",
+    "sentenceSuffix": ".",
+    "tokens": ["tomorrow", "the menu", "not", "changed", "they", "have", "has"],
+    "solution": ["they", "have", "not", "changed", "the menu"],
+    "distractors": ["tomorrow", "has"],
+    "explanation": "Oración correcta: 'No, they have not changed the menu.' Estructura negativa en Present Perfect ('have not changed'). El sujeto 'they' rige la forma auxiliar plural 'have' ('has' es distractor de concordancia) y 'tomorrow' es un distractor temporal incompatible con el aspecto perfecto."
+  },
+  {
+    "id": "lecture-ended-early",
+    "title": "Lecture Early Dismissal",
+    "category": "Academic Life",
+    "promptQuestion": "By the time I arrived, the lecture was already over.",
+    "sentencePrefix": "",
+    "sentenceSuffix": "?",
+    "tokens": ["why", "know", "ended early", "do", "the lecture", "you"],
+    "solution": ["do", "you", "know", "why", "the lecture", "ended early"],
+    "distractors": [],
+    "explanation": "Oración correcta: 'Do you know why the lecture ended early?' Estructura de pregunta indirecta (embedded question): comienza con la interrogación directa 'Do you know', seguida de la partícula interrogativa 'why' y la subordinada sustantiva con orden afirmativo sujeto + verbo ('the lecture ended early')."
+  },
+  {
+    "id": "art-department-mural-design",
+    "title": "Mural Design Approval",
+    "category": "Campus Arts",
+    "promptQuestion": "Did the art department approve your mural design?",
+    "sentencePrefix": "No,",
+    "sentenceSuffix": ".",
+    "tokens": ["my", "idea", "they", "did", "like", "not"],
+    "solution": ["they", "did", "not", "like", "my", "idea"],
+    "distractors": [],
+    "explanation": "Oración correcta: 'No, they did not like my idea.' Oración negativa en Past Simple: sujeto ('they') + auxiliar negativo 'did not' + verbo léxico en infinitivo sin 'to' ('like') + sintagma nominal complemento directo ('my idea')."
+  },
+  {
+    "id": "campus-bike-rental",
+    "title": "Campus Bike Rental",
+    "category": "Campus Services",
+    "promptQuestion": "The campus bike shop is closed for repairs.",
+    "sentencePrefix": "",
+    "sentenceSuffix": "?",
+    "tokens": ["a bike", "can", "nearby", "yesterday", "where", "I", "rent"],
+    "solution": ["where", "can", "I", "rent", "a bike", "nearby"],
+    "distractors": ["yesterday"],
+    "explanation": "Oración correcta: 'Where can I rent a bike nearby?' Pregunta informativa abierta con pronombre interrogativo y verbo modal: Wh- ('where') + modal ('can') + sujeto ('I') + verbo base ('rent') + objeto ('a bike') + adverbio de lugar ('nearby'). El adverbio de tiempo pasado 'yesterday' actúa como distractor."
+  },
+  {
+    "id": "academic-advisor-schedule-help",
+    "title": "Advisor Schedule Assistance",
+    "category": "Academic Advising",
+    "promptQuestion": "I’m surprised that you’ve already picked all your classes.",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": ["really", "called me", "with my schedule", "the advisor", "helped", "who"],
+    "solution": ["the advisor", "who", "called me", "really", "helped", "with my schedule"],
+    "distractors": [],
+    "explanation": "Oración correcta: 'The advisor who called me last Friday really helped with my schedule.' Cláusula de relativo especificativa ('who called me') que modifica al sujeto ('The advisor'), complementada con el intensificador adverbial ('really') y el predicado principal ('helped with my schedule'). Los tokens ordenan los segmentos alrededor del anclaje temporal 'last Friday'."
+  },
+  {
+    "id": "housing-roommate-assignment",
+    "title": "Roommate Assignment Status",
+    "category": "Student Housing",
+    "promptQuestion": "Has the housing office told you who your roommate will be?",
+    "sentencePrefix": "No,",
+    "sentenceSuffix": "yet.",
+    "tokens": ["assigned", "one", "have", "not", "they"],
+    "solution": ["they", "have", "not", "assigned", "one"],
+    "distractors": [],
+    "explanation": "Oración correcta: 'No, they have not assigned one yet.' Present Perfect en forma negativa con sujeto personal plural ('they have not assigned') seguido del pronombre anafórico 'one' y el adverbio polar negativo 'yet' delimitado en el sufijo."
+  },
+  {
+    "id": "transit-card-add-funds",
+    "title": "Transit Card Online Top-Up",
+    "category": "Campus Transportation",
+    "promptQuestion": "It looks like the balance on your transit card is too low.",
+    "sentencePrefix": "",
+    "sentenceSuffix": "?",
+    "tokens": ["add", "online", "can", "more funds", "I", "how"],
+    "solution": ["how", "can", "I", "add", "more funds", "online"],
+    "distractors": [],
+    "explanation": "Oración correcta: 'How can I add more funds online?' Pregunta de procedimiento con modal: adverbio interrogativo ('how') + auxiliar modal ('can') + sujeto ('I') + verbo de acción ('add') + objeto directo ('more funds') + adverbio ('online')."
+  },
+  {
+    "id": "gallery-fountain-sculpture",
+    "title": "Gallery Visitors Sculpture Impression",
+    "category": "Campus Arts",
+    "promptQuestion": "Which artwork did the visitors to the gallery like most?",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": ["impressed", "located", "the sculpture", "near the fountain", "them", "a lot"],
+    "solution": ["the sculpture", "located", "near the fountain", "impressed", "them", "a lot"],
+    "distractors": [],
+    "explanation": "Oración correcta: 'The sculpture located near the fountain impressed them a lot.' Sintagma nominal sujeto con cláusula de participio pasivo reducida ('located near the fountain'), verbo transitivo en pasado simple ('impressed'), pronombre objeto ('them') y locución adverbial de grado ('a lot')."
+  },
+  {
+    "id": "campus-parking-regulations",
+    "title": "Campus Parking Rules Inquiry",
+    "category": "Campus Facilities",
+    "promptQuestion": "The campus parking rules changed again.",
+    "sentencePrefix": "",
+    "sentenceSuffix": "?",
+    "tokens": ["now", "you", "tell me", "park", "students", "would"],
+    "solution": ["would", "you", "tell me", "students", "park", "now"],
+    "distractors": [],
+    "explanation": "Oración correcta: 'Would you tell me where students can park now?' Pregunta indirecta de cortesía: fórmula 'Would you tell me' seguida por la subordinada enlazada por 'where' y 'can' con orden canónico sujeto + verbo ('students can park now')."
+  },
+  {
+    "id": "biology-cleanup-extra-gloves",
+    "title": "Beach Cleanup Protective Equipment",
+    "category": "Student Activities",
+    "promptQuestion": "The biology club’s beach cleanup will start tomorrow at nine o’clock.",
+    "sentencePrefix": "",
+    "sentenceSuffix": "?",
+    "tokens": ["bring", "should", "gloves", "we", "for everyone", "extra"],
+    "solution": ["should", "we", "bring", "extra", "gloves", "for everyone"],
+    "distractors": [],
+    "explanation": "Oración correcta: 'Should we bring extra gloves for everyone?' Pregunta general cerrada (Yes/No question) con modal epistémico/deóntico: 'should' + sujeto ('we') + verbo léxico ('bring') + sintagma nominal ('extra gloves') + sintagma preposicional de beneficiario ('for everyone')."
   }
 ];
 
