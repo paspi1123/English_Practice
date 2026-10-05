@@ -96,5 +96,405 @@
     "category": "Atmospheric Science & Climatology",
     "level": "Academic (TOEFL iBT)",
     "rawText": "The El Niño phenomenon originates as an anomalous warming of surface waters across the tropical Pacific Ocean. Th[is] shi[ft] disr[upts] norm[al] circu[lation] patt[erns], weak[ening] the prev[ailing] tra[de] win[ds] glob[ally]. As a consequence, regions thousands of kilometers away experience severe droughts, while typically arid coastal deserts suffer torrential downpours."
+  },
+  {
+    "id": "reading-complete-q1-coral-reefs-sustain-immense-ma",
+    "title": "Coral reefs sustain immense marine (Q1)",
+    "category": "Ecology & Biology",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "Coral reefs sust[ain] immense mar[ine] biodiversity, serv[ing] as habit[ats] for thous[ands] of spec[ies]. These comp[lex] structures are for[med] by sm[all] organisms kn[own] as polyps, wh[ich] secrete calc[ium] carbonate to bu[ild] protective skeletons. Reefs also provide essential barriers against storm surges and coastal erosion."
+  },
+  {
+    "id": "reading-complete-q2-selective-attention-is-the-cog",
+    "title": "Selective attention is the cognitive (Q2)",
+    "category": "Cognitive Science & Psychology",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "Selective attention is the cognitive pro[cess] that enables individuals to focus on spe[cific] stimuli while ign[oring] others. This mental abi[lity] allows us to filter out irre[levant] information effec[tively]. For ins[tance], in a noisy envi[ronment], one can conc[entrate] on a sin[gle] conversation. Researchers have deve[loped] several theories to exp[lain] this phenomenon. Some models suggest that filtering occ[urs] early, whereas others propose it happens la[ter]. Understanding these mechanisms is vital for improving learning strategies."
+  },
+  {
+    "id": "reading-complete-q3-the-question-of-whether-artifi",
+    "title": "The question of whether artificial (Q3)",
+    "category": "Cognitive Science & Psychology",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "The question of whether artificial systems can possess moral ag[ency] has become increasingly ur[gent] as autonomous technologies proliferate. Traditionally, moral responsibility has been att[ributed] exclusively to human beings, who possess the cap[acity] for intentional action and ethical reas[oning]. However, as advanced algorithms begin to make complex dec[isions] in fields such as healthcare and transportation, some scho[lars] argue that our traditional defi[nitions] of agency must evolve. They suggest that if a machine can independently eval[uate] potential outcomes and select the most bene[ficial] course of action, it might warrant a lim[ited] form of moral status. Critics, conversely, maintain that without genuine subjective expe[rience] or empathy, no system can truly be held acco[untable] for its actions."
+  },
+  {
+    "id": "reading-complete-q4-in-the-realm-of-social",
+    "title": "In the realm of social (Q4)",
+    "category": "Cognitive Science & Psychology",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "In the realm of social psychology, researchers often study how individuals behave within large teams. One fascinating pheno[menon] is known as groupthink, which occurs when a desire for harm[ony] overrides a realistic appraisal of alter[natives]. During meetings, members might supp[ress] dissenting view[points] in order to minimize conflict. Consequently, the group may arrive at irrat[ional] or flawed decisions that no individual would have chosen indep[endently]. To prev[ent] this outcome, leaders are encouraged to foster envir[onments] where critical eval[uation] is welcomed. By deliberately assigning a \"devil's advocate,\" organizations can ensure that mult[iple] perspectives are thoroughly exam[ined] before finalizing any major policy."
+  },
+  {
+    "id": "reading-complete-q5-beneath-the-bustling-streets-o",
+    "title": "Beneath the bustling streets of (Q5)",
+    "category": "Earth & Planetary Science",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "Beneath the bustling streets of modern metropolitan areas lies a complex web of essential utili[ties]. This subterranean infrastruc[ture] includes water networks, electr[ical] grids, and fiber optic cables. Before initiating new construction projects, city engineers must caref[ully] map these hid[den] systems to preve[nt] accidental disruptions. Advanced ground-penetrating radar allows technic[ians] to identify buried pipe[lines] without excavat[ing] the surface. By creating preci[se] digital models of these undergr[ound] networks, municipalities can safely expand their transit systems and commercial distri[cts] while maintaining uninterrupted servi[ces] for their growing populations."
+  },
+  {
+    "id": "reading-complete-q6-the-study-of-paleomagnetism-ex",
+    "title": "The study of paleomagnetism examines (Q6)",
+    "category": "Earth & Planetary Science",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "The study of paleomagnetism examines the record of Earth's magnetic field preserved in igneous rocks. When magma coo[ls] at mid-ocean rid[ges], iron-rich mine[rals] align thems[elves] with the prevailing magnetic po[le]. Once the ro[ck] solidifies, th[is] alignment is loc[ked] in pla[ce], creating a perma[nent] historical rec[ord]. Because the planet's magnetic fi[eld] undergoes periodic reversals, the seafloor acts like a giant tape recorder. Scientists map these alternating bands of normal and reversed polarity to track tectonic plate movement."
+  },
+  {
+    "id": "reading-complete-q7-the-invention-of-the-printing",
+    "title": "The invention of the printing (Q7)",
+    "category": "History & Technology",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "The invention of the printing press revolu[tionized] the dissemination of know[ledge] throughout fifteenth-century Europe. Prior to this inno[vation], manuscripts were carefully copied by hand, making books incredibly rare and prohibitively expen[sive]. With the advent of mecha[nized] printing, literature became significantly more acce[ssible] to the general public. This mass produ[ction] of texts catalyzed a dra[matic] increase in literacy rates across the conti[nent]. Furthermore, it facilitated the rapid exch[ange] of scientific and philo[sophical] ideas, ulti[mately] laying the groundwork for major cultural shifts. Consequently, the strict monopoly on education previ[ously] held by elite insti[tutions] was permanently broken."
+  },
+  {
+    "id": "reading-complete-q8-nonverbal-communication-plays",
+    "title": "Nonverbal communication plays a crucial (Q8)",
+    "category": "Cognitive Science & Psychology",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "Nonverbal communication plays a crucial role in social interactions, often conveying more information than spoken language. Facial expressions, gestures, and posture can rev[eal] true emo[tions] even wh[en] someone tri[es] to con[ceal] them. For inst[ance], crossed ar[ms] often indi[cate] defensiveness or disagreement, whi[le] open ha[nds] may sug[gest] honesty. Researchers emphasize that cultural background significantly influences how these signals are interpreted. Misunderstandings oc[cur] when peo[ple] assume univ[ersal] meanings for specific gestures. Therefore, paying attention to these cues helps improve interpersonal understanding."
+  },
+  {
+    "id": "reading-complete-q9-social-psychology-frequently-e",
+    "title": "Social psychology frequently examines how (Q9)",
+    "category": "Cognitive Science & Psychology",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "Social psychology frequently examines how individuals alter their opinions when participating in group discussions. A well-documented phenom[enon] known as group polarization occ[urs] when the colle[ctive] decisions of a group bec[ome] more extreme than the initial inclinations of its members. If a committee starts with a slight prefe[rence] for a particular outcome, talking with like-minded peers te[nds] to amplify that original stance. Researchers sug[gest] that individuals gain confidence when they discover others sh[are] their views, lea[ding] them to adopt stronger positions. Furthermore, participants are often exposed to new persua[sive] arguments that reinf[orce] their initial biases. Conseq[uently], rather than reaching a moderate compromise, the group often shifts toward a more rad[ical] consensus."
+  },
+  {
+    "id": "reading-complete-q10-the-ability-of-migratory-birds",
+    "title": "The ability of migratory birds (Q10)",
+    "category": "Ecology & Biology",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "The ability of migratory birds to navigate across thousands of miles remains one of the most fascinating subjects in ornithology. These creatures rely on a variety of environmental cues to reach their destinations. Many bi[rds] ob[serve] the po[sition] of the st[ars] to fi[nd] th[eir] way at ni[ght]. Re[cent] stu[dies] sh[ow] that th[ey] can al[so] det[ect] the Earth's mag[netic] fi[eld]. This sophisticated internal mechanism ensures that flocks arrive safely at their breeding grounds each year, despite encountering unpredictable weather patterns."
+  },
+  {
+    "id": "reading-complete-q11-caves-in-limestone-regions-fre",
+    "title": "Caves in limestone regions frequently (Q11)",
+    "category": "Earth & Planetary Science",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "Caves in limestone regi[ons] frequently feature impre[ssive] mineral deposits kno[wn] as speleothems, which include stalactites and stalagmites. These strik[ing] formations devel[op] when rainwater absor[bs] carbon dioxide from the soil, creat[ing] a mild acid th[at] dissolves the surrounding rock. As this mineral-rich wat[er] seeps thro[ugh] the ground and dri[ps] from the cave ceiling, it depo[sits] tiny amou[nts] of minerals. Over thousands of yea[rs], these gradu[al] accumulations build up into massi[ve] structures. By analyzing the chemical layers within these deposits, geologists can reconstruct historical weather patterns extending back millennia."
+  },
+  {
+    "id": "reading-complete-q12-memory-is-a-complex-cognitive",
+    "title": "Memory is a complex cognitive (Q12)",
+    "category": "Cognitive Science & Psychology",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "Memory is a complex cognitive pro[cess] involving the encoding, storage, and retri[eval] of information. To form a las[ting] memory, one must first pay atten[tion] to the relevant stimuli. Information ini[tially] enters short-term memory, which has a lim[ited] capacity. Through rehe[arsal] or meaningful association, data can be trans[ferred] to long-term memory. If this transfer does not occ[ur], the information is usu[ally] lost or forg[otten]. Effective learning strat[egies] often inv[olve] connecting new ideas to exi[sting] knowledge."
+  },
+  {
+    "id": "reading-complete-q13-geological-analysis-relies-hea",
+    "title": "Geological analysis relies heavily on (Q13)",
+    "category": "Earth & Planetary Science",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "Geological analysis relies heavily on interpreting rock layers. Sedime[ntary] rocks are for[med] from the accumul[ation] of sedim[ent]. Over mill[ions] of ye[ars], these layers of sand, silt, and clay are compre[ssed]. This pro[cess] creates dist[inct] strata that geolo[gists] study to under[stand] Earth's his[tory]."
+  },
+  {
+    "id": "reading-complete-q14-the-transition-from-nomadic-hu",
+    "title": "The transition from nomadic hunting (Q14)",
+    "category": "History & Technology",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "The transition from nomadic hunting and gather[ing] to settled agricult[ure] marked a signific[ant] turning point in early human history. As ancient communi[ties] began cultivat[ing] crops, they produced a reliab[le] food surplus. This abundan[ce] allowed local populatio[ns] to expand rapidly. It also permitted individuals to special[ize] in new crafts, such as pottery and weaving, rath[er] than devot[ing] all their energy to finding meals. Consequently, these early farming settleme[nts] form[ed] the basis of complex societies."
+  },
+  {
+    "id": "reading-complete-q15-the-advent-of-standardized-coi",
+    "title": "The advent of standardized coinage (Q15)",
+    "category": "History & Technology",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "The advent of standardized coinage in ancient societies revolutionized economic exchange by replacing cumbersome barter systems. Before coi[ns], merchants had to rely on a compl[ex] exchange of goo[ds], making daily commer[ce] highly ineffi[cient]. The introduc[tion] of unifo[rm] currency allow[ed] individuals to easi[ly] assess the val[ue] of differ[ent] items. Consequently, this financial innova[tion] fostered great[er] economic mobil[ity] and expanded local markets. Furthermore, centralized authorities could now collect taxes more efficiently, consolidating their political power over larger territories."
+  },
+  {
+    "id": "reading-complete-q16-wetlands-serve-as-highly-effic",
+    "title": "Wetlands serve as highly efficient (Q16)",
+    "category": "Ecology & Biology",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "Wetlands serve as highly effi[cient] natural water filtration sys[tems], effectively trap[ping] pollutants and excess nutrients be[fore] they can reach lar[ger] bodies of water. They act like mas[sive] sponges, absorbing heavy rain[fall] and preventing destruc[tive] floods in coastal ar[eas]. Furthermore, these ecosys[tems] provide critical habi[tats] for migratory birds and numerous aqua[tic] species. Unfortunately, rapid ur[ban] development and agricultural expan[sion] continue to threa[ten] wetland integrity, leading to significant los[ses] in biodiversity and diminished water quality globally."
+  },
+  {
+    "id": "reading-complete-q17-the-concept-of-free-will",
+    "title": "The concept of free will (Q17)",
+    "category": "Earth & Planetary Science",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "The concept of free will has long fas[cinated] scholars, bridging the dom[ains] of ethics, psychology, and neural science. At the heart of this deb[ate] lies the question of whe[ther] human actions are entirely predet[ermined] by biological processes. Recent advancements in brain imaging all[ow] researchers to obs[erve] neural activity preceding conscious decisions. These find[ings] suggest that our brains may initiate actions milliseconds bef[ore] we are actually aware of our choices. However, critics arg[ue] that such experiments do not fully cap[ture] the complexity of moral reasoning. They main[tain] that human autonomy involves deliberate reflection rather than mere reflex. Consequently, the intersection of determinism and personal age[ncy] remains a highly controversial subject."
+  },
+  {
+    "id": "reading-complete-q18-the-spectacular-displays-of-co",
+    "title": "The spectacular displays of colored (Q18)",
+    "category": "Astronomy & Astrophysics",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "The spectacu[lar] displays of col[ored] light known as auroras oc[cur] when charged partic[les] from the sun interact with Earth's magnetic fi[eld]. These solar winds trav[el] across space and are drawn toward the magn[etic] poles. As the particles coll[ide] with gases in the up[per] atmosphere, they excite atoms of oxygen and nitrogen. This ener[gy] is later rele[ased] in the form of glowing light, painting the sky with vi[brant] bands of green, red, and purple. The specific col[ors] depend on the type of gas involved and the alti[tude] of the collision."
+  },
+  {
+    "id": "reading-complete-q19-attachment-theory-investigates",
+    "title": "Attachment theory investigates the deep (Q19)",
+    "category": "Academic (TOEFL iBT)",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "Attachment theory investigates the deep emotional bonds formed between infants and their caregivers. This conne[ction] serves a crit[ical] function by increasing the likelihood of surv[ival]. When caregivers resp[ond] consistently to a baby's needs, the child deve[lops] a sense of security and confidence to expl[ore] the environment. However, if care is unrel[iable], the infant may become anxi[ous] or distant. Research sugg[ests] that these early experi[ences] often shape how individuals appr[oach] social relationships in adult[hood]."
+  },
+  {
+    "id": "reading-complete-q20-to-manage-the-staggering-volum",
+    "title": "To manage the staggering volume (Q20)",
+    "category": "Urban Planning & Architecture",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "To manage the staggering vol[ume] of trash produced by grow[ing] populations, some innovative cities have implemented underground waste collection netw[orks]. Instead of relying on tradit[ional] garbage trucks, these systems use a series of buried pipes to trans[fer] refuse directly from residential build[ings] to central processing facilities. Residents simply drop their sorted materials into designated chutes. Powerful vacuum pumps then pu[ll] the discarded items through the tubes at high spe[eds]. This invisible infrastructure significantly decreases traffic conges[tion] by remov[ing] large collection vehicles from the streets. Consequently, the approach not only improves neighborhood safe[ty] and aesthetics but also cuts down on the noise and carbon emiss[ions] associated with heavy municipal flee[ts]."
+  },
+  {
+    "id": "reading-complete-q21-cognitive-psychology-frequentl",
+    "title": "Cognitive psychology frequently examines how (Q21)",
+    "category": "Astronomy & Astrophysics",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "Cognitive psychology frequently exam[ines] how the human brain processes vast amou[nts] of sensory information. One fascinating phenom[enon] is selective attention, which allows indiv[iduals] to focus on specific stimuli while filter[ing] out irrelevant background noise. A classic exam[ple] of this is the cocktail party effect, wh[ere] a person can easily tune into a sin[gle] conversation in a crowded, noisy room. However, this filtering capa[city] is not perfect, and people often mi[ss] obvious changes in their visual environ[ment] if their focus is directed elsew[here]. Understanding these cognitive lim[its] helps researchers design safer work spac[es] and more effective educat[ional] materials."
+  },
+  {
+    "id": "reading-complete-q22-the-advent-of-standardized-coi",
+    "title": "The advent of standardized coinage (Q22)",
+    "category": "History & Technology",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "The advent of standardized coinage in ancient economies represe[nted] a fundamental shift in how socie[ties] facilitated trade and accumulated wea[lth]. Before minted curre[ncy], extensive commerce relied heav[ily] on cumbersome barter sys[tems], which requ[ired] a mutual coincidence of wants. The introduction of uniform metal coins provided a reliable med[ium] of exchange. This monetary innov[ation] allowed merchants to exp[and] their trade rou[tes] significantly. Furthermore, central author[ities] could now coll[ect] taxes more efficie[ntly], consolidating state power and funding vast public infrastructure projects."
+  },
+  {
+    "id": "reading-complete-q23-in-arid-regions-where-vegetati",
+    "title": "In arid regions where vegetation (Q23)",
+    "category": "Earth & Planetary Science",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "In arid regions whe[re] vegetation is spa[rse], wind beco[mes] a power[ful] geomorphic agent. It trans[ports] fine parti[cles] over va[st] distances, resha[ping] the physical landscape. This pro[cess], known as deflation, remo[ves] loose sedi[ment] from the gro[und] surface. Consequently, larger rocks are le[ft] behind, form[ing] a stable surface cal[led] desert pavement."
+  },
+  {
+    "id": "reading-complete-q24-fault-block-mountains-are-form",
+    "title": "Fault-block mountains are formed by (Q24)",
+    "category": "Earth & Planetary Science",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "Fault-block mountains are formed by the fracturing of the Earth's crust due to extreme tectonic tension. When the lithosphere pulls apart, massive blocks of rock are forced upward or drop down along jagged cracks known as faults. The elev[ated] blocks cre[ate] towering moun[tain] ranges, wh[ile] the low[ered] sections fo[rm] expansive val[leys]. Over time, continuous seismic activity can completely al[ter] the geogr[aphic] sur[face]. This geological pro[cess] is respon[sible] for striking topographical features, such as the basin and range provinces found in western North America. The towering peaks often exhibit steep fronts on one si[de] and a gent[ler] slope on the other, revealing the tilting dynamics of the continental crust."
+  },
+  {
+    "id": "reading-complete-q25-coral-reefs-are-diverse-underw",
+    "title": "Coral reefs are diverse underwater (Q25)",
+    "category": "Ecology & Biology",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "Coral reefs are diverse underwater ecosystems held together by calcium carbonate struc[tures] secreted by corals. They pro[vide] crucial habitats for countless mar[ine] species, supporting complex food webs. However, these frag[ile] environments face severe thre[ats] from ocean acidification. As the oceans abs[orb] increasing amounts of carbon dioxide from the atmosphere, the water becomes more aci[dic]. This chemical shi[ft] makes it extremely difficult for corals to absorb the calcium necessary to bui[ld] and maintain their hard skeletons. Consequently, coral gro[wth] slows down significantly, leav[ing] the reefs vulnerable to erosion and structural collapse. Preserving these vibrant marine communities requires urg[ent] global action to reduce greenhouse gas emiss[ions]."
+  },
+  {
+    "id": "reading-complete-q26-the-theory-of-plate-tectonics",
+    "title": "The theory of plate tectonics (Q26)",
+    "category": "Earth & Planetary Science",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "The theory of plate tectonics revolutionized our understanding of the Earth's dynamic surface. The lithosphere is broken into several massive pieces known as tectonic plates. These pla[tes] constantly gl[ide] over the semi-fluid man[tle] below, albeit at very sl[ow] rates. Millions of ye[ars] ago, all major landmasses were joi[ned] together in a sin[gle] supercontinent called Pangaea. Over geological ti[me], this gigantic continent frag[mented], and the pieces slowly drif[ted] to their cur[rent] positions. Today, ongoing tec[tonic] activity is responsible for shaping the planet's topography, causing pheno[mena] such as earthquakes, volcanic eruptions, and the form[ation] of deep ocean trenches. By monitoring these move[ments], geologists can better predict natural hazards."
+  },
+  {
+    "id": "reading-complete-q27-integrating-vegetation-into-hi",
+    "title": "Integrating vegetation into high-density urban (Q27)",
+    "category": "Cognitive Science & Psychology",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "Integrating vegetation into high-density urban areas has become a priority for modern archi[tects]. By incorp[orating] green roofs and vertical gardens into new designs, cities can signif[icantly] improve local air qua[lity]. These living structures help to filter har[mful] pollutants from the atmosphere. Furthermore, they provide a natural coo[ling] effect that red[uces] the urban heat island phenomenon. Studies have consis[tently] shown that regular access to natural environments enhances the psycho[logical] well-being of city resi[dents]. As a result, municipal governments are increa[singly] offering incen[tives] for developers who prioritize ecolo[gical] integration."
+  },
+  {
+    "id": "reading-complete-q28-the-widespread-adoption-of-the",
+    "title": "The widespread adoption of the (Q28)",
+    "category": "Urban Planning & Architecture",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "The widespread adop[tion] of the automobile in the mid-twentieth cen[tury] catalyzed a profound restructuring of urban geography. As car owner[ship] became increasingly commonplace, middle-class fami[lies] began migra[ting] from dense urban centers to newly devel[oped] residential sub[urbs]. This massive expan[sion] necessitated significant public invest[ments] in highway infrastructure and fundamentally trans[formed] daily rou[tines]. Consequently, the tradi[tional] pedestrian-oriented neighborhood was largely repl[aced] by sprawling, automobile-dependent communities."
+  },
+  {
+    "id": "reading-complete-q29-cities-frequently-experience-h",
+    "title": "Cities frequently experience higher temperatures (Q29)",
+    "category": "Urban Planning & Architecture",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "Cities frequently experience higher temper[atures] than surrou[nding] rural areas because concrete and asphalt absorb solar radia[tion]. This phenom[enon] is known as the urban heat island effect. To comb[at] this issue, many modern archit[ects] are incorporating green roofs into new build[ing] designs. These vegetative layers not only provide natural insula[tion] but also absorb significant amou[nts] of rainwater. Over time, expanding these biological initia[tives] can substantially impro[ve] local microclimates and reduce overall ener[gy] demand for air conditioning systems."
+  },
+  {
+    "id": "reading-complete-q30-human-memory-is-not-essentiall",
+    "title": "Human memory is not essentially (Q30)",
+    "category": "Earth & Planetary Science",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "Human memory is not essentially a per[fect] recording device that captures events exac[tly] as they occurred. Instead, cogn[itive] researchers have found that reca[lling] a past event is an act[ive] reconstruction process. Every time we retr[ieve] a memory, it becomes vuln[erable] to alteration. Details can be unconsciously modi[fied] or completely fabr[icated] based on new information encountered after the orig[inal] experience. This phen[omenon] is often refer[red] to as the misinformation effect. It has sign[ificant] implications for eyewitness testimony in legal settings, demonstrating that human recollection can be highly unrel[iable] even when the individual is conf[ident] in their accuracy."
+  },
+  {
+    "id": "reading-complete-q31-the-integration-of-vertical-ga",
+    "title": "The integration of vertical gardens (Q31)",
+    "category": "Astronomy & Astrophysics",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "The integration of vertical gardens into high-density urban envi[ronments] has become an increasingly pop[ular] architectural trend. As cities expand, the availability of traditional ground-level parks rapidly dimin[ishes]. To counteract this loss of green space, designers are incor[porating] vegetation directly onto the exterior walls and roof[tops] of skyscrapers. These living structures offer multiple environmental bene[fits]. They primarily abso[rb] carbon dioxide and release oxygen, significantly impro[ving] local air quality. Furthermore, the foliage provides natural insul[ation], which prevents buildings from absorbing exce[ssive] heat during the summer months. This biological cooling effect helps mitigate the urban heat island pheno[menon], making city centers more comfortable and reducing the overall dema[nd] for air conditioning systems."
+  },
+  {
+    "id": "reading-complete-q32-green-roofs-are-becoming-incre",
+    "title": "Green roofs are becoming increasingly (Q32)",
+    "category": "Astronomy & Astrophysics",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "Green roofs are becoming increasingly popu[lar] in mod[ern] architecture as a method to com[bat] the urban heat island effect. By covering building tops with vegeta[tion], architects can significantly reduce the amount of heat absor[bed] by concrete and asphalt. Furthermore, these living struc[tures] absorb rainwater, which helps prevent local floo[ding] during severe storms. City officials frequently offer finan[cial] incentives to encou[rage] property owners to inst[all] them. Ultimately, expan[ding] green spaces within dense metropolitan areas enhances both environ[mental] quality and human comf[ort]."
+  },
+  {
+    "id": "reading-complete-q33-the-accumulation-of-artificial",
+    "title": "The accumulation of artificial debris (Q33)",
+    "category": "Earth & Planetary Science",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "The accumulation of artificial debris in orbit around Earth presents a growing challenge for space agencies worldwide. Since the dawn of the space age, thou[sands] of defunct satel[lites] and sp[ent] rocket sta[ges] have been le[ft] to cir[cle] the pla[net]. These objects tra[vel] at incredibly hi[gh] velocities, mea[ning] that ev[en] a colli[sion] with a sm[all] fragment can infl[ict] catastrophic dam[age] on functioning spacecraft."
+  },
+  {
+    "id": "reading-complete-q34-the-advent-of-the-telegraph",
+    "title": "The advent of the telegraph (Q34)",
+    "category": "Earth & Planetary Science",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "The advent of the telegraph in the nineteenth century drastically reduced communication times across vast distances, reshaping global trade networks. Before this tech[nology], merchants relied on shi[ps] to ca[rry] critical informat[ion] about mar[ket] prices. Th[is] slow proc[ess] often led to unpredict[able] financial fluctuat[ions]. Once mess[ages] could be transmitted alm[ost] instantly, glo[bal] markets bec[ame] more integrated and efficient. The resulting standardization of prices laid the groundwork for modern international finance."
+  },
+  {
+    "id": "reading-complete-q35-the-concept-of-cognitive-mappi",
+    "title": "The concept of cognitive mapping (Q35)",
+    "category": "Cognitive Science & Psychology",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "The concept of cognitive mapping fundamentally alt[ered] how psychologists under[stand] spat[ial] navigation. Rather than merely memorizing a seq[uence] of movements, animals const[ruct] inte[rnal] representations of their environ[ments]. These mental maps all[ow] them to find novel shortcuts and ad[apt] to blocked pathways. Research on the hippocampus further revealed that spec[ific] neurons, known as place cells, acti[vely] enc[ode] location data, brid[ging] the gap between behavior and neurobiology."
+  },
+  {
+    "id": "reading-complete-q36-in-hyper-arid-environments-win",
+    "title": "In hyper-arid environments, wind acts (Q36)",
+    "category": "Earth & Planetary Science",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "In hyper-arid environments, wind acts as a primary geomorphic agent, shaping the landscape through continuous erosion. When strong wi[nds] carry abrasive sa[nd] particles, th[ey] act li[ke] sandpaper aga[inst] exposed rock formations. Over thousands of years, this unrelenting fric[tion] carves ou[t] aerodynamic sha[pes] known a[s] yardangs. These structures typically al[ign] parallel t[o] the prevailing wi[nd] direction. By studying the[se] wind-sculpted features, scientists c[an] better understand atmospheric dynamics in arid regions."
+  },
+  {
+    "id": "reading-complete-q37-kelp-forests-are-recognized-as",
+    "title": "Kelp forests are recognized as (Q37)",
+    "category": "Ecology & Biology",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "Kelp forests are recog[nized] as one of the most produc[tive] dynamic environments on Earth. Found primarily in shal[low] coastal waters, these underwater structures provide shel[ter] and nourishment for a wide variety of marine organ[isms]. Sea otters play a crit[ical] role in main[taining] the health of these habitats. By feeding heav[ily] on sea urchins, otters prevent the urchins from overgrazing and destroy[ing] the kelp. Without this natural predation, urchin populations would rap[idly] expand, leading to barren underwater land[scapes]. Thus, the survi[val] of the entire habitat often depends on the presence of a single keystone pred[ator]."
+  },
+  {
+    "id": "reading-complete-q38-earth-s-magnetic-field-is-not",
+    "title": "Earth's magnetic field is not (Q38)",
+    "category": "Earth & Planetary Science",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "Earth's magnetic field is not static; it has undergone numerous reversals over geological time. The most reliable rec[ords] of these polar shi[fts] are preserved in the iron-rich minerals of cooling magma at mid-ocean ridges. As the molten ro[ck] solidifies, magnetic part[icles] align thems[elves] with the prevailing global fie[ld], effectively lock[ing] into place. Consequently, the ocean flo[or] functions as a vast magnetic ta[pe] recording. By analy[zing] these alternating stripes of magnetic polarity, researchers can reconstruct the hist[ory] of tectonic pla[tes] and meas[ure] the rate of seafloor spreading. This continuous archival process is essential for understanding the dynamic forces shaping the lithosphere."
+  },
+  {
+    "id": "reading-complete-q39-the-study-of-ancient-climates",
+    "title": "The study of ancient climates (Q39)",
+    "category": "Earth & Planetary Science",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "The study of ancient climates relies heavily on the analysis of stratified ice sheets found in polar regions. As snow accumulates over millennia, it compresses into thick layers of ice, trapping tiny bubbles of atmospheric gas. These bubb[les] serve as microscopic time caps[ules], preserving samp[les] of the ancient atmos[phere]. By measu[ring] the concentrations of greenhouse gas[es] such as carbon diox[ide] within these layers, researchers can recons[truct] historical climate conditions. Furthermore, the varying ratios of oxygen isot[opes] in the frozen wat[er] provide reliable indic[ators] of past global temperatures. This invaluable reco[rd] enables climatologists to unders[tand] long-term environmental shif[ts] and better predict future changes in the Earth's climate system."
+  },
+  {
+    "id": "reading-complete-q40-over-the-past-several-decades",
+    "title": "Over the past several decades, (Q40)",
+    "category": "Earth & Planetary Science",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "Over the past several dec[ades], the proliferation of aban[doned] satellites, spent rocket sta[ges], and fragmented debris has cre[ated] a complex hazard in near-Earth space. This accumulation of human-made mat[erial], often traveling at ext[reme] speeds, poses a signi[ficant] threat to active space missions. To mitigate these ris[ks], tracking networks continuously mon[itor] thousands of fragments, all[owing] operators to execute collision avoidance maneuvers. However, as the den[sity] of orbital clutter incr[eases], researchers are exploring active rem[oval] technologies, ranging from robotic cap[ture] systems to directed energy mechanisms, to ens[ure] the long-term sustainability of orbital environments."
+  },
+  {
+    "id": "reading-complete-q41-selective-attention-allows-the",
+    "title": "Selective attention allows the mind (Q41)",
+    "category": "Cognitive Science & Psychology",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "Selective attention allows the mind to concentrate on a particular object while ignoring other details. This cogn[itive] pro[cess] is ess[ential] bec[ause] the hum[an] brain possesses lim[ited] resources. Without such a fil[ter], we wou[ld] qui[ckly] bec[ome] over[whelmed] by the con[stant] str[eam] of sen[sory] da[ta] arriving from our surr[oundings]."
+  },
+  {
+    "id": "reading-complete-q42-effective-seed-dispersal-is-vi",
+    "title": "Effective seed dispersal is vital (Q42)",
+    "category": "Ecology & Biology",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "Effective seed dispersal is vital for the survival and expansion of plant populations. Win[d] is a maj[or] force in this proc[ess]. Some pla[nts] have ligh[tweight] seeds th[at] can dr[ift] on strong air curre[nts]. Other spe[cies] re[ly] on ani[mals] to car[ry] their seeds to dist[ant] locat[ions]. This helps avoid overcrowding near the parent plant."
+  },
+  {
+    "id": "reading-complete-q43-volcanic-eruptions-are-powerfu",
+    "title": "Volcanic eruptions are powerful natural (Q43)",
+    "category": "Earth & Planetary Science",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "Volcanic eruptions are powerful natural events that reshape the surface of the Earth. When a vol[cano] erupts, it sen[ds] hot ash and ga[ses] high in[to] the a[ir]. These airborne mater[ials] can blo[ck] out sunli[ght], causing the global temper[ature] to dr[op] around the wor[ld]. This temporary coo[ling] effect can la[st] for seve[ral] years, potentially affec[ting] agriculture and weat[her] patterns across entire continents."
+  },
+  {
+    "id": "reading-complete-q44-the-study-of-paleomagnetism-re",
+    "title": "The study of paleomagnetism relies (Q44)",
+    "category": "Earth & Planetary Science",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "The study of paleomagnetism relies on the fact that certain iron-rich miner[als] act like tiny compass need[les] when they form. As molt[en] rock emerges from mid-ocean ridges and begins to co[ol], these particles align themselves with the prevailing orientation of Earth's magne[tic] field. Once the rock solid[ifies] completely, this align[ment] is locked into place, creating a perman[ent] structural record. Over millions of years, the plan[et]'s magnetic poles have rever[sed] direction multi[ple] times. By examin[ing] the alternating bands of magnetic polarity preser[ved] within the seafloor crust, geologists can constr[uct] a detailed timeline of oceanic expans[ion] and tectonic movement. This magnetic striping provides crucial evidence for the theo[ry] of continental drift."
+  },
+  {
+    "id": "reading-complete-q45-comets-are-frequently-describe",
+    "title": "Comets are frequently described by (Q45)",
+    "category": "Earth & Planetary Science",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "Comets are freq[uently] described by astronomers as cosmic snowballs comp[osed] of frozen gases, rock, and dust. When a comet's ellip[tical] orbit brings it close to the Sun, the int[ense] solar radia[tion] causes it to heat up rap[idly]. This ther[mal] process forces the volatile materials to vapor[ize], spewing dust and gases outward to form a mass[ive] glowing coma. Furthermore, the solar wind pushes these parti[cles] outward, creating a spect[acular] tail that always points away from the star, regard[less] of the comet's actual direct[ion] of travel."
+  },
+  {
+    "id": "reading-complete-q46-the-introduction-of-widespread",
+    "title": "The introduction of widespread street (Q46)",
+    "category": "Urban Planning & Architecture",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "The introduction of widespread street illumination fundamentally transformed urban social dynamics and commercial structures. Before artificial lighting, the setting of the sun largely dictated the end of daily activities. Gas lam[ps] and, lat[er], electric ligh[ts] extended t[he] active hou[rs] of the city. Citizens cou[ld] now sh[op] and socialize we[ll] into t[he] evening. Furthermore, factor[ies] were ab[le] to oper[ate] night shif[ts], significantly increa[sing] overall product[ion]. This artificial extension of the day eventually reshaped human sleeping patterns and birthed the modern concept of nighttime entertainment."
+  },
+  {
+    "id": "reading-complete-q47-tardigrades-often-referred-to",
+    "title": "Tardigrades, often referred to as (Q47)",
+    "category": "Ecology & Biology",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "Tardigrades, often referred to as water bears, are microscopic animals renowned for their remarkable resilience. When confronted with extreme environmental conditions, they enter a state of suspended animation known as cryptobiosis. In this st[ate], their metabolic act[ivity] drops to al[most] zero, all[owing] them to sur[vive] severe temperatures, radiation, and even the vacuum of space. Once conditions bec[ome] favorable ag[ain], the creatures quickly re[turn] to normal. They res[ume] their regular biological functions within hours. This extraordinary abil[ity] has cap[tivated] researchers, who be[lieve] studying these organisms could lead to breakthroughs in preserving vaccines."
+  },
+  {
+    "id": "reading-complete-q48-the-concept-of-embodied-cognit",
+    "title": "The concept of embodied cognition (Q48)",
+    "category": "Cognitive Science & Psychology",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "The concept of embodied cognition suggests that our under[standing] of the world is dee[ply] rooted in our phys[ical] interactions with it. A fascinating illustration of this pheno[menon] occurs during tool use. When individuals repe[atedly] wield a specific instru[ment], such as a hammer or a tennis racket, their nervous syst[em] begins to treat the object as a tempo[rary] exten[sion] of their own body. Sensory feedb[ack] from the tool is integr[ated] seamlessly into the brain's internal map, altering their spat[ial] perception and physical reach. Consequently, the bound[ary] between the human user and the external artifact becomes remark[ably] blurred."
+  },
+  {
+    "id": "reading-complete-q49-dendrochronology-the-scientifi",
+    "title": "Dendrochronology, the scientific method of (Q49)",
+    "category": "Earth & Planetary Science",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "Dendrochronology, the scientific method of dating tree rings, offers a highly precise record of past environmental conditions. Each ye[ar], an active tr[ee] adds a n[ew] layer of wo[od] to its tru[nk]. The thi[ckness] of these rin[gs] depends lar[gely] on temperature and precipitation. During warm, w[et] seasons, trees gr[ow] rapidly, producing wi[de] bands. Conversely, in times of drou[ght] or extreme co[ld], the rings bec[ome] noticeably nar[rower]. By comparing these patterns across different regions, climatologists can reconstruct historical weather data with remarkable accuracy."
+  },
+  {
+    "id": "reading-complete-q50-volcanic-eruptions-deposit-vas",
+    "title": "Volcanic eruptions deposit vast quantities (Q50)",
+    "category": "Earth & Planetary Science",
+    "level": "Academic (TOEFL iBT Official)",
+    "source": "asno",
+    "rawText": "Volcanic eruptions deposit vast quant[ities] of ash across landscapes, initiating t[he] formation of unique soil types known a[s] Andisols. Over ti[me], the rapid weath[ering] of volcanic gl[ass] within this ash produces non-crystalline minerals. These min[erals] possess a[n] extraordinary capacity t[o] retain water, making the resulting soils remarkably fertile. However, be[cause] their internal structures a[re] highly porous, th[ey] are exceptionally vulnerable to physical degradation. When heavy machinery compresses these fields, the internal pore spaces coll[apse], permanently redu[cing] water infiltration rates and severely hindering subsequent agricultural productivity."
   }
 ]

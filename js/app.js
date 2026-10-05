@@ -9,23 +9,23 @@ import {
   parseExercise,
   generateToeflExerciseFromParagraph,
   DEFAULT_EXERCISES
-} from './exercises.js?v=4.0';
+} from './exercises.js?v=4.2';
 
 import {
   saveCustomWritingExercise,
   deleteCustomWritingExercise
-} from './writing_exercises.js?v=4.0';
+} from './writing_exercises.js?v=4.2';
 
 import {
   saveCustomEmailExercise,
   deleteCustomEmailExercise
-} from './email_exercises.js?v=4.0';
+} from './email_exercises.js?v=4.2';
 
-import { calculateToeflScore } from './scoring.js?v=3.0';
-import { sound } from './audio.js?v=3.0';
-import { WritingController } from './writing_controller.js?v=4.0';
-import { EmailController } from './email_controller.js?v=4.0';
-import { geminiAI, SECTION_CONFIGS } from './ai_generator.js?v=4.0';
+import { calculateToeflScore } from './scoring.js?v=4.2';
+import { sound } from './audio.js?v=4.2';
+import { WritingController } from './writing_controller.js?v=4.2';
+import { EmailController } from './email_controller.js?v=4.2';
+import { geminiAI, SECTION_CONFIGS } from './ai_generator.js?v=4.2';
 
 class ToeflApp {
   constructor() {
@@ -300,6 +300,9 @@ class ToeflApp {
     const filter = this.currentFilter || 'all';
     const filtered = this.exercises.map((ex, idx) => ({ ex, originalIndex: idx })).filter(item => {
       const isComp = this.isExerciseCompleted(item.ex.id);
+      if (filter === 'asno') {
+        return item.ex.source === 'asno' || (item.ex.id && item.ex.id.startsWith('reading-complete-q'));
+      }
       if (filter === 'checked') return isComp;
       if (filter === 'unchecked') return !isComp;
       return true;

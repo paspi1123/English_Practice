@@ -602,5 +602,1541 @@
     ],
     "distractors": [],
     "explanation": "Oración correcta: 'Should we bring extra gloves for everyone?' Pregunta general cerrada (Yes/No question) con modal epistémico/deóntico: 'should' + sujeto ('we') + verbo léxico ('bring') + sintagma nominal ('extra gloves') + sintagma preposicional de beneficiario ('for everyone')."
+  },
+  {
+    "id": "build-sentence-q1-my-scheduling-conflict-prevents-me",
+    "title": "My scheduling conflict prevents me ... (Practice Q1)",
+    "category": "Academic & Campus Exchange",
+    "promptQuestion": "I won't be able to join the study group tonight because I have another commitment at the same time.",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "me",
+      "conflict",
+      "prevents",
+      "from",
+      "scheduling",
+      "attending",
+      "prevent",
+      "my"
+    ],
+    "solution": [
+      "my",
+      "scheduling",
+      "conflict",
+      "prevents",
+      "me",
+      "from",
+      "attending"
+    ],
+    "distractors": [
+      "prevent"
+    ],
+    "explanation": "The correctly ordered sentence starts with the subject 'My scheduling conflict', which requires the singular verb 'prevents'. The phrase 'prevents me from attending' logically explains the reason for the speaker's absence, matching the meaning of the original sentence. The distractor 'prevent' is incorrect because it does not agree with the singular subject.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q2-are-we-allowed-to-bring-snacks-into",
+    "title": "Are we allowed to bring snacks into... (Practice Q2)",
+    "category": "Library & Study Resources",
+    "promptQuestion": "I am planning to reserve a group study room in the main library for our project meeting.",
+    "sentencePrefix": "",
+    "sentenceSuffix": "?",
+    "tokens": [
+      "into",
+      "allowing",
+      "are we",
+      "to bring",
+      "snacks",
+      "the room",
+      "allowed"
+    ],
+    "solution": [
+      "are we",
+      "allowed",
+      "to bring",
+      "snacks",
+      "into",
+      "the room"
+    ],
+    "distractors": [
+      "allowing"
+    ],
+    "explanation": "The sentence 'Are we allowed to bring snacks into the room?' correctly follows the standard grammatical structure for asking about permission using the passive voice. It begins with the auxiliary verb and plural subject 'Are we', followed by the past participle 'allowed'. This connects to the infinitive phrase 'to bring', the direct object 'snacks', and the prepositional phrase 'into the room' to establish the location. The distractor 'allowing' is incorrect because the present participle does not fit the passive construction required here. Contextually, inquiring about the building's food policy is a highly logical and natural follow-up response when discussing a reservation for a library study space.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q3-you-are-allowed-to-use-the-printers",
+    "title": "You are allowed to use the printers... (Practice Q3)",
+    "category": "Library & Study Resources",
+    "promptQuestion": "I forgot to print my history essay before coming to campus.",
+    "sentencePrefix": "",
+    "sentenceSuffix": "on the second floor.",
+    "tokens": [
+      "are",
+      "despite",
+      "located",
+      "allowed",
+      "to use",
+      "the printers",
+      "you"
+    ],
+    "solution": [
+      "you",
+      "are",
+      "allowed",
+      "to use",
+      "the printers",
+      "located"
+    ],
+    "distractors": [
+      "despite"
+    ],
+    "explanation": "The sentence 'You are allowed to use the printers located on the second floor.' provides a grammatically correct and contextually appropriate solution to the speaker's problem. The subject 'You' is followed by the passive verb phrase 'are allowed', the infinitive 'to use', and the object 'the printers'. The participle 'located' correctly modifies 'the printers' to seamlessly connect with the provided prepositional phrase 'on the second floor'. The distractor 'despite' is incorrect; as a preposition indicating contrast, it requires a noun phrase object (e.g., 'despite the rules'). Inserting 'despite' anywhere in this sequence would violate grammatical structure and create a nonsensical sentence.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q4-why-don-t-you-ask-the-professor-for",
+    "title": "Why don't you ask the professor for... (Practice Q4)",
+    "category": "Library & Study Resources",
+    "promptQuestion": "I am struggling to understand the latest chapter in our chemistry textbook.",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "you",
+      "asking",
+      "the professor",
+      "why",
+      "don't",
+      "for help",
+      "ask"
+    ],
+    "solution": [
+      "why",
+      "don't",
+      "you",
+      "ask",
+      "the professor",
+      "for help"
+    ],
+    "distractors": [
+      "asking"
+    ],
+    "explanation": "The sentence \"Why don't you ask the professor for help?\" demonstrates proper sentence-level grammar and contextual appropriateness for offering advice. Grammatically, it is structured as a negative interrogative suggestion, beginning with the question word \"Why,\" followed by the auxiliary verb \"don't,\" the subject \"you,\" and the base form of the main verb \"ask.\" The direct object \"the professor\" immediately follows the verb, and the prepositional phrase \"for help\" correctly concludes the sentence to specify the purpose of the action. The distractor \"asking\" is incorrect because the auxiliary verb framing requires the base form of the main verb. Contextually, the sentence is a natural and helpful response to a classmate expressing difficulty with course material in an academic setting.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q5-doesn-t-the-student-center-stop-ser",
+    "title": "doesn't the student center stop ser... (Practice Q5)",
+    "category": "Campus Academic Life",
+    "promptQuestion": "Let's grab a quick dinner at the student center after our evening seminar.",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "the student center",
+      "doesn't",
+      "stop",
+      "serving",
+      "stops",
+      "at",
+      "food"
+    ],
+    "solution": [
+      "doesn't",
+      "the student center",
+      "stop",
+      "serving",
+      "food",
+      "at"
+    ],
+    "distractors": [
+      "stops"
+    ],
+    "explanation": "The sentence \"But doesn't the student center stop serving food at seven?\" is grammatically correct and fits naturally into the conversation. It begins with the conjunction \"But\" to introduce a contrast or objection to the previous speaker's plan. It uses the negative auxiliary \"doesn't\" to form a negative yes/no question, which is common when expressing surprise or asking for confirmation. The subject \"the student center\" is followed by the base form of the verb \"stop,\" which is grammatically required after the auxiliary \"doesn't.\" The verb \"stop\" takes the gerund \"serving\" as its object, followed by the noun \"food\" and the prepositional phrase \"at seven\" to indicate the time. The distractor \"stops\" is incorrect because a conjugated verb cannot follow the auxiliary \"doesn't.\"",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q6-should-contact-the-maintenance-depa",
+    "title": "should contact the maintenance depa... (Practice Q6)",
+    "category": "Student Housing & Facilities",
+    "promptQuestion": "It was freezing in my dorm room last night because the heater didn't turn on.",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "department",
+      "contacting",
+      "should",
+      "today",
+      "contact",
+      "the",
+      "maintenance"
+    ],
+    "solution": [
+      "should",
+      "contact",
+      "the",
+      "maintenance",
+      "department",
+      "today"
+    ],
+    "distractors": [
+      "contacting"
+    ],
+    "explanation": "The sentence \"You should contact the maintenance department today\" is the correct arrangement. Grammatically, the modal verb \"should\" must be followed by the base form of the verb, which is \"contact.\" The gerund form \"contacting\" is incorrect in this position. The object of the verb is \"the maintenance department,\" and \"today\" acts as an adverb of time modifying the action. Contextually, this gives appropriate advice to a student dealing with a broken heater.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q7-probably-use-the-one-in-the-compute",
+    "title": "probably use the one in the compute... (Practice Q7)",
+    "category": "Library & Study Resources",
+    "promptQuestion": "The printer in the library is out of paper again.",
+    "sentencePrefix": "You should",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "in the",
+      "use",
+      "instead",
+      "the one",
+      "computer lab",
+      "probably",
+      "using"
+    ],
+    "solution": [
+      "probably",
+      "use",
+      "the one",
+      "in the",
+      "computer lab",
+      "instead"
+    ],
+    "distractors": [
+      "using"
+    ],
+    "explanation": "The sentence 'You should probably use the one in the computer lab instead.' is grammatically correct and contextually appropriate. The modal verb 'should' must be followed by the base form of the main verb ('use'), which makes the distractor 'using' incorrect. The adverb 'probably' correctly modifies the verb phrase and typically follows the modal. The pronoun 'the one' refers back to 'the printer', and the prepositional phrase 'in the computer lab' specifies its location. Finally, the adverb 'instead' is placed at the end of the clause to offer a logical alternative to the unavailable library printer.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q8-what-kind-of-commitment-is-expected",
+    "title": "What kind of commitment is expected... (Practice Q8)",
+    "category": "Student Activities & Clubs",
+    "promptQuestion": "I am thinking about joining the university debate club this year.",
+    "sentencePrefix": "",
+    "sentenceSuffix": "?",
+    "tokens": [
+      "commitment",
+      "new members",
+      "from",
+      "is",
+      "expected",
+      "what kind of",
+      "expecting"
+    ],
+    "solution": [
+      "what kind of",
+      "commitment",
+      "is",
+      "expected",
+      "from",
+      "new members"
+    ],
+    "distractors": [
+      "expecting"
+    ],
+    "explanation": "The sentence 'What kind of commitment is expected from new members?' demonstrates proper sentence-level grammar and contextual appropriateness. Grammatically, it is structured as a question, beginning with the interrogative phrase 'What kind of', followed by the subject 'commitment'. The passive verb phrase 'is expected' correctly follows the subject, and the prepositional phrase 'from new members' completes the sentence. The distractor 'expecting' is incorrect because the passive voice requires the past participle 'expected' in this context. Contextually, the sentence is a natural and relevant follow-up to the preceding statement, 'I am thinking about joining the university debate club this year.' It seeks vital information about the responsibilities involved, aligning perfectly with the academic and extracurricular context of the exchange.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q9-you-can-borrow-mine-for-the-afterno",
+    "title": "You can borrow mine for the afterno... (Practice Q9)",
+    "category": "Academic & Campus Exchange",
+    "promptQuestion": "My laptop stopped working right before the presentation.",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "borrow",
+      "the afternoon",
+      "mine",
+      "you",
+      "borrowed",
+      "for",
+      "can"
+    ],
+    "solution": [
+      "you",
+      "can",
+      "borrow",
+      "mine",
+      "for",
+      "the afternoon"
+    ],
+    "distractors": [
+      "borrowed"
+    ],
+    "explanation": "The sentence begins with the subject 'You', followed by the modal verb 'can'. Modals must be followed by a base verb, so 'borrow' is used instead of the distractor 'borrowed'. The pronoun 'mine' acts as the object, replacing 'my laptop', and the prepositional phrase 'for the afternoon' specifies the duration of time.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q10-would-be-much-faster-to-catch-the-c",
+    "title": "would be much faster to catch the c... (Practice Q10)",
+    "category": "Campus Transportation",
+    "promptQuestion": "I am planning to walk all the way over to the north dining hall for lunch.",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "from here",
+      "much faster",
+      "more",
+      "the",
+      "would be",
+      "to catch",
+      "commuter shuttle"
+    ],
+    "solution": [
+      "would be",
+      "much faster",
+      "to catch",
+      "the",
+      "commuter shuttle",
+      "from here"
+    ],
+    "distractors": [
+      "more"
+    ],
+    "explanation": "The sentence provides a helpful suggestion using a natural conversational structure. It begins with the introductory word 'Actually,' followed by 'it', which acts as a dummy subject. 'would be' is the conditional verb phrase, modified by the comparative adjective phrase 'much faster'. The infinitive phrase 'to catch' serves as the delayed or extraposed actual subject, taking 'the commuter shuttle' as its direct object. Finally, 'from here' is a prepositional phrase indicating the starting location. The distractor 'more' is grammatically incorrect because 'faster' is already a comparative adjective, making 'more faster' a redundant double comparative.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q11-she-explained-how-we-should-report",
+    "title": "She explained how we should report ... (Practice Q11)",
+    "category": "Student Housing & Facilities",
+    "promptQuestion": "What did the housing staff say about the washing machines?",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "we should",
+      "reporting",
+      "broken equipment",
+      "explained",
+      "she",
+      "how",
+      "report"
+    ],
+    "solution": [
+      "she",
+      "explained",
+      "how",
+      "we should",
+      "report",
+      "broken equipment"
+    ],
+    "distractors": [
+      "reporting"
+    ],
+    "explanation": "The sentence follows a standard reported speech structure. 'She explained' is the main clause, followed by the noun clause 'how we should report broken equipment' acting as the direct object. The distractor 'reporting' is grammatically incorrect here because the modal verb 'should' must be followed by the base form of the verb ('report').",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q12-need-to-return-a-book-before-my",
+    "title": "need to return a book before my... (Practice Q12)",
+    "category": "Library & Study Resources",
+    "promptQuestion": "Are you going to the library right now?",
+    "sentencePrefix": "I",
+    "sentenceSuffix": "class starts.",
+    "tokens": [
+      "to",
+      "need",
+      "before",
+      "so",
+      "my",
+      "book",
+      "returning",
+      "return",
+      "a"
+    ],
+    "solution": [
+      "need",
+      "to",
+      "return",
+      "a",
+      "book",
+      "before",
+      "my"
+    ],
+    "distractors": [
+      "so",
+      "returning"
+    ],
+    "explanation": "The sentence \"I need to return a book before my class starts.\" is correct both grammatically and contextually. Grammatically, \"need to return\" forms a correct verb phrase indicating obligation, followed by the object \"a book.\" The preposition \"before\" correctly introduces the time clause \"my class starts.\" The distractor \"returning\" is incorrect because the infinitive \"to return\" is required after \"need.\" The distractor \"so\" implies a cause-and-effect relationship that does not make sense in this context (returning the book does not cause the class to start).",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q13-might-need-to-contact-the-support-t",
+    "title": "might need to contact the support t... (Practice Q13)",
+    "category": "Academic & Campus Exchange",
+    "promptQuestion": "The registration portal keeps crashing every time I log in.",
+    "sentencePrefix": "You",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "the",
+      "team",
+      "might",
+      "contacting",
+      "support",
+      "contact",
+      "need to"
+    ],
+    "solution": [
+      "might",
+      "need to",
+      "contact",
+      "the",
+      "support",
+      "team"
+    ],
+    "distractors": [
+      "contacting"
+    ],
+    "explanation": "The sentence \"You might need to contact the support team.\" demonstrates correct sentence-level grammar and contextual appropriateness. Grammatically, the modal verb \"might\" must be followed by the base form of the verb \"need\". The infinitive phrase \"to contact\" correctly follows \"need\" and takes the noun phrase \"the support team\" as its direct object. Standard English word order dictates that the modal auxiliary precedes the main verb phrase, and adjectives or noun adjuncts (like \"support\") precede the noun they modify (\"team\"). Note that the gerund form \"contacting\" does not fit grammatically after \"need to\" and is therefore an extra word that can be eliminated. Contextually, the sentence provides logical and highly appropriate advice in response to someone experiencing a technical issue with an online portal.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q14-the-director-wants-to-hear-what-stu",
+    "title": "The director wants to hear what stu... (Practice Q14)",
+    "category": "Academic & Campus Exchange",
+    "promptQuestion": "Why are there feedback forms on all the cafeteria tables?",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "director",
+      "the",
+      "hear",
+      "wants",
+      "to",
+      "which",
+      "what",
+      "students"
+    ],
+    "solution": [
+      "the",
+      "director",
+      "wants",
+      "to",
+      "hear",
+      "what",
+      "students"
+    ],
+    "distractors": [
+      "which"
+    ],
+    "explanation": "The sentence begins with the singular subject 'The director' followed by the singular verb 'wants'. The infinitive phrase 'to hear' introduces the noun clause 'what students think', which acts as the object. The word 'which' is an unused distractor.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q15-when-do-you-have-to-submit-your-app",
+    "title": "When do you have to submit your app... (Practice Q15)",
+    "category": "Library & Study Resources",
+    "promptQuestion": "I am applying for a part-time job at the library.",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "have to",
+      "does",
+      "submitting",
+      "submit",
+      "you",
+      "when",
+      "your application",
+      "do"
+    ],
+    "solution": [
+      "when",
+      "do",
+      "you",
+      "have to",
+      "submit",
+      "your application"
+    ],
+    "distractors": [
+      "does",
+      "submitting"
+    ],
+    "explanation": "To form a grammatically correct question about a deadline, the question word 'When' must come first. This is followed by the auxiliary verb 'do', the subject 'you', the modal phrase 'have to', the base verb 'submit', and finally the object 'your application'. The words 'submitting' and 'does' are incorrect for this grammatical structure and are left unused.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q16-do-you-know-if-the-club-s-registrat",
+    "title": "Do you know if the club's registrat... (Practice Q16)",
+    "category": "Student Activities & Clubs",
+    "promptQuestion": "I was hoping to join the campus photography club this semester.",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "has passed",
+      "registration deadline",
+      "club's",
+      "if the",
+      "passing",
+      "do you know",
+      "yet"
+    ],
+    "solution": [
+      "do you know",
+      "if the",
+      "club's",
+      "registration deadline",
+      "has passed",
+      "yet"
+    ],
+    "distractors": [
+      "passing"
+    ],
+    "explanation": "This sentence is a natural and grammatically correct follow-up question. 'Do you know' introduces an indirect question, followed by 'if the' to connect the dependent clause. The possessive 'club's' logically modifies the compound subject 'registration deadline'. The present perfect verb phrase 'has passed' indicates an action that may have been completed prior to now, and the adverb 'yet' is appropriately placed at the end to emphasize this timeframe in a question. The distractor 'passing' is incorrect because the auxiliary verb 'has' requires the past participle 'passed', not the present participle.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q17-do-you-know-if-any-language-classes",
+    "title": "Do you know if any language classes... (Practice Q17)",
+    "category": "Academic & Campus Exchange",
+    "promptQuestion": "I finally decided to apply for the university's study abroad program in Spain.",
+    "sentencePrefix": "",
+    "sentenceSuffix": "?",
+    "tokens": [
+      "language classes",
+      "are required",
+      "do you",
+      "any",
+      "is required",
+      "know",
+      "if"
+    ],
+    "solution": [
+      "do you",
+      "know",
+      "if",
+      "any",
+      "language classes",
+      "are required"
+    ],
+    "distractors": [
+      "is required"
+    ],
+    "explanation": "The sentence 'Do you know if any language classes are required?' is grammatically correct and fits the context naturally. The question begins with the auxiliary phrase 'Do you' and the main verb 'know' to form the main independent clause. This is followed by a dependent noun clause starting with the conjunction 'if', which acts as the direct object of 'know'. Inside this noun clause, 'any language classes' serves as the plural subject, which must be followed by the plural passive verb phrase 'are required'. The distractor 'is required' is incorrect because the singular verb 'is' does not agree with the plural subject 'classes'.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q18-you-checked-the-library-reserve-des",
+    "title": "you checked the library reserve des... (Practice Q18)",
+    "category": "Library & Study Resources",
+    "promptQuestion": "I've looked everywhere, but I can't find the biology textbook in the bookstore.",
+    "sentencePrefix": "Have",
+    "sentenceSuffix": "?",
+    "tokens": [
+      "desk",
+      "checking",
+      "the",
+      "checked",
+      "library",
+      "you",
+      "reserve"
+    ],
+    "solution": [
+      "you",
+      "checked",
+      "the",
+      "library",
+      "reserve",
+      "desk"
+    ],
+    "distractors": [
+      "checking"
+    ],
+    "explanation": "The correct sentence is \"Have you checked the library reserve desk?\" This is a grammatically correct interrogative sentence in the present perfect tense. It begins with the auxiliary verb \"Have,\" followed by the subject \"you\" and the past participle \"checked.\" The object phrase \"the library reserve desk\" logically completes the thought, suggesting a specific campus location where the student might find the book. The distractor \"checking\" is a present participle and does not fit grammatically after the auxiliary \"Have\" without a form of \"to be,\" nor does it fit the sentence structure required here.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q19-an-extension-to-finish-the-paper",
+    "title": "an extension to finish the paper... (Practice Q19)",
+    "category": "Campus Academic Life",
+    "promptQuestion": "I have not completed my history essay, so I cannot submit it on time.",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "an",
+      "paper",
+      "the",
+      "submitted",
+      "extension",
+      "extending",
+      "finish",
+      "to"
+    ],
+    "solution": [
+      "an",
+      "extension",
+      "to",
+      "finish",
+      "the",
+      "paper"
+    ],
+    "distractors": [
+      "submitted",
+      "extending"
+    ],
+    "explanation": "The sentence 'I need an extension to finish the paper' serves as a logical solution to the problem described in the prompt. Grammatically, 'an extension' functions as the noun phrase object of 'need,' and the infinitive phrase 'to finish the paper' explains the purpose of the request. The distractor 'submitted' is a past participle and does not fit grammatically after 'to' or as a noun. The distractor 'extending' is a participle form that cannot replace the noun 'extension' in this structure.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q20-what-qualifications-do-applicants-n",
+    "title": "What qualifications do applicants n... (Practice Q20)",
+    "category": "Career & Professional Development",
+    "promptQuestion": "I am planning to apply for the summer internship at the science museum.",
+    "sentencePrefix": "",
+    "sentenceSuffix": "?",
+    "tokens": [
+      "qualifications",
+      "to",
+      "what",
+      "does",
+      "applicants",
+      "need",
+      "do",
+      "have"
+    ],
+    "solution": [
+      "what",
+      "qualifications",
+      "do",
+      "applicants",
+      "need",
+      "to",
+      "have"
+    ],
+    "distractors": [
+      "does"
+    ],
+    "explanation": "The sentence 'What qualifications do applicants need to have?' demonstrates proper sentence-level grammar and contextual appropriateness. Grammatically, it is structured as an information question, beginning with the interrogative phrase 'What qualifications.' This is followed by the auxiliary verb 'do,' which correctly agrees with the plural subject 'applicants.' The verb phrase 'need to have' logically completes the sentence. The distractor 'does' is incorrect because it is singular and does not agree with the plural subject. Contextually, the question serves as a natural and relevant response to someone expressing interest in an internship, as it asks for the necessary requirements to apply.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q21-have-you-checked-the-updated-syllab",
+    "title": "Have you checked the updated syllab... (Practice Q21)",
+    "category": "Campus Academic Life",
+    "promptQuestion": "I am not sure what topics will be covered in the history seminar.",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "the",
+      "you",
+      "checked",
+      "updated",
+      "syllabus",
+      "yet",
+      "have",
+      "checking"
+    ],
+    "solution": [
+      "have",
+      "you",
+      "checked",
+      "the",
+      "updated",
+      "syllabus",
+      "yet"
+    ],
+    "distractors": [
+      "checking"
+    ],
+    "explanation": "The sentence forms a present perfect question suggesting a logical next step. 'Have you' initiates the interrogative structure, followed by the past participle 'checked'. 'the updated syllabus' serves as the direct object, and the adverb 'yet' naturally concludes the question.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q22-when-are-you-planning-to-hand-it-in",
+    "title": "When are you planning to hand it in... (Practice Q22)",
+    "category": "Campus Academic Life",
+    "promptQuestion": "I just finished printing my history research paper.",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "when",
+      "are you",
+      "planning",
+      "on",
+      "to hand",
+      "in",
+      "it",
+      "plan"
+    ],
+    "solution": [
+      "when",
+      "are you",
+      "planning",
+      "to hand",
+      "it",
+      "in"
+    ],
+    "distractors": [
+      "on",
+      "plan"
+    ],
+    "explanation": "The sentence begins with the question word 'When', followed by the auxiliary verb and subject 'are you'. The present continuous verb 'planning' takes the infinitive phrase 'to hand'. When using the phrasal verb 'hand in' with a pronoun object ('it'), the pronoun must go between the verb and the particle, making 'to hand it in' the only grammatically correct order. The distractors 'plan' and 'on' do not fit the grammatical structure.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q23-use-a-copy-that-our-instructor-plac",
+    "title": "use a copy that our instructor plac... (Practice Q23)",
+    "category": "Library & Study Resources",
+    "promptQuestion": "The required textbook for the modern literature course is sold out at the campus bookstore.",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "who",
+      "our",
+      "instructor",
+      "copy",
+      "use",
+      "that",
+      "placed",
+      "a"
+    ],
+    "solution": [
+      "use",
+      "a",
+      "copy",
+      "that",
+      "our",
+      "instructor",
+      "placed"
+    ],
+    "distractors": [
+      "who"
+    ],
+    "explanation": "The correct sentence, 'You could use a copy that our instructor placed on course reserve,' is grammatically complete and contextually appropriate. The main clause 'You could use a copy' is followed by the relative clause 'that our instructor placed,' which specifies which copy is available. The relative pronoun 'that' correctly refers to the inanimate noun 'copy.' The distractor 'who' is incorrect because it is only used to refer to people, not objects, and therefore cannot modify 'copy.' The word order within the relative clause properly follows a standard subject-verb sequence ('our instructor placed').",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q24-usually-happens-when-a-student-forg",
+    "title": "usually happens when a student forg... (Practice Q24)",
+    "category": "Student Housing & Facilities",
+    "promptQuestion": "There is a sudden restriction on my university account, and I cannot register for next semester.",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "the housing deposit",
+      "unless",
+      "forgets",
+      "usually happens",
+      "a student",
+      "to pay",
+      "when"
+    ],
+    "solution": [
+      "usually happens",
+      "when",
+      "a student",
+      "forgets",
+      "to pay",
+      "the housing deposit"
+    ],
+    "distractors": [
+      "unless"
+    ],
+    "explanation": "The sentence begins with the demonstrative pronoun \"This,\" which refers back to the account restriction mentioned in the prompt. The main verb phrase \"usually happens\" follows the subject. The subordinating conjunction \"when\" introduces the dependent clause explaining the cause. Inside the dependent clause, \"a student\" is the subject, followed by the singular present-tense verb \"forgets.\" The verb \"forgets\" takes the infinitive phrase \"to pay\" as its object, and \"the housing deposit\" acts as the direct object of \"to pay.\" The distractor \"unless\" is a subordinating conjunction that would create a contradictory meaning (suggesting the restriction happens if the student does not forget), so it must be left unused.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q25-you-may-submit-your-digital-copies",
+    "title": "You may submit your digital copies ... (Practice Q25)",
+    "category": "Campus Academic Life",
+    "promptQuestion": "Is it required to print our essays for the seminar tomorrow?",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "copies",
+      "you",
+      "submit",
+      "online",
+      "paper",
+      "may",
+      "your",
+      "digital"
+    ],
+    "solution": [
+      "you",
+      "may",
+      "submit",
+      "your",
+      "digital",
+      "copies",
+      "online"
+    ],
+    "distractors": [
+      "paper"
+    ],
+    "explanation": "The sentence \"You may submit your digital copies online.\" is a grammatically correct and contextually appropriate response to the question about printing requirements. The subject \"You\" matches the addressee. The modal verb \"may\" indicates permission, followed by the base verb \"submit.\" The phrase \"your digital copies\" functions as the direct object, specifying what is being submitted, while the adverb \"online\" correctly describes where or how the action takes place. The distractor \"paper\" is incorrect because submitting \"paper copies online\" is logically contradictory.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q26-how-many-hours-a-week-are-students",
+    "title": "How many hours a week are students ... (Practice Q26)",
+    "category": "Library & Study Resources",
+    "promptQuestion": "I am planning to apply for the part-time assistant position at the university library.",
+    "sentencePrefix": "",
+    "sentenceSuffix": "?",
+    "tokens": [
+      "how many",
+      "are students",
+      "hours",
+      "expecting",
+      "expected",
+      "the",
+      "to work",
+      "a week"
+    ],
+    "solution": [
+      "how many",
+      "hours",
+      "a week",
+      "are students",
+      "expected",
+      "to work"
+    ],
+    "distractors": [
+      "expecting",
+      "the"
+    ],
+    "explanation": "The sentence 'How many hours a week are students expected to work?' demonstrates proper sentence-level grammar and contextual appropriateness. Grammatically, it is formed as an information question using the phrase 'How many' followed by the plural noun 'hours' and the time frequency 'a week.' The auxiliary verb 'are' precedes the subject 'students' to form the interrogative, followed by the passive participle 'expected' and the infinitive phrase 'to work.' This adheres to standard English question structure. Contextually, the question logically follows the first speaker's statement about applying for a library job, as it seeks practical details about the time commitment required for the position.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q27-i-am-planning-to-enroll-in-the-phot",
+    "title": "I am planning to enroll in the phot... (Practice Q27)",
+    "category": "Academic & Campus Exchange",
+    "promptQuestion": "Have you decided which elective to take next semester?",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "planning to",
+      "that meets",
+      "on Fridays",
+      "enrolling",
+      "I am",
+      "the photography course",
+      "enroll in"
+    ],
+    "solution": [
+      "I am",
+      "planning to",
+      "enroll in",
+      "the photography course",
+      "that meets",
+      "on Fridays"
+    ],
+    "distractors": [
+      "enrolling"
+    ],
+    "explanation": "Grammatically, the sentence follows a standard Subject-Verb-Object structure with a relative clause. The subject and auxiliary verb 'I am' pair with the present participle 'planning to' to express a future intention. The infinitive phrase 'enroll in' takes 'the photography course' as its direct object. The relative clause 'that meets on Fridays' correctly modifies the course, providing specific scheduling information. Contextually, this sentence directly and appropriately answers the question about which elective the student has chosen, maintaining a natural conversational tone suitable for an academic campus environment. The distractor 'enrolling' is incorrect because the base verb form 'enroll' is required after the infinitive marker 'to'.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q28-will-unless-my-roommate-offers-me-a",
+    "title": "will unless my roommate offers me a... (Practice Q28)",
+    "category": "Student Housing & Facilities",
+    "promptQuestion": "Are you taking the campus shuttle to the football game?",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "if",
+      "offers",
+      "unless",
+      "will",
+      "my roommate",
+      "a ride",
+      "me"
+    ],
+    "solution": [
+      "will",
+      "unless",
+      "my roommate",
+      "offers",
+      "me",
+      "a ride"
+    ],
+    "distractors": [
+      "if"
+    ],
+    "explanation": "The sentence \"I will unless my roommate offers me a ride\" is grammatically correct and contextually appropriate. The main clause \"I will\" is an elliptical construction that refers back to the question about taking the shuttle; it implies \"I will take the shuttle.\" The conjunction \"unless\" correctly introduces the exception to this plan. The distractor \"if\" would create a logical contradiction, implying the speaker would take the bus only if they received a ride by car, which does not make sense contextually.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q29-you-should-email-the-president-to-a",
+    "title": "you should email the president to a... (Practice Q29)",
+    "category": "Student Activities & Clubs",
+    "promptQuestion": "I missed the first meeting of the debate club yesterday.",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "for",
+      "the president",
+      "email",
+      "you should",
+      "the schedule",
+      "to ask",
+      "asking"
+    ],
+    "solution": [
+      "you should",
+      "email",
+      "the president",
+      "to ask",
+      "for",
+      "the schedule"
+    ],
+    "distractors": [
+      "asking"
+    ],
+    "explanation": "The sentence 'You should email the president to ask for the schedule.' is both grammatically correct and contextually appropriate. Grammatically, it begins with the subject and modal chunk 'You should' followed by the base verb 'email'. The direct object 'the president' comes next. The infinitive phrase 'to ask for the schedule' explains the purpose of the action. The distractor 'asking' is incorrect because the to-infinitive 'to ask' is required to express purpose in this structure. Contextually, this offers a logical and practical piece of advice to someone who missed a club meeting, ensuring they can still retrieve the necessary information.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q30-where-are-we-going-to-study-for-the",
+    "title": "Where are we going to study for the... (Practice Q30)",
+    "category": "Library & Study Resources",
+    "promptQuestion": "The main library is closed for renovations until next Monday.",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "going to",
+      "study for",
+      "studying",
+      "are we",
+      "the upcoming",
+      "where",
+      "exam"
+    ],
+    "solution": [
+      "where",
+      "are we",
+      "going to",
+      "study for",
+      "the upcoming",
+      "exam"
+    ],
+    "distractors": [
+      "studying"
+    ],
+    "explanation": "The question asks for an alternative location, starting with the interrogative word 'Where'. It is properly followed by the inverted auxiliary verb and subject 'are we', then the future intention phrase 'going to'. The base verb phrase 'study for' connects to the direct object 'the upcoming exam'. The distractor 'studying' is grammatically incorrect in this structure because 'going to' must be followed by a base verb.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q31-advised-me-to-sign-up-for-fewer-cla",
+    "title": "advised me to sign up for fewer cla... (Practice Q31)",
+    "category": "Academic & Campus Exchange",
+    "promptQuestion": "What did the academic advisor recommend for next semester?",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "classes",
+      "advising",
+      "signs",
+      "fewer",
+      "for",
+      "to sign",
+      "advised",
+      "up",
+      "me"
+    ],
+    "solution": [
+      "advised",
+      "me",
+      "to sign",
+      "up",
+      "for",
+      "fewer",
+      "classes"
+    ],
+    "distractors": [
+      "advising",
+      "signs"
+    ],
+    "explanation": "The sentence begins with the subject 'She', followed by the past tense verb 'advised' and the object pronoun 'me'. The infinitive 'to sign' pairs with 'up' and 'for' to form the phrasal verb 'sign up for'. The phrase concludes with the object 'fewer classes'. The distractors 'advising' and 'signs' represent incorrect verb forms for this context.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q32-need-a-special-permit-to-park-there",
+    "title": "need a special permit to park there... (Practice Q32)",
+    "category": "Campus Transportation",
+    "promptQuestion": "I'm planning to leave my car in the lot next to the chemistry building.",
+    "sentencePrefix": "You",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "on weekdays",
+      "need",
+      "permit",
+      "parking",
+      "to park",
+      "a special",
+      "there"
+    ],
+    "solution": [
+      "need",
+      "a special",
+      "permit",
+      "to park",
+      "there",
+      "on weekdays"
+    ],
+    "distractors": [
+      "parking"
+    ],
+    "explanation": "The sentence 'You need a special permit to park there on weekdays.' is both grammatically correct and contextually appropriate. It begins with the subject 'You' provided in the prompt, followed by the main verb 'need' and the direct object 'a special permit.' The infinitive phrase 'to park there' functions adverbially to explain the purpose of the permit, while the prepositional phrase 'on weekdays' establishes the timeframe. Contextually, it serves as a helpful warning in response to the first speaker's plan to park in a specific campus lot. The distractor 'parking' is grammatically incompatible with the infinitive structure 'to park' and the noun phrase in this context.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q33-has-to-call-the-emergency-repair-se",
+    "title": "has to call the emergency repair se... (Practice Q33)",
+    "category": "Student Housing & Facilities",
+    "promptQuestion": "The washing machines in the basement of the dormitory are leaking water everywhere.",
+    "sentencePrefix": "Someone",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "call",
+      "to",
+      "has",
+      "repair",
+      "the",
+      "calling",
+      "service",
+      "emergency"
+    ],
+    "solution": [
+      "has",
+      "to",
+      "call",
+      "the",
+      "emergency",
+      "repair",
+      "service"
+    ],
+    "distractors": [
+      "calling"
+    ],
+    "explanation": "The completed sentence 'Someone has to call the emergency repair service.' demonstrates proper grammar and fits the context perfectly. Grammatically, the modal phrase 'has to' requires the base form of the main verb ('call'), making the distractor 'calling' incorrect. The object of the verb is the noun phrase 'the emergency repair service', which follows standard English noun-adjunct ordering: the determiner 'the' precedes the compound modifier 'emergency repair', which describes the head noun 'service'. Contextually, contacting a repair service is the logical next step when dealing with a severe plumbing issue.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q34-you-might-be-able-to-find-a-used-co",
+    "title": "You might be able to find a used co... (Practice Q34)",
+    "category": "Library & Study Resources",
+    "promptQuestion": "The campus bookstore is completely sold out of the required economics textbook.",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "able",
+      "to find",
+      "online",
+      "you",
+      "finding",
+      "might be",
+      "a used copy"
+    ],
+    "solution": [
+      "you",
+      "might be",
+      "able",
+      "to find",
+      "a used copy",
+      "online"
+    ],
+    "distractors": [
+      "finding"
+    ],
+    "explanation": "The sentence 'You might be able to find a used copy online.' is grammatically correct and contextually appropriate. The modal phrase 'might be' follows the capitalized subject 'You' to express a possibility. This is naturally followed by the adjective 'able' and the infinitive phrase 'to find', which acts as its complement. The noun phrase 'a used copy' serves as the direct object of the verb 'find', and the adverb 'online' correctly modifies the verb phrase by indicating where the action can take place. The distractor 'finding' uses the incorrect verb form to follow 'able to'.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q35-will-i-be-charged-a-late-fee",
+    "title": "Will I be charged a late fee... (Practice Q35)",
+    "category": "Library & Study Resources",
+    "promptQuestion": "I completely forgot to return the reserved textbooks to the library yesterday.",
+    "sentencePrefix": "",
+    "sentenceSuffix": "?",
+    "tokens": [
+      "fee",
+      "charging",
+      "will",
+      "late",
+      "charged",
+      "I",
+      "a",
+      "be"
+    ],
+    "solution": [
+      "will",
+      "I",
+      "be",
+      "charged",
+      "a",
+      "late",
+      "fee"
+    ],
+    "distractors": [
+      "charging"
+    ],
+    "explanation": "The sentence \"Will I be charged a late fee?\" is the only grammatically correct and contextually appropriate arrangement. Grammatically, it forms a future passive question using the auxiliary \"Will,\" the subject \"I,\" the passive auxiliary \"be,\" and the past participle \"charged.\" The phrase \"a late fee\" acts as the retained object of the passive verb. The distractor \"charging\" is incorrect because the passive voice is required to indicate that the student receives the fee, not issues it. Contextually, asking about a financial penalty is a natural response to the realization that library books are overdue.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q36-are-they-going-to-charge-you-a-late",
+    "title": "Are they going to charge you a late... (Practice Q36)",
+    "category": "Student Housing & Facilities",
+    "promptQuestion": "I missed the deadline to submit my housing application.",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "a",
+      "late fee",
+      "you",
+      "are they",
+      "going to",
+      "will",
+      "charge"
+    ],
+    "solution": [
+      "are they",
+      "going to",
+      "charge",
+      "you",
+      "a",
+      "late fee"
+    ],
+    "distractors": [
+      "will"
+    ],
+    "explanation": "To form a grammatical question about a future plan or consequence, use the 'be going to' structure. 'Are they' begins the question, followed by 'going to', the base verb 'charge', the indirect object 'you', and the direct object 'a late fee'. The distractor 'will' is incorrect because it cannot be combined grammatically with 'going to' in this sentence.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q37-will-be-there-unless-the-professor",
+    "title": "will be there unless the professor ... (Practice Q37)",
+    "category": "Campus Academic Life",
+    "promptQuestion": "Are you planning to attend the biology workshop this afternoon?",
+    "sentencePrefix": "I",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "will",
+      "the professor",
+      "if",
+      "there",
+      "unless",
+      "the session",
+      "cancels",
+      "be"
+    ],
+    "solution": [
+      "will",
+      "be",
+      "there",
+      "unless",
+      "the professor",
+      "cancels",
+      "the session"
+    ],
+    "distractors": [
+      "if"
+    ],
+    "explanation": "The sentence \"I will be there unless the professor cancels the session.\" is the only grammatically correct and contextually logical arrangement. The structure uses the future tense \"will be\" in the main clause to express an intention. The conjunction \"unless\" correctly introduces the condition that would prevent this intention (the cancellation). The distractor \"if\" would create a logical contradiction (\"I will be there if the professor cancels the session\"), implying the speaker attends only when the event is cancelled, which does not make sense in this context.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q38-i-am-waiting-to-see-if",
+    "title": "I am waiting to see if... (Practice Q38)",
+    "category": "Student Housing & Facilities",
+    "promptQuestion": "Have you bought the tickets for the campus theater play?",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "am",
+      "if",
+      "to",
+      "see",
+      "waiting",
+      "I",
+      "for"
+    ],
+    "solution": [
+      "I",
+      "am",
+      "waiting",
+      "to",
+      "see",
+      "if"
+    ],
+    "distractors": [
+      "for"
+    ],
+    "explanation": "The sentence correctly uses the present continuous tense 'I am waiting' to describe a current, ongoing action. This is followed by the infinitive 'to see', which expresses the purpose of the wait, and the conjunction 'if', which introduces the dependent noun clause 'my friends want to go' as the condition being checked. The distractor 'for' is incorrect here because 'waiting for' requires a noun object (e.g., 'waiting for my friends'), whereas 'waiting to' correctly precedes the verb 'see'. Contextually, the reconstructed sentence logically answers the prompt by explaining the reason for the delay in purchasing tickets.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q39-all-the-printers-in-that-lab",
+    "title": "all the printers in that lab... (Practice Q39)",
+    "category": "Library & Study Resources",
+    "promptQuestion": "I'm heading to the student center computer lab to print my final paper.",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "all",
+      "the",
+      "that",
+      "in",
+      "printers",
+      "printer",
+      "lab"
+    ],
+    "solution": [
+      "all",
+      "the",
+      "printers",
+      "in",
+      "that",
+      "lab"
+    ],
+    "distractors": [
+      "printer"
+    ],
+    "explanation": "The sentence 'I heard all the printers in that lab are out of ink' is grammatically correct and contextually appropriate. The main clause 'I heard' introduces a noun clause that acts as the direct object. The complete subject of this noun clause is 'all the printers in that lab', which consists of the quantifier 'all', the definite article 'the', the plural noun 'printers', and the prepositional phrase 'in that lab' specifying the location. The plural noun 'printers' correctly agrees with the fixed plural verb 'are' in the latter half of the sentence. The distractor 'printer' is incorrect because a singular noun would violate subject-verb agreement with 'are'. Contextually, the response is a natural warning to someone planning to print a document.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q40-the-rehearsal-has-already-started-i",
+    "title": "The rehearsal has already started i... (Practice Q40)",
+    "category": "Academic & Campus Exchange",
+    "promptQuestion": "Why is the main auditorium door locked?",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "has",
+      "started",
+      "already",
+      "yet",
+      "the",
+      "rehearsal",
+      "inside"
+    ],
+    "solution": [
+      "the",
+      "rehearsal",
+      "has",
+      "already",
+      "started",
+      "inside"
+    ],
+    "distractors": [
+      "yet"
+    ],
+    "explanation": "The sentence provides a reason for the door being locked. 'The rehearsal' acts as the subject, followed by the present perfect verb phrase 'has already started' to indicate an action that occurred sooner than expected or is currently in progress. 'Inside' functions as the adverb of place. The distractor 'yet' is incorrect because it is typically used in negative sentences or questions, whereas 'already' is used in affirmative statements.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q41-the-professor-decided-to-give-us-on",
+    "title": "The professor decided to give us on... (Practice Q41)",
+    "category": "Campus Academic Life",
+    "promptQuestion": "Has the deadline for the final project been extended?",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "decided",
+      "to give",
+      "deciding",
+      "us",
+      "week",
+      "the professor",
+      "one more"
+    ],
+    "solution": [
+      "the professor",
+      "decided",
+      "to give",
+      "us",
+      "one more",
+      "week"
+    ],
+    "distractors": [
+      "deciding"
+    ],
+    "explanation": "The sentence follows a standard Subject-Verb-Object structure. 'The professor' is the capitalized subject, followed by the past tense main verb 'decided'. The infinitive phrase 'to give' follows the main verb and takes the indirect object 'us' along with the direct object 'one more week'. The distractor 'deciding' is a present participle and cannot serve as the finite main verb in this context.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q42-you-should-bring-a-printed-copy-of",
+    "title": "You should bring a printed copy of ... (Practice Q42)",
+    "category": "Campus Transportation",
+    "promptQuestion": "I have my first mock interview at the career advising office tomorrow morning.",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "you",
+      "of",
+      "a printed copy",
+      "your resume",
+      "bring",
+      "brings",
+      "should"
+    ],
+    "solution": [
+      "you",
+      "should",
+      "bring",
+      "a printed copy",
+      "of",
+      "your resume"
+    ],
+    "distractors": [
+      "brings"
+    ],
+    "explanation": "The sentence \"You should bring a printed copy of your resume.\" demonstrates proper sentence-level grammar and contextual appropriateness. Grammatically, it begins with the subject \"You,\" followed by the modal verb \"should\" and the base verb \"bring\" to offer advice. The object of the verb is the noun phrase \"a printed copy,\" which is modified by the prepositional phrase \"of your resume.\" This structure strictly adheres to standard English Subject-Verb-Object (SVO) rules. Contextually, the sentence provides a natural and helpful recommendation in response to the first speaker's upcoming mock interview, aligning well with typical campus life interactions.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q43-how-early-should-we-arrive-to-get-a",
+    "title": "How early should we arrive to get a... (Practice Q43)",
+    "category": "Library & Study Resources",
+    "promptQuestion": "The library is hosting a workshop on advanced research methods next Tuesday.",
+    "sentencePrefix": "",
+    "sentenceSuffix": "?",
+    "tokens": [
+      "should we",
+      "to get",
+      "arriving",
+      "a good seat",
+      "how",
+      "early",
+      "arrive"
+    ],
+    "solution": [
+      "how",
+      "early",
+      "should we",
+      "arrive",
+      "to get",
+      "a good seat"
+    ],
+    "distractors": [
+      "arriving"
+    ],
+    "explanation": "The sentence 'How early should we arrive to get a good seat?' demonstrates proper sentence-level grammar and contextual appropriateness. Grammatically, it begins with the interrogative phrase 'How early,' followed by the modal verb and subject 'should we,' and the base verb 'arrive.' The infinitive phrase 'to get a good seat' acts as an adverb of purpose explaining the reason for arriving early. The distractor 'arriving' is grammatically incorrect because the modal 'should' requires a base verb. Contextually, the sentence is a natural follow-up to the announcement of a library workshop, seamlessly continuing a conversation about attending a campus event.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q44-need-a-special-permit-to-park-there",
+    "title": "need a special permit to park there... (Practice Q44)",
+    "category": "Campus Transportation",
+    "promptQuestion": "I am going to leave my car in the lot next to the science building.",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "permit",
+      "a",
+      "to",
+      "special",
+      "parking",
+      "there",
+      "park",
+      "need"
+    ],
+    "solution": [
+      "need",
+      "a",
+      "special",
+      "permit",
+      "to",
+      "park",
+      "there"
+    ],
+    "distractors": [
+      "parking"
+    ],
+    "explanation": "The sentence 'Don't you need a special permit to park there?' demonstrates proper sentence-level grammar and contextual appropriateness. Grammatically, it is a negative interrogative sentence starting with 'Don't you'. The main verb 'need' is followed by the direct object phrase 'a special permit'. The infinitive phrase 'to park there' functions as an adverbial complement explaining the purpose of the permit. The distractor 'parking' is incorrect because the infinitive marker 'to' requires the base form of the verb ('park'), not the gerund form. Contextually, it is a natural and helpful response warning the speaker about the specific campus regulations for the lot mentioned in the prompt.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q45-have-you-considered-joining-the-cre",
+    "title": "Have you considered joining the cre... (Practice Q45)",
+    "category": "Campus Academic Life",
+    "promptQuestion": "I want to improve my storytelling skills before I graduate.",
+    "sentencePrefix": "",
+    "sentenceSuffix": "?",
+    "tokens": [
+      "have you",
+      "join",
+      "seminar",
+      "creative writing",
+      "the",
+      "considered",
+      "joining"
+    ],
+    "solution": [
+      "have you",
+      "considered",
+      "joining",
+      "the",
+      "creative writing",
+      "seminar"
+    ],
+    "distractors": [
+      "join"
+    ],
+    "explanation": "The sentence \"Have you considered joining the creative writing seminar?\" is grammatically correct and appropriate for the context. Structurally, it uses the present perfect interrogative form \"Have you considered,\" which is correctly followed by the gerund \"joining\" rather than the base verb \"join.\" Contextually, this suggestion directly addresses the speaker's desire to improve their storytelling skills by recommending a relevant academic opportunity.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q46-the-professor-canceled-the-course-d",
+    "title": "the professor canceled the course d... (Practice Q46)",
+    "category": "Campus Academic Life",
+    "promptQuestion": "Why didn't you register for the data science seminar this semester?",
+    "sentencePrefix": "Unfortunately,",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "the professor",
+      "low",
+      "canceled",
+      "due to",
+      "canceling",
+      "enrollment",
+      "the course"
+    ],
+    "solution": [
+      "the professor",
+      "canceled",
+      "the course",
+      "due to",
+      "low",
+      "enrollment"
+    ],
+    "distractors": [
+      "canceling"
+    ],
+    "explanation": "The sentence 'Unfortunately, the professor canceled the course due to low enrollment.' demonstrates correct sentence-level grammar and contextual appropriateness. The adverb 'Unfortunately' correctly introduces a disappointing outcome. The subject 'the professor' is followed by the active past-tense verb 'canceled' and the direct object 'the course'. The prepositional phrase 'due to' correctly introduces the reason for the cancellation, which is described by the noun phrase 'low enrollment'. The distractor 'canceling' is incorrect because the clause requires a finite verb to express a completed past action, not a present participle. Contextually, this provides a logical and complete explanation for why the student could not register for the seminar.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q47-plan-to-stop-by-after-my-morning-cl",
+    "title": "plan to stop by after my morning cl... (Practice Q47)",
+    "category": "Campus Transportation",
+    "promptQuestion": "Are you going to the campus career fair tomorrow?",
+    "sentencePrefix": "I",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "stop by",
+      "plan to",
+      "classes",
+      "my",
+      "morning",
+      "planning",
+      "after"
+    ],
+    "solution": [
+      "plan to",
+      "stop by",
+      "after",
+      "my",
+      "morning",
+      "classes"
+    ],
+    "distractors": [
+      "planning"
+    ],
+    "explanation": "The sentence 'I plan to stop by after my morning classes.' is the only grammatically correct and contextually logical reconstruction. The infinitive phrase 'plan to' must be followed by the base verb phrase 'stop by'. The preposition 'after' introduces the time phrase 'my morning classes', dictating when the action will occur. The distractor 'planning' is incorrect because it would require the auxiliary verb 'am' (e.g., 'I am planning'), which is not provided in the options.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q48-she-cancel-all-her-appointments-for",
+    "title": "she cancel all her appointments for... (Practice Q48)",
+    "category": "Campus Academic Life",
+    "promptQuestion": "I am going to Professor Lee's office hours at three o'clock.",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "her appointments",
+      "cancel",
+      "all",
+      "she",
+      "for",
+      "cancelled",
+      "this afternoon"
+    ],
+    "solution": [
+      "she",
+      "cancel",
+      "all",
+      "her appointments",
+      "for",
+      "this afternoon"
+    ],
+    "distractors": [
+      "cancelled"
+    ],
+    "explanation": "The completed sentence 'Didn't she cancel all her appointments for this afternoon?' is both grammatically correct and contextually appropriate. Grammatically, the negative interrogative starts with 'Didn't', which must be followed by the subject 'she' and the base form of the main verb 'cancel'. The distractor 'cancelled' is incorrect because the past tense is already indicated by the auxiliary verb 'Didn't'. The direct object 'all her appointments' naturally follows the verb, and the prepositional phrase 'for this afternoon' specifies the timeframe of the canceled meetings. Contextually, this sentence functions as a helpful warning, directly responding to the first speaker's stated plan to attend the professor's office hours later that day.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q49-mentioned-it-during-the-chemistry-l",
+    "title": "mentioned it during the chemistry l... (Practice Q49)",
+    "category": "Campus Academic Life",
+    "promptQuestion": "How did you find out about the summer internship fair?",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "it",
+      "mentioned",
+      "about",
+      "during",
+      "lecture",
+      "chemistry",
+      "the"
+    ],
+    "solution": [
+      "mentioned",
+      "it",
+      "during",
+      "the",
+      "chemistry",
+      "lecture"
+    ],
+    "distractors": [
+      "about"
+    ],
+    "explanation": "The sentence requires a standard subject-verb-object structure followed by a prepositional phrase. 'Professor Smith' is the subject, followed by the past tense verb 'mentioned' and the direct object 'it' (referring to the fair). The prepositional phrase 'during the chemistry lecture' explains when the action happened. The distractor 'about' is incorrect because 'mention' is a transitive verb in English and takes a direct object without needing a preposition.",
+    "source": "asno"
+  },
+  {
+    "id": "build-sentence-q50-the-professor-wants-us-to-upload-th",
+    "title": "The professor wants us to upload th... (Practice Q50)",
+    "category": "Campus Academic Life",
+    "promptQuestion": "How should we hand in our research papers?",
+    "sentencePrefix": "",
+    "sentenceSuffix": ".",
+    "tokens": [
+      "them",
+      "us",
+      "want",
+      "to upload",
+      "the professor",
+      "wants",
+      "to the website"
+    ],
+    "solution": [
+      "the professor",
+      "wants",
+      "us",
+      "to upload",
+      "them",
+      "to the website"
+    ],
+    "distractors": [
+      "want"
+    ],
+    "explanation": "The correct sequence follows the Subject + Verb + Object + Infinitive Phrase structure. 'The professor' is the singular subject, requiring the singular verb 'wants'. The pronoun 'us' acts as the object, followed by the infinitive 'to upload them' (where 'them' refers back to the 'research papers' in the prompt). The prepositional phrase 'to the website' indicates the destination at the end of the sentence. The distractor 'want' is grammatically incorrect because it does not agree with the singular subject.",
+    "source": "asno"
   }
 ]

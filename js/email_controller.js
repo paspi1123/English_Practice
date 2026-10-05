@@ -141,6 +141,9 @@ export class EmailController {
     const filter = this.currentFilter || 'all';
     const filtered = this.exercises.map((ex, idx) => ({ ex, originalIndex: idx })).filter(item => {
       const isComp = this.isCompleted(item.ex.id);
+      if (filter === 'asno') {
+        return item.ex.source === 'asno' || (item.ex.id && item.ex.id.startsWith('toefl-2026-email-q'));
+      }
       if (filter === 'checked') return isComp;
       if (filter === 'unchecked') return !isComp;
       return true;

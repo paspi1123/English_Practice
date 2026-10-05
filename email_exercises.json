@@ -434,7 +434,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Hi Sam,\n\nI am writing to tell you about the new bicycle repair co-op that just opened near the student union. I went there yesterday to fix a flat tire, and it was a really great experience. The student volunteers were super friendly and actually showed me exactly how to patch the tube myself. The best part is that all the tools, grease, and air pumps are completely free for students to use.\n\nI remember you complaining about your squeaky brakes last week, so I think you should definitely take your bike there. Instead of paying a lot of money at a regular city repair shop, the volunteers can help you adjust the brake pads for free, and it will make your commute much safer.\n\nWould you like to go together this Thursday afternoon? I want to double check my tire pressure, so I can show you where the shop is located. Let me know if you are free!\n\nBest,\nAlex",
     "sampleAuthor": "TOEFL Model Sample (161 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Sam, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Sam, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q2-inquiry-regarding-summer-resea",
@@ -453,7 +454,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Dear Professor Henderson,\n\nI am a student in your Introduction to Environmental Science class, and I am writing to express my strong interest in the undergraduate research assistant position you announced during yesterday’s lecture. I was very excited to hear about your upcoming summer project on local water quality.\n\nAs a Chemistry major, I have already completed several lab courses where I learned water testing techniques and data analysis protocols that I believe would be very useful for your research. This project aligns perfectly with my academic interests and my goal of working in environmental protection.\n\nWould it be possible to schedule a brief meeting next week during your office hours to discuss my qualifications and the project details? I have attached my resume for your review.\n\nThank you for your time and consideration,\n\nJordan Lee",
     "sampleAuthor": "TOEFL Model Sample (136 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Professor Henderson, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Professor Henderson, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q3-request-for-letter-of-recommen",
@@ -472,7 +474,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Dear Professor Thorne,\n\nI hope you are having a productive semester. My name is Sarah Jenkins, and I was a student in your Introduction to Data Science course last fall. I really enjoyed the course, specifically the final project on predictive modeling, and I was proud to receive an A in the class.\n\nI am writing to ask if you would be willing to write a letter of recommendation for me. I am applying for a summer internship at Orbit Software, which perfectly aligns with the skills I learned in your course. The deadline for the recommendation letter to be submitted is May 5th.\n\nIf you are willing to write the letter, I would be happy to send you my resume and a brief personal statement to provide more context about my goals. Please let me know if you are able to help.\n\nSincerely,\nSarah Jenkins",
     "sampleAuthor": "TOEFL Model Sample (146 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Professor Thorne, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Professor Thorne, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q4-great-new-place-to-study",
@@ -491,7 +494,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Hi Alex,\n\nI hope your studying is going well. I wanted to tell you about a new coffee shop I found called \"The Daily Grind.\" It is located just a few blocks past the science building. It has big comfortable chairs and very soft music playing in the background. The best part is that it is incredibly quiet compared to everywhere else on campus.\n\nSince you mentioned that the library has been too loud and crowded lately, I think this place would be perfect for you. There are plenty of large tables, and the wifi is really fast, so you can get a lot of work done without distractions. Also, their pastries are delicious!\n\nIf you want to try it out, maybe we could meet there this Thursday afternoon around 2 PM? We can study for our history exam together. Let me know if that works for you.\n\nBest,\nJamie",
     "sampleAuthor": "TOEFL Model Sample (150 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q5-final-project-submission-timel",
@@ -510,7 +514,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Dear Professor Chen,\n\nI hope this email finds you well. I am writing to ask if it might be possible to get a brief extension for our final project, which is due tomorrow. Over the past three days, I had planned to finish the data analysis portion of my project using the specialized software in the main campus computing lab. However, the lab was unexpectedly closed for network maintenance, so I could not access the program. Because of this delay, I have not been able to generate my charts and write the final conclusion. Would you be willing to grant me a two-day extension so I can finish the work now that the lab has reopened? If this is acceptable, I will submit the completed project by Friday evening.\n\nThank you for your time and understanding.\n\nBest regards,\nAlex Jordan",
     "sampleAuthor": "TOEFL Model Sample (140 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Professor Chen, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Professor Chen, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q6-urgent-registration-blocked-du",
@@ -529,7 +534,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Dear Mr. Henderson,\n\nI hope this email finds you well. I am contacting you urgently because my course registration window opens in two days, and the online portal is blocking me from enrolling in the required Senior Capstone Seminar. The system states that I am missing the prerequisite course.\n\nHowever, I actually completed this required prerequisite last semester during my study abroad program in Spain. It seems that my international transcript has not yet been processed by the university registrar, which is causing the system error. Because the Capstone Seminar fills up extremely fast, I am very concerned that I will lose my spot while waiting for the official paperwork to clear.\n\nCould you please grant me a temporary prerequisite override so that I can register on time? I would be happy to forward you an unofficial copy of my grades from the host university as temporary proof of completion.\n\nThank you for your assistance,\nJordan Smith",
     "sampleAuthor": "TOEFL Model Sample (157 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Mr. Henderson, Academic Advisor, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Mr. Henderson, Academic Advisor, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q7-flooding-issue-and-leaking-pip",
@@ -548,7 +554,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Dear Mr. Henderson,\n\nI am writing to inform you about a problem at the university community garden. I recently rented Plot 42 for this semester, but when I went there yesterday to prepare my soil, I saw that the shared water pipe next to my space is leaking very badly. The water has flooded my whole plot, and the ground is way too wet and muddy to plant anything right now.\n\nCould you please send the maintenance team to fix this broken pipe as soon as possible? The leak is wasting a lot of water and making the path slippery too.\n\nSince the spring planting season is already starting, I was wondering if I could temporarily use another vacant plot until my original one is totally dry and fixed. I have tomato and pepper seeds that need to go in the ground this week, and I do not want them to die.\n\nThank you for your help regarding this matter.\n\nBest regards,\nAlex",
     "sampleAuthor": "TOEFL Model Sample (163 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Mr. Henderson, Campus Garden Coordinator, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Mr. Henderson, Campus Garden Coordinator, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q8-proposal-for-an-alternative-re",
@@ -567,7 +574,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Dear Professor Lee,\n\nI am writing to ask a question about the upcoming research paper assignment for History 302. While studying in the university library yesterday, I discovered a fascinating collection of unpublished letters in the special archives. These letters describe the local textile strike of 1920 in great detail from the perspective of the workers. I am very interested in writing my research paper on this local event because it offers a chance to analyze original primary sources.\n\nSince this specific event is not on the list of pre-approved topics in the syllabus, I am writing to ask if it would be possible for me to use it as my topic anyway. I believe these documents would provide a strong foundation for an original historical analysis. Could we schedule a brief meeting during your office hours next week to discuss this idea further?\n\nThank you for your time and consideration.\n\nBest regards,\nAlex Mercer",
     "sampleAuthor": "TOEFL Model Sample (155 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Professor Lee, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Professor Lee, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q9-found-a-great-new-study-spot",
@@ -586,7 +594,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Hi Alex,\n\nI know you were looking for a quiet place for us to prepare for our midterms. Yesterday, I checked out the newly renovated study lounge in the basement of the main library and it is really amazing! They added soundproof study pods, very comfortable chairs, and there is even a small coffee stand right outside the door. I think this spot is perfect for us because we need to practice our group presentation without bothering other peoples, and the soundproof rooms will let us talk freely. Also, the library is much less crowded than the student center, so we can focus better. Do you want to meet there next Tuesday around 3 PM after our biology lecture to try it out? Let me know if that time works for you.\n\nBest,\nJordan",
     "sampleAuthor": "TOEFL Model Sample (134 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q10-found-a-great-new-study-spot",
@@ -605,7 +614,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Hi Alex,\n\nI know you were complaining about how loud and busy the main library has been lately, so I wanted to tell you about a new place I found. It is a newly opened student lounge on the second floor of the Student Union building. It has really comfortable chairs, large tables, and plenty of power outlets for our laptops. The best part is that it is very quiet and not crowded at all.\n\nI think this would be a much better spot for you because you need a peaceful environment to focus, and you will not have to fight for a seat or deal with people talking loudly like in the library.\n\nSince we have our history exam coming up next week, maybe we can meet there on Thursday afternoon around 3 PM to study together? Let me know if that time works for you.\n\nBest,\nJamie",
     "sampleAuthor": "TOEFL Model Sample (149 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q11-great-new-study-spot-for-your",
@@ -624,7 +634,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Hi Alex,\n\nI remember you mentioning that you needed a good place to practice your group presentation, so I wanted to tell you about a new study space I found. It is located on the second floor of the science building. They just renovated it and now it has private rooms that you can reserve. There are also really cool interactive whiteboards and large screens to plug your laptop into.\n\nI think this would be the perfect spot for you because it is completely quiet, so you won't be distracted. Also, using the big screens will let your group practice clicking through your slides just like you will do in the real classroom.\n\nI need to study for my biology exam anyway, so would you want to go check it out together this Wednesday around 4 PM? Let me know if that works for your schedule!\n\nBest,\nSam",
     "sampleAuthor": "TOEFL Model Sample (148 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q12-notes-from-yesterday-s-resume",
@@ -643,7 +654,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Hi Jordan,\n\nI am sorry you couldn't make it to the resume workshop yesterday. It was actually very helpful! The presenter talked about how to format our resumes, which action words to use to describe our experiences, and how to prepare for summer internship interviews.\n\nThe most useful advice I learned was that we should always change our resume a little bit for every job we apply to, instead of sending the exact same one everywhere. The speaker said this makes a big difference to employers.\n\nSince you missed it, I took an extra copy of the handouts with all the informations for you. Do you want to meet at the library cafe on Thursday afternoon? I can give you the papers and we can look at our resumes together.\n\nLet me know!\n\nBest,\nAlex",
     "sampleAuthor": "TOEFL Model Sample (135 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Jordan, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Jordan, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q13-great-new-study-spot-on-campus",
@@ -662,7 +674,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Hi Alex,\n\nI know you have been frustrated with the main library lately because of the crowds, so I wanted to tell you about a new study lounge I found. It is on the second floor of the Student Union building. The space was just renovated, so it has really comfortable chairs, large desks, and a huge amount of outlets to charge our laptops. It is also surprisingly quiet and even has small private rooms you can use. I think this place is perfect for you because you hate when people talk loudly while you are trying to read, and it is much less crowded than the library right now. Since we have our biology midterm next week, maybe we can study there together? Let me know if you are free this Thursday afternoon around 3 PM to check it out.\n\nSee you in class,\nSam",
     "sampleAuthor": "TOEFL Model Sample (146 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q14-request-for-faculty-sponsor-ca",
@@ -681,7 +694,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Dear Dr. Miller,\n\nI am writing to ask if you would consider being the faculty sponsor for a new student organization I am starting, the Campus Gardening Society. The main goal of our club is to teach students how to grow their own vegetables and to promote sustainable agriculture on campus. We are hoping to build small raised plant beds near the student union by next spring.\n\nBecause you teach the Plant Biology course and have mentioned your own research on soil health in class, I think you would be the perfect fit to guide us. Your academic expertise would really help our members make the right choices for our garden.\n\nCould we schedule a short meeting sometime next week to talk about this? I would love to explain the sponsor responsibilities, which are very light. I am available to chat right after your Tuesday lecture if that works for your schedule.\n\nThank you for your time,\n\nAlex",
     "sampleAuthor": "TOEFL Model Sample (158 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Dr. Miller, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Dr. Miller, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q15-great-new-study-spot-in-the-li",
@@ -700,7 +714,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Hi Alex,\n\nI wanted to tell you about a new study room I found on the top floor of the library. It was just renovated, so everything is clean and modern. There are really soft armchairs and every desk has its own power outlet for laptops.\n\nI remember you said the main hall was too loud for you to concentrate on your reading. This new room has a strict silence rule, so it is extremely quiet compared to downstairs. I think you will be able to focus much better there without the distraction of people talking.\n\nDo you want to check it out with me? I am planning to go review my biology notes there tomorrow at 4:00 PM. Let me know if you can come.\n\nBest,\nJamie",
     "sampleAuthor": "TOEFL Model Sample (128 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q16-scheduling-conflict-with-pre-d",
@@ -719,7 +734,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Dear Mr. Davis,\n\nI am thrilled to have been accepted into the summer study abroad program in Kyoto. However, I am writing to inform you of a scheduling conflict regarding the mandatory pre-departure orientation next Friday afternoon.\n\nUnfortunately, I have a required biology field trip scheduled at that exact time, which constitutes a significant portion of my final grade for the course. Since I cannot miss this field trip, I am hoping we can find an alternative way for me to receive the orientation information. Would it be possible for me to meet with you during your office hours next week to review the materials, or perhaps watch a video recording of the session if one will be available?\n\nI apologize for any inconvenience this may cause. I am still completely committed to the program and want to ensure I am fully prepared for the trip.\n\nThank you for your understanding,\nAlex Johnson",
     "sampleAuthor": "TOEFL Model Sample (153 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Mr. Davis, Study Abroad Coordinator, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Mr. Davis, Study Abroad Coordinator, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q17-maintenance-issue-third-floor",
@@ -738,7 +754,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Dear Mrs. Gable,\n\nI am writing to inform you of a maintenance issue I noticed during my shift at the library today. The automatic sliding door to the third-floor quiet reading room is malfunctioning. It seems to be getting stuck halfway open rather than closing completely after students walk through.\n\nBecause the door remains open, the noise from the elevators and the hallway is drifting into the quiet study area. Several students have approached the desk to complain that the outside noise is distracting them from their work.\n\nI have already submitted a maintenance request, but I wanted to ask if I should place a temporary sign in the hallway asking students to keep their voices down near the entrance. This might help reduce the disturbance until the door mechanism is repaired. Please let me know if you would like me to do this.\n\nSincerely,\nJordan Smith",
     "sampleAuthor": "TOEFL Model Sample (147 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Mrs. Gable, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Mrs. Gable, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q18-suggestion-for-changing-our-we",
@@ -757,7 +774,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Hi Alex,\n\nI wanted to reach out to you about our weekly Board Game Society meetings. For the past few weeks, the student union cafe has been getting way too crowded on Thursday nights. It is so loud that members are having trouble hearing each other explain the rules, and there is barely enough table space for our bigger game boards.\n\nI think we should try moving our meetings to one of the empty classrooms on the first floor of the humanities building. These rooms are usually unlocked and empty in the evenings, so it would be much quieter for us. Plus, they have large tables that we can push together, which is perfect for our group size.\n\nWhat do you think about this idea? Let me know if you are free to chat about it after our morning classes on Wednesday.\n\nBest,\nJordan",
     "sampleAuthor": "TOEFL Model Sample (144 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q19-great-place-to-record-your-vid",
@@ -776,7 +794,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Hi Taylor,\n\nI wanted to reach out because I remember you saying you needed a good spot to film your video presentation. I just used the new multimedia studio in the main library for my own project, and it is amazing. They have professional cameras, green screens, and really high-quality microphones that students can use for free.\n\nI think this would be the perfect place for your assignment because it is completely soundproof, so you will not have any background noise interrupting your recording. Also, the library staff are right outside the room and they are very happy to help set up the equipment if you get confused.\n\nI highly recommend you book it soon since it gets busy during midterms. You should go to the main library website and reserve a two-hour slot for next Tuesday morning, since mornings are usually less crowded. Let me know if you need help finding the link!\n\nBest,\nAlex",
     "sampleAuthor": "TOEFL Model Sample (156 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Taylor, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Taylor, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q20-assistance-needed-with-syllabu",
@@ -795,7 +814,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Dear Mr. Henderson, I hope this email finds you well. I am writing to you regarding the \"Contemporary European Society\" course I took during my semester abroad in Spain last spring. I am hoping to use this class to fulfill one of my upper-level degree requirements. However, the registrar's office informed me that I need to provide a detailed syllabus so the department can properly evaluate the coursework. Currently, I only have a brief, one-paragraph course description that I downloaded from the registration portal. The registrar stated that this does not have enough detail about the weekly readings and assignments. Since I have emailed my former professor twice without receiving a reply, could you please help me contact the partner university's administration to request the official syllabus? I would really appreciate your assistance with this matter. Best regards, Alex",
     "sampleAuthor": "TOEFL Model Sample (139 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Mr. Henderson, Study Abroad Advisor, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Mr. Henderson, Study Abroad Advisor, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q21-prerequisite-waiver-request-fo",
@@ -814,7 +834,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Dear Professor Miller,\n\nI am writing to request permission to enroll in your European History: 1900-1950 course for the upcoming term. When I tried to register this morning, the system blocked my enrollment because I have not taken the History 101 prerequisite at this university. However, I am a transfer student, and I completed an equivalent introductory history survey at my previous college last year with an A grade. I believe this coursework covers the necessary background for your class. Would it be possible for you to review my transcript and provide a registration override code so I can join the course?\n\nThank you for your time,\nAlex Chen",
     "sampleAuthor": "TOEFL Model Sample (109 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Professor Miller, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Professor Miller, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q22-urgent-spring-schedule-conflic",
@@ -833,7 +854,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Dear Dr. Aris, I am writing to you because I recently reviewed the preliminary spring course schedule and discovered a serious conflict that will affect my graduation plans. Both Ecology 401 and Environmental Policy 405, which are required for my Environmental Science degree, are scheduled for Tuesday and Thursday mornings at 10:00 AM. Since I am a senior and plan to graduate this spring, I need to complete both of these classes next semester. Would it be possible for me to substitute one of these classes with an independent research project, or perhaps take an equivalent course online through the state university network? I would appreciate the opportunity to talk about this with you to figure out a viable path forward. Are you available for a brief meeting in your office sometime next week? Thank you for your time and assistance. Best regards, Alex",
     "sampleAuthor": "TOEFL Model Sample (144 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Academic Advisor, Dr. Aris, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Academic Advisor, Dr. Aris, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q23-great-new-way-to-take-a-study",
@@ -852,7 +874,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Hi Alex,\n\nI know you have been super stressed with your midterms lately, so I wanted to tell you about something fun I tried yesterday. The university recreation center just opened a new indoor rock climbing wall. It is really huge and has different paths for all skill levels, even for people who have never climbed before.\n\nI think this would be perfect for you because you mentioned wanting an active way to take a break from studying. Climbing takes total focus, so it really makes you forget about your exams for a little while, and it is a great workout too!\n\nWe should go check it out together. Are you free this Thursday evening around 6 PM? I can show you the basic steps and we can just rent the safety equipment there. Let me know what you think!\n\nBest,\nSam",
     "sampleAuthor": "TOEFL Model Sample (142 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q24-great-new-study-spot-for-midte",
@@ -871,7 +894,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Hi Alex,\n\nI know you were looking for a good place to study for our midterm exams, so I wanted to tell you about a new spot I found. It is a newly opened study lounge on the third floor of the main library. It is really great because it have soundproof rooms, very comfortable chairs, and alot of power outlets for our laptops.\n\nI think this place would be perfect for you because it is super quiet. I know you need a silent place to focus, and you won't get distracted by people talking like you do at the student center. Also, there are big whiteboards on the walls, which will be very helpful for you to draw out your biology diagrams.\n\nWould you like to go check it out together? I am free this Thursday afternoon around 3:00 PM. Let me know if that time works for you!\n\nBest,\nJordan",
     "sampleAuthor": "TOEFL Model Sample (152 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q25-meeting-regarding-this-week-s",
@@ -890,7 +914,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Dear Professor Martinez,\n\nI am writing to see if we could schedule a brief meeting sometime this week. I am having a difficult time understanding the historical context of the primary source texts we were assigned for the upcoming seminar, and I would appreciate the chance to ask you a few questions about them. I originally planned to come to your regular office hours on Tuesday afternoon, but unfortunately, I have a mandatory chemistry lab scheduled at that exact time this semester. Would it be possible to meet either on Wednesday morning before 11:00 AM or anytime on Thursday afternoon? I am happy to come to your office or meet online, whichever is more convenient for you.\n\nThank you for your time,\nAlex Vance",
     "sampleAuthor": "TOEFL Model Sample (124 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Professor Martinez, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Professor Martinez, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q26-fun-indoor-workout-idea-at-the",
@@ -909,7 +934,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Hi Alex,\n\nI know you were saying lately that you are bored with running on the treadmill and want a new way to stay active this winter. I just tried the new indoor rock-climbing wall at the campus recreation center, and I think you would love it! The wall is huge, with different sections for all skill levels. I took the beginner's session, and the instructors were super helpful. They taught us how to use the safety harnesses and basic climbing techniques. It is a full-body workout but feels more like a fun puzzle than actual exercise, which is perfect for beating your winter workout boredom. Plus, it is completely indoors and warm. Do you want to go together next Thursday afternoon? Let me know, and I can send you the link and help you register for a spot.\n\nBest,\nJamie",
     "sampleAuthor": "TOEFL Model Sample (141 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q27-inquiry-regarding-summer-field",
@@ -928,7 +954,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Dear Professor Thorne,\n\nI am currently a student in your Introduction to Environmental Science class (ENV 101). I am writing to express my strong interest in the summer field research assistant position regarding local river water quality that you mentioned during yesterday’s lecture.\n\nAs an Environmental Science major, I am eager to gain practical experience in fieldwork. I have previously completed a lab course focused on water sampling techniques, and I believe my background would allow me to contribute effectively to your project. Could you please let me know what the application process involves and when the deadline to apply is? I would be happy to provide my resume or meet during office hours if you require more information.\n\nThank you for your time and consideration,\n\nJordan Lee",
     "sampleAuthor": "TOEFL Model Sample (128 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Professor Thorne, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Professor Thorne, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q28-urgent-unresolved-heating-issu",
@@ -947,7 +974,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "To the Housing Maintenance Office,\n\nI am writing to follow up on a maintenance request I submitted two weeks ago regarding the heater in my room, Room 412 in West Hall. The heater is currently broken; it makes a loud banging noise when turned on and fails to produce any warm air. Since no one has responded to my initial ticket, I am reaching out again because the weather has dropped below freezing this week. The freezing temperature in my room is making it impossible for me to sleep comfortably or focus on my studies, and I am starting to worry about getting sick. Could you please send a technician to fix the heater as soon as possible? I would greatly appreciate it if you could reply and let me know exactly when someone will arrive.\n\nThank you,\nAlex Johnson",
     "sampleAuthor": "TOEFL Model Sample (140 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Housing Maintenance Office, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Housing Maintenance Office, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q29-great-new-study-spot-on-campus",
@@ -966,7 +994,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Hi Alex,\n\nI wanted to let you know about a great new study space I found yesterday. It is located right in the basement of the Science Building. The lounge has really comfortable chairs, big tables, and walls that are covered in whiteboards for practicing equations. It is also very quiet down there. I know you were frustrated last week because the main library was too loud and crowded to focus. This new spot is kind of hidden, so there are hardly any students using it yet, making it the perfect place for you to concentrate without any distractions. Since we have our big chemistry exam coming up next Friday, would you like to meet there on Tuesday afternoon around 3 PM to review our notes together? Let me know if that time works for you.\n\nBest,\nSam",
     "sampleAuthor": "TOEFL Model Sample (138 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q30-stepping-down-from-vice-presid",
@@ -985,7 +1014,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Dear Dr. Lin,\n\nI am writing to let you know that I need to step down from my role as vice president of the Environmental Action Club. I was recently offered a research assistant position in the biology department. It is a fantastic opportunity for my major, but it requires 15 hours of work in the lab each week. Since this will take up a lot of my free time, I will not be able to dedicate the hours needed to properly lead our club's activities.\n\nHowever, I am still very passionate about our current projects, and I would love to stay involved as a general member whenever my lab schedule permits.\n\nI want to make sure the club continues to run smoothly, so I am completely willing to help train whoever takes over my position. I can show them how to organize our volunteer spreadsheets and contact local parks. Please let me know how we should proceed with finding a replacement.\n\nBest regards,\nAlex Jordan",
     "sampleAuthor": "TOEFL Model Sample (166 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Dr. Lin, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Dr. Lin, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q31-room-issue-and-relocation-requ",
@@ -1004,7 +1034,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Dear Mr. Davis,\n\nI am writing to report some issues with Room 304, which is the assigned room for the Debate Club. When we arrived for our weekly meeting yesterday evening, the heating system was broken and it was freezing cold inside. In addition, the digital projector was missing from the ceiling mount.\n\nThese problems are making it very hard for our club to operate. The freezing temperature makes it difficult for our members to concentrate on their speeches. Furthermore, without a projector, we are unable to display the timer and the presentation slides that we use to review our debate topics.\n\nSince it might take a while to fix the heater, could you please assign us a temporary room for the next few weeks? We meet every Thursday from 5:00 PM to 7:00 PM. We just need a standard classroom with a working projector and enough desks for about twenty students.\n\nThank you for your assistance with this matter.\n\nSincerely,\nAlex Chen",
     "sampleAuthor": "TOEFL Model Sample (163 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Mr. Davis, Student Union Event Coordinator, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Mr. Davis, Student Union Event Coordinator, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q32-fun-new-activity-at-the-rec-ce",
@@ -1023,7 +1054,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Hi Alex,\n\nI know you mentioned recently that you are getting tired of doing the same old treadmill workouts every week. I wanted to let you know that I tried the new indoor rock climbing wall at the campus recreation center yesterday, and it was incredible! The facility is huge, and the staff members were super friendly. They showed me how to put on the harness and taught me the basic techniques since I was a total beginner.\n\nI really think this would be a perfect fit for you. It gives you a great full-body workout, but it feels more like a fun physical puzzle than a boring gym routine. Since you are looking for something more engaging, I am sure you will love it.\n\nWould you want to go together this coming Thursday afternoon? Let me know if that works for your schedule, and I can send you the link to reserve our climbing harnesses online.\n\nBest,\nJordan",
     "sampleAuthor": "TOEFL Model Sample (159 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q33-you-should-come-to-the-outdoor",
@@ -1042,7 +1074,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Hi Casey,\n\nI know you have been studying really hard lately, so I wanted to tell you about the Outdoor Adventure Club. I went on a hike with them last Saturday to the Silver Falls. It was beautiful and very peaceful in the woods. You don't need to worry about gear because the club lets members borrow boots and backpacks for free, so it is very easy to join.\n\nI think this would be perfect for you because you said you are feeling stressed and burnt out from the library. Getting some fresh air and exercise is the best way to clear your head before finals. It really helped me feel more energetic.\n\nThey are having a planning meeting for the next trip this Thursday evening at the Student Center. Do you want to go with me to check it out? We can grab a smoothie afterwards.\n\nLet me know,\nAlex",
     "sampleAuthor": "TOEFL Model Sample (151 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Casey, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Casey, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q34-great-campus-resource-for-your",
@@ -1061,7 +1094,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Hi Alex,\n\nI know you have been stressing out about your final project prototype, so I wanted to tell you about the new Student Creativity Lab that just opened in the basement of the library. It is a really cool space with a lot of great equipment! They have 3D printers, laser cutters, and computers with advanced design software that anyone can use.\n\nI think this place would be perfect for you because you mentioned you needed a way to print the plastic parts for your prototype and did not want to spend too much money ordering them online. Since the lab is totally free for students, you can just design and make your parts right there on campus.\n\nWe have to do a short 15-minute safety orientation before we are allowed to use the machines. Do you want to go together this Thursday afternoon after our biology lecture to sign up and look around?\n\nLet me know!\n\nBest,\nSam",
     "sampleAuthor": "TOEFL Model Sample (160 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q35-technical-issue-with-chapter-7",
@@ -1080,7 +1114,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Dear Professor Hernandez,\n\nI am writing to let you know about a technical issue I had with our Chapter 7 biology quiz. Yesterday evening, I was taking the quiz online when my apartment's internet connection suddenly failed. Because I was disconnected, the system locked my attempt, and I was only able to finish 5 of the 20 questions.\n\nWould it be possible for you to reset my quiz attempt so that I can take it again before tonight's deadline? I am very worried about getting a low score because of this glitch. Also, please let me know what I should do if the system cannot be reset today. I could come to your office hours to take it on paper if that is easier.\n\nThank you for your time,\nAlex Morgan",
     "sampleAuthor": "TOEFL Model Sample (131 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Professor Hernandez, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Professor Hernandez, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q36-found-a-great-new-study-spot",
@@ -1099,7 +1134,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Hi Alex,\n\nI know you were stressed about how crowded and loud the main library has been lately, so I wanted to share a new study spot I found. It is a new quiet lounge located on the third floor of the Science Building. It is really comfortable with large couches, big windows for natural light, and plenty of outlets to charge our laptops.\n\nI think this place would be perfectly for you because it is a strictly enforced quiet zone, so you will not be distracted by people talking like you were at the library. Also, since it just opened last week, hardly anyone knows about it yet, so it is not crowded at all.\n\nWe should definitely go there to prepare for our biology midterm. Do you want to meet up there on Thursday afternoon around 3 PM? Let me know if that schedule works for you.\n\nBest,\nSam",
     "sampleAuthor": "TOEFL Model Sample (151 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q37-question-regarding-the-researc",
@@ -1118,7 +1154,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Dear Professor Thompson,\n\nI am writing to you about the upcoming research paper for our History class. I started looking for my sources this morning, but I noticed that the university's digital archive is currently down for maintenance. The library website says it will not be back online until two days before our paper is due. Since the assignment requires us to use at least three primary sources from this specific archive, I am worried about completing the research on time.\n\nWould it be acceptable to use a different historical database to find our primary sources, or might the deadline be extended to give us time to use the main archive once it is fixed?\n\nI would also like to talk about my specific paper topic with you. Could you let me know when you will be in your office later this week so I can stop by?\n\nThank you,\nAlex",
     "sampleAuthor": "TOEFL Model Sample (151 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Professor Thompson, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Professor Thompson, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q38-recommendation-for-the-intervi",
@@ -1137,7 +1174,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Hi Alex,\n\nI wanted to tell you about a really great workshop I went to yesterday at the campus Career Center. It was all about how to do well in job interviews. They talked about how to dress professionally, how to answer difficult questions, and we even did mock interviews with other students to practice.\n\nI know you were feeling very nervous about your summer internship interviews next month, so I really think you should go to the next session. It helped me feel a lot more confident because we got to practice our answers out loud and get feedbacks from the counselors.\n\nSince your first interview is coming up soon, maybe we could meet at the library this weekend to practice interviewing together? I kept the handouts from the workshop and we can use them. Let me know if Saturday works for you!\n\nBest,\nSam",
     "sampleAuthor": "TOEFL Model Sample (146 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q39-broken-link-for-this-week-s-re",
@@ -1156,7 +1194,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Dear Professor Miller,\n\nI am writing to let you know about a problem I am having with the course website. I am trying to do the assigned reading for this week, which is the article by Dr. H. Jenkins, but the link you provided is not working. Whenever I click on it, I just get a blank error page. I have already tried using three different web browsers and even restarted my laptop, but the link still does not work for me. Would it be possible for you to send me a PDF copy of the article, or perhaps provide an updated link? I want to make sure I finish the reading before our discussion on Thursday.\n\nThank you,\nMarcus Smith",
     "sampleAuthor": "TOEFL Model Sample (121 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Professor Miller, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Professor Miller, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q40-urgent-follow-up-regarding-bro",
@@ -1175,7 +1214,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Dear Campus Housing Maintenance,\n\nI am writing to follow up on an urgent issue in my dormitory, Room 412. When I moved in for the semester, I found that the desk provided in the room has a severely cracked leg and cannot support any weight. Because of this, the desk is completely unusable, making it very difficult for me to study in my room. With midterm exams coming up next week, I desperately need a proper and safe workspace to prepare.\n\nI submitted an online maintenance request exactly one week ago, but I have not received any response or updates since then. Could you please let me know when someone will be able to come and either repair the leg or replace the desk entirely? I would greatly appreciate it if this could be resolved within the next two days so I can begin studying properly.\n\nThank you for your time and assistance.\n\nSincerely,\nDavid Chen",
     "sampleAuthor": "TOEFL Model Sample (156 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Campus Housing Maintenance, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Campus Housing Maintenance, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q41-request-for-letter-of-recommen",
@@ -1194,7 +1234,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Dear Professor Henderson,\n\nI hope you are having a good semester. My name is Alex Chen, and I was a student in your Plant Biology 101 course last fall. I really enjoyed the class, especially the unit on local ecosystems, and I was proud to finish the semester with an A.\n\nI am writing to ask if you would be willing to write a letter of recommendation for me. I am applying for a summer internship at the State Botanical Gardens. This position involves field research on native plant species, which creates a perfect opportunity for me to apply what I learned in your course and gain practical experience for my Environmental Science degree.\n\nThe deadline for the application is May 15th. If you are willing to write the letter, I would be happy to send you my resume and my personal statement so you have more details about my background. Please let me know if this is possible.\n\nThank you for your time and guidance.\n\nSincerely,\nAlex Chen",
     "sampleAuthor": "TOEFL Model Sample (169 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Professor Henderson, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Professor Henderson, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q42-found-a-great-new-study-spot",
@@ -1213,7 +1254,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Hi Alex,\n\nI hope you are having a good week. I wanted to tell you about a new study spot I found yesterday. It is the newly renovated greenhouse lounge near the biology building. It is really cool because it is surrounded by tropical plants and has large windows, but it also has very comfortable chairs, fast Wi-Fi, and plenty of power outlets for our laptops.\n\nI know you were complaining about how loud and crowded the main library has been lately. I think this greenhouse lounge would be much better for you because it is incredibly quiet. Hardly anyone knows about it yet, and the plants make it feel very relaxing, so you will not be distracted while reading.\n\nWe should definitely go check it out together. Are you free to meet there on Thursday afternoon around 3:00 PM to study for our history exam? Let me know!\n\nBest,\nJamie",
     "sampleAuthor": "TOEFL Model Sample (151 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Alex, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q43-final-exam-scheduling-conflict",
@@ -1232,7 +1274,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Dear Professor Martinez,\n\nI am writing to inform you about a scheduling conflict regarding the upcoming final exam for History 201. The university just released the final exam schedule, and I noticed that our history exam is scheduled for Tuesday, May 10th at 9:00 AM. Unfortunately, my Biology 300 final exam is scheduled for the exact same date and time.\n\nCould you please let me know what the standard procedure is for arranging an alternate testing time? I am hoping I might be able to take the History exam later that same afternoon or the following morning, depending on your availability and the department's policy.\n\nI would appreciate it if we could discuss this briefly in person. Would it be possible for me to stop by during your office hours this Thursday at 2:00 PM to figure out a solution?\n\nThank you for your time and understanding.\n\nSincerely,\nAlex Johnson",
     "sampleAuthor": "TOEFL Model Sample (150 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Professor Martinez, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Professor Martinez, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q44-urgent-unresolved-heating-nois",
@@ -1251,7 +1294,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Dear Mr. Davis,\n\nI am writing to report a serious issue in my dorm, Room 412. For the last week, the heater has been making a very loud banging noise all night long. Because of this noise, I cannot sleep well at all, and my exhaustion is starting to affect my focus in my morning classes.\n\nI already submitted a standard repair ticket online three days ago, but no one from maintenance has come to look at it yet. Since the weather is getting colder, I cannot simply turn the heater off to stop the noise.\n\nCould you please send someone to fix the heater as soon as possible? If the maintenance team is too busy to fix it today, I would like to request to be moved to a temporary room so I can get some rest before my exams next week.\n\nThank you for your help,\nAlex Chen",
     "sampleAuthor": "TOEFL Model Sample (150 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Mr. Davis, Residence Hall Director, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Mr. Davis, Residence Hall Director, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q45-great-new-farmers-market-on-ca",
@@ -1270,7 +1314,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Hi Jamie,\n\nI went to the new Farmers Market in the main quad yesterday and I immediately thought of you. They have so much stalls selling fresh local vegetables, fruits, and even homemade breads and cheeses. I know you love cooking and was annoyed that the supermarket near our dorm doesn't have good produce, so this place is perfect for you. You can get really fresh ingredients for your recipes, and they even give a 10% student discount if you show your ID card!\n\nI really want to go back next week to buy some of the local strawberry jam I sampled. Do you want to go together next Wednesday afternoon around 3 PM after our biology class? Let me know if that works for you.\n\nBest,\nAlex",
     "sampleAuthor": "TOEFL Model Sample (128 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Jamie, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Jamie, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q46-dietary-accommodations-and-mea",
@@ -1289,7 +1334,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Dear Ms. Vance,\n\nI am a student living on campus, and I am writing to you regarding my meal plan. Last week, my doctor diagnosed me with a severe gluten allergy. Although I appreciate the allergy labels in the dining hall, I have noticed some cross-contamination concerns, such as people using the same tongs at the grill and salad stations.\n\nCould we arrange a brief meeting this week to discuss how I might safely eat at the dining hall? If it is not possible to guarantee allergy-safe preparation, I would like to know if I can get an exemption to cancel or reduce my mandatory meal plan so I can safely prepare my own food.\n\nThank you for your time.\n\nSincerely,\nAlex Taylor",
     "sampleAuthor": "TOEFL Model Sample (123 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Ms. Vance, Director of Campus Dining, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Ms. Vance, Director of Campus Dining, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q47-absence-request-for-tuesday-s",
@@ -1308,7 +1354,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Dear Professor Henderson,\n\nI am writing to ask for permission to miss our Business Management class next Tuesday. I have been selected for a final interview for a summer internship, and the only available time slot conflicts with our lecture. Since I know we have a graded group activity that day, is there an alternative assignment I can do individually so I do not lose those points? I would also like to stop by your office later in the week to pick up any handouts I might miss. Please let me know if this arrangement is acceptable.\n\nSincerely,\nAlex Chen",
     "sampleAuthor": "TOEFL Model Sample (100 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Professor Henderson, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Professor Henderson, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q48-helpful-campus-bike-repair-cli",
@@ -1327,7 +1374,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Hi Jordan, I am writing to tell you about a great bike repair clinic I went to yesterday. It is hosted by the university cycling club in the main courtyard. The volunteers there show you how to fix common bike problems entirely for free. I learned how to patch a flat tire and adjust my brake cables, which was surprisingly easy to do! I thought of you because I know you ride your bike to class every day and you mentioned that local repair shops are getting really expensive. This clinic could save you a lot of money and keep your commuter bike running smoothly. They are having another session next Thursday afternoon. Would you like to go together around 3:00 PM? Let me know if that time works for your schedule. Best, Taylor",
     "sampleAuthor": "TOEFL Model Sample (134 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Jordan, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Jordan, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q49-meeting-request-regarding-fina",
@@ -1346,7 +1394,8 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Dear Professor Henderson,\n\nI am a student in your American History class. I am writing to request a brief meeting with you to discuss the final term paper. I have narrowed my choices down to two potential historical events, but I am having trouble deciding which one would be more appropriate for the scope of this assignment. I would appreciate your advice before I seek out sources.\n\nUnfortunately, I cannot attend your regular office hours on Tuesdays because I have a chemistry lab scheduled at that same time. Would it be possible to meet later this week instead? I am free on Wednesday afternoon after 2:00 PM or on Thursday morning between 9:00 AM and 11:00 AM. Please let me know if either of these times works for you.\n\nThank you for your time,\n\nAlex Miller",
     "sampleAuthor": "TOEFL Model Sample (136 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Professor Henderson, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Professor Henderson, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   },
   {
     "id": "toefl-2026-email-q50-rescheduling-oral-presentation",
@@ -1365,6 +1414,7 @@
     "timeLimit": 420,
     "sampleHighScoringResponse": "Dear Professor Sullivan,\n\nI am writing to you regarding the final oral presentation for your environmental science class. I am currently scheduled to present on November 15th, but I recently received an invitation to present a research poster at the Regional Science Symposium on that exact same day. Because of this conflict, I was hoping it might be possible to reschedule my class presentation.\n\nI am fully available to present earlier that week on either November 12th or November 14th during your office hours, or I could present during the following week's class session. I would be happy to forward you the official acceptance email from the symposium organizers if you need documentation to approve this change.\n\nThank you for considering my request, and I look forward to hearing from you.\n\nBest regards,\nAlex Chen",
     "sampleAuthor": "TOEFL Model Sample (135 words • ETS Score 5.0)",
-    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Professor Sullivan, manteniendo una estructura formal y oraciones completas."
+    "scoringRationale": "Responde a todas las viñetas con claridad y registro apropiado para Professor Sullivan, manteniendo una estructura formal y oraciones completas.",
+    "source": "asno"
   }
 ]
